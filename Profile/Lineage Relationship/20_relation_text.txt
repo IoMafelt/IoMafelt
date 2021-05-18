@@ -1,0 +1,56 @@
+ Recently, we discovered a bot that combines the capabilities of Tsunami (also known as Kaiten) and Gafgyt
+ Based on artifacts found in the code, the authors call this new malware ¡°KTN-Remastered¡± or ¡°KTN-RM¡±
+A prominent feature of Linux/Gafgyt is telnet scanning
+Most of these capabilities are from Linux/Tsunami with the remainder from Linux/Gafgyt
+ Analysis reveal the description of that command by the malware author is correct: it is indeed an improved version Gafgyt¡¯s telnet scanner
+ We have seen this technique before being used to spread malware between embedded Linux devices, such as in Linux/Moose
+2 is the fact that it also executes a wget/tftp command to download a shell script that downloads the bot binaries, just like Gafgyt usually does
+The shell script is distributed via another server, which was also providing the popular Gafgyt bots
+Perhaps it is a way to take revenge: MalwareMustDie is publishing a lot of details about Gafgyt, Tsunami and so on
+ ¡°Recently, we discovered a bot that combines the capabilities of Tsunami (also known as Kaiten) and Gafgyt
+ Based on artifacts found in the code, the authors call this new malware KTN-Remastered or KTN-RM
+Based primarily on Linux/Gafgyt¡¯s telnet scanning, the new versions improve on the spreading mechanism by carrying downloader executable binaries for embedded platforms such as routers and other connected devices
+As seen in Linux/Moose, when the malware is executed, it also creates another bot for the malicious operators to use
+org which has published extensive details about Gafgyt, Tsunami and other members of this family of malware,¡± said Mal¨ªk
+The new malware, dubbed Linux/IRCTelnet, was discovered by researchers who posted an analysis of the malicious code on Malware must die
+According to the team, Linux/IRCTelnet is similar to malware strains used to hijack vulnerable Internet of Things (IoT) devices -- such as routers, smart lighting systems, VCRs, and surveillance cameras -- but has been coded partially with the Tsunami/Kaiten protocol and Bashlite
+Linux/IRCTelnet is able to attack through both the IPv4 and IPv6 protocols and is based on the source code of the Aidra botnet
+ In the past, Aidra has been known to infect internet-connected devices, included embedded systems, to carry out DDoS attacks
+ Linux/IRC Telnet or the 'new Aidra' was discovered by researchers who posted an analysis on an anti-malware site
+It's similar to strains recently used to hijack IoT devices - like routers and digital cameras - but this new strain is coded with Tsunami/Kaiten protocol and Bashlite to create DDoS attacks via an IRC botnet, researchers said
+Wannabe hackers looking to create their very own Reaper botnet might have gotten more than they asked when they downloaded an IP scanner over the past few weeks
+The IP scanner is a PHP file that was made available as a free download a few weeks back after news broke about Reaper, a botnet made up of vulnerable routers and IoT devices
+Reaper was different because its creators used an IP scanner to find vulnerable systems and then they used exploits for various vulnerabilities to install the Reaper malware on vulnerable devices
+ This was different from recent IoT botnets like Mirai and Hajime, who used Telnet and SSH brute-force dictionary attacks to break into unsecured devices
+Hacker rides the Reaper hype train
+Wannabe hackers were interested in this script because it allowed them to identify devices with GoAhead servers, usually IP security cameras, for which public exploits exist and which were also targeted by the Reaper botnet
+Basically, users looking into creating their own Reaper-like botnet would end up being part of someone else's Kaiten botnet
+Darlloz (aka Zollard), Linux
+Aidra (Linux
+Xorddos (aka XOR
+Gafgyt (aka GayFgt, Bashlite), Linux
+Ballpit (aka LizardStresser), Linux
+Moose, Linux
+Dofloo (aka AES
+Pinscan / Linux
+Pinscan
+B (aka PNScan), Linux
+B (aka Tsunami), Linux
+Routrem (aka Remainten, KTN-Remastered, KTN-RM), Linux
+Wifatch (aka Ifwatch), and Linux
+LuaBot
+ Malware such as Mirai, GafGyt, LuaBot, Kaiten, BillGates, Rex, and the more recent IRCTelnet, bounce around the Internet and infect devices, adding them to botnets, sometimes going over the 100,000 figure
+The newly discovered Tsunami Trojan is derived from an earlier Linux-infecting backdoor Trojan, called Kaiten, which phoned home from infected machines to an IRC channel for further instructions
+ Security firms are still in the process of analysing Tsunami but early speculation suggests it may be a DDoS attack tool
+Mac Trojan authors have previously used Windows backdoor code but the Tsunami Trojan is the first case we've across, at least, where malware tricks from the world of *nix have been turned against Macs
+'Bashlite' Malware Leverages ShellShock In BusyBox Attack
+A new version of Bashlite aims to get control of devices running on BusyBox, such as routers
+Researchers at Trend Micro are warning that a new version of the Bashlite malware is using the ShellShock vulnerability (CVE-2014-6271) to gain control of devices using BusyBox
+ According to Trend Micro, recent samples of Bashlite (ELF_BASHLITE
+The first variant of Bashlite (ELF_BASHLITE
+The previous Bashlite sample (detected as ELF_BASHLITE
+ Early reports on the hack said the IRC bot was Tsunami, which is technically correct, as that's one of the names used to identify the bot's core code (AV companies use this name too), but the code itself is Kaiten
+ Le nouveau venu est connu sous le nom de Linux/IRCTelnet et son fonctionnement est d¨¦taill¨¦ par le blog MalwareMustDie
+ Ce malware tire principalement son inspiration et son fonctionnement de Mirai, mais emprunte ¨¦galement du code ¨¤ d¡¯autres projets similaires tels que le projet Aidra
+Le projet de botnet Aidra scannait d¨¦j¨¤ en 2013 des objets connect¨¦s afin de d¨¦tecter les failles de s¨¦curit¨¦, mais ce projet de recherche ¨¦tait men¨¦ par un white hat qui cherchait ¨¤ l¡¯¨¦poque ¨¤ simplement obtenir des donn¨¦es sur l¡¯¨¦tat de la s¨¦curit¨¦ des objets connect¨¦s
+ Le nouveau logiciel malveillant identifi¨¦ par MalwareMustDie emprunte ainsi du code au projet Aidra, mais profite ¨¦galement des listes d¡¯identifiants par d¨¦faut utilis¨¦s par Mirai ainsi que des outils de c&c via IRC utilis¨¦s par le malware Kaiten

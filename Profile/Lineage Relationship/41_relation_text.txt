@@ -1,0 +1,31 @@
+Wifatch router virus may turn out be an unusual case of a cybercriminal working to defend consumers against other malware rather than doing any direct damage or stealing data
+Wifatch, which has also been called Zollard and Reincarna, has been active since for the last two years
+Wifatch router virus is actually an attempt to ward off government surveillance from agencies such as the National Security Agency (NSA)
+Wifatch is widespread across tens of thousands of devices, but there has yet to be a concrete estimate
+Wifatch is well aware of how a home router can be used to distribute updates without the owner’s permission
+Wifatch primarily checks Telnet ports for suspicious activity and, if necessary, renders it inoperable
+Wifatch a debt of gratitude, leaving security up to those that sneak their way into devices is a sure way to wind up paying dearly later on
+Aidra (Linux
+Xorddos (aka XOR
+Gafgyt (aka GayFgt, Bashlite), Linux
+Ballpit (aka LizardStresser), Linux
+Moose, Linux
+Dofloo (aka AES
+Pinscan / Linux
+Pinscan
+B (aka PNScan), Linux
+Kaiten / Linux
+Kaiten
+B (aka Tsunami), Linux
+Routrem (aka Remainten, KTN-Remastered, KTN-RM), Linux
+Wifatch (aka Ifwatch), and Linux
+LuaBot
+Aidra
+Aidra
+Aidra have limited memory and processing power, and does not want to share them with any other piece of malware
+Aidra, the malware that Linux
+Aidra targets smaller devices, specifically cable and DSL modems
+ Whoever authored Darlloz obviously believed that Aidra infections were so widespread that it posed a potential threat to their own malware
+The company also says, "Other Linux malware, such as the Tsunami backdoor, has been causing trouble for several years now and can be easily modified for attacks against IoT devices
+ The detection systems of AV-TEST first detected the Tsunami malicious code in the year 2003
+ Although, at that time, practically no IoT devices existed, the Linux backdoor already offered attack functions which even today would be suitable for virtually unprotected attacks on routers: In this manner, Tsunami can download additional malicious code onto infected devices and thus make devices remote controllable for criminals

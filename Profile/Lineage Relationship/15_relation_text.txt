@@ -1,0 +1,13 @@
+ The Roaming Mantis cyber-espionage group also hacked routers in a similar fashion and changed DNS settings to redirect users to sites hosting Android malware in early 2018
+Check your router ¨C list of routers affected by VPNFilter just got bigger
+Earlier this year, the FBI warned of foreign cyber actors targeting SOHO routers with VPNFilter, a particularly pernicious malware tool capable of persisting through reboots and rendering infected routers unusable
+ VPNFilter is believed to have infected some 500,000 SOHO routers worldwide
+Jennifer Howell first noticed that her profile photo had changed, thus prompting her to change her password; however, she was abruptly logged out and locked out of her account upon attempting to do so
+What you need to know about VPNFilter Malware Attack
+ The Amnesia IoT botnet made use of a vulnerability in digital video recorders that had been disclosed and fixed a year earlier, but existing machines couldn¡¯t be patched
+In 2009, Microsoft heralded the formation of an industry group to collaboratively counter Conficker, a malware threat that infected tens of millions of Windows PCs and held the threat of allowing cybercriminals to amass a stupendous army of botted systems virtually overnight
+ A group of software and security firms, dubbed the Conficker Cabal, hashed out and executed a plan for corralling infected systems and halting the spread of Conficker
+Tags: Akamai, BCP38, CAIDA, censorship, Center for Applied Internet Data Analysis, Conficker Cabal, DDoS, DNS, DNS Changer Trojan, google, internet of things, IoT, John Gilmore, Project Shield, Prolexic, Rob Wright, SPECTRE, spoofer project, United States Computer Emergency Readiness Team
+ Daarnaast hackte de cyber-spionage-groep van Roaming Mantis begin 2018 routers op een vergelijkbare manier
+The 175-page CherryBlossom user manual, which includes a "secret" classification, notes that "as of August 2012, CB-implanted firmwares can be built for roughly 25 different devices from 10 different manufacturers (including Asus, Belkin, Buffalo, Dell, Dlink, Linksys, Motorola, Netgear, Senao, and US Robotics)
+ You may remember back in the late 2000¡¯s it¡¯s believed that the US and Israel targeted the Iranian nuclear program with the Stuxnet virus which essentially disabled most of their nuclear program at the time

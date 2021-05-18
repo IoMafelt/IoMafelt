@@ -1,0 +1,74 @@
+ Recently, we discovered a bot that combines the capabilities of Tsunami (also known as Kaiten) and Gafgyt
+ Based on artifacts found in the code, the authors call this new malware ¡°KTN-Remastered¡± or ¡°KTN-RM¡±
+A prominent feature of Linux/Gafgyt is telnet scanning
+Most of these capabilities are from Linux/Tsunami with the remainder from Linux/Gafgyt
+ Analysis reveal the description of that command by the malware author is correct: it is indeed an improved version Gafgyt¡¯s telnet scanner
+ We have seen this technique before being used to spread malware between embedded Linux devices, such as in Linux/Moose
+2 is the fact that it also executes a wget/tftp command to download a shell script that downloads the bot binaries, just like Gafgyt usually does
+The shell script is distributed via another server, which was also providing the popular Gafgyt bots
+Perhaps it is a way to take revenge: MalwareMustDie is publishing a lot of details about Gafgyt, Tsunami and so on
+ These include the Bashlite malware and the older, but ever resilient, Tsunami backdoor
+¡°Robotics and autonomous vehicles have also seen huge advances in industry,¡± he adds
+The new malware, dubbed Linux/IRCTelnet, was discovered by researchers who posted an analysis of the malicious code on Malware must die
+According to the team, Linux/IRCTelnet is similar to malware strains used to hijack vulnerable Internet of Things (IoT) devices -- such as routers, smart lighting systems, VCRs, and surveillance cameras -- but has been coded partially with the Tsunami/Kaiten protocol and Bashlite
+Linux/IRCTelnet is able to attack through both the IPv4 and IPv6 protocols and is based on the source code of the Aidra botnet
+ In the past, Aidra has been known to infect internet-connected devices, included embedded systems, to carry out DDoS attacks
+ Linux/IRC Telnet or the 'new Aidra' was discovered by researchers who posted an analysis on an anti-malware site
+It's similar to strains recently used to hijack IoT devices - like routers and digital cameras - but this new strain is coded with Tsunami/Kaiten protocol and Bashlite to create DDoS attacks via an IRC botnet, researchers said
+Researchers from Palo Alto Networks found a new malware program dubbed Amnesia that infects digital video recorders through a year-old vulnerability
+ Amnesia is a variation of an older IoT botnet client called Tsunami, but what makes it interesting is that it attempts to detect whether it's running inside a virtualized environment
+ If Amnesia detects the presence of a virtual machine it will attempt to wipe critical directories from the file system using the Linux "rm -rf" shell command in order to destroy any evidence they might have collected
+Meanwhile, researchers from security services provider Radware discovered a different malware attack, aimed at IoT devices, that they've dubbed BrickerBot
+In fact, one of the BrickerBot attack variations is not even limited to embedded and IoT devices and will work on any Linux-based system that is accessible over Telnet, if it has weak or default credentials
+It's not clear what is the goal behind the BrickerBot attacks
+ However, they will immediately know that something is wrong if they're hit by BrickerBot because their devices will stop working and many of them will likely require manual intervention to fix
+The Amnesia bot is a very good example of how vulnerabilities can linger on for years in embedded devices without getting patched
+Muhstik botnet starts attacking Drupal sites
+ The Netlab team has started referring to this botnet as Muhstik, based on the term used in many of its payloads
+At the technical level, Netlab says Muhstik is built on top of Tsunami, a very old strain of malware that has been used for years to create botnets by infecting Linux servers and smart devices running Linux-based firmware
+The Muhstik version of Tsunami, according to a Netlab report published today, can launch DDoS attacks, install the XMRig Monero miner, or install the CGMiner to mine Dash cryptocurrency on infected hosts
+ Muhstik operators are using these three payloads to make money via the infected hosts
+This module contacts a totally different set of command and control servers than the regular Muhstik ones, gets a list of IP addresses, and starts scanning for vulnerable systems
+Muhstik scans these IPs on predefined ports, attempting to identify new systems, may them be servers or smart devices, to infect:
+Once new victims have been identified, the infected host tells one of the main Muhstik C&C servers about potentially new hosts to infect, by sending a request to a specific URL
+This type of design is very common with most IoT botnets these days, but Muhstik appears to be the first one who added the Drupalgeddon 2 vulnerability to its arsenal
+With such a major player like Muhstik now exploiting the Drupalgeddon vulnerability, it's only a matter of time until other botnets get on board
+Kaiten, an Internet Relay Chat (IRC)-controlled malware typically used to carry out distributed denial-of-service (DDoS) attacks, has returned, in a stronger configuration
+ ¡°Recently, we discovered a bot that combines the capabilities of Tsunami (also known as Kaiten) and Gafgyt
+ Based on artifacts found in the code, the authors call this new malware KTN-Remastered or KTN-RM
+Based primarily on Linux/Gafgyt¡¯s telnet scanning, the new versions improve on the spreading mechanism by carrying downloader executable binaries for embedded platforms such as routers and other connected devices
+As seen in Linux/Moose, when the malware is executed, it also creates another bot for the malicious operators to use
+org which has published extensive details about Gafgyt, Tsunami and other members of this family of malware,¡± said Mal¨ªk
+ The Darlloz worm, known since 2013, as well as many other Linux and Unix malware programs, have similar attack patterns which AV-TEST has been detecting and analyzing for years
+The Amnesia botnet targets an unpatched remote code execution vulnerability publicly disclosed more than a year ago in DVR (digital video recorder) devices made by TVT Digital and branded by over 70 vendors worldwide
+The Amnesia botnet is yet to be abused to mount a large-scale attack but the potential for harm is all too real
+"Amnesia exploits this remote code execution vulnerability by scanning for, locating, and attacking vulnerable systems," the researchers warn
+ "A successful attack results in Amnesia gaining full control of the device
+ Attackers could potentially harness the Amnesia botnet to launch broad DDoS attacks similar to the Mirai botnet attacks we saw in Fall [autumn] 2016
+Now Netlab 360 researchers say they have identified a botnet, dubbed Muhstik, that is taking advantage of the Drupal bug
+The Muhstik botnet exploits Drupal vulnerability (CVE-2018-7600), impacting versions 6,7, and 8 of Drupal¡¯s CMS platform
+ We name it Muhstik, for this keyword keeps popup in its binary file name and the communication IRC channel,¡± wrote Netlab 360 researchers
+According to Netlab, Muhstik is a variant of Tsunami, a malware strain that creates botnets with infected Linux servers and Linux-based IoT devices
+Muhstik has the capability to install two coinminers ¨C XMRig (XMR) and CGMiner ¨C to mine the open-source, peer-to-peer Dash cryptocurrency, according to Netlab
+Muhstik relies on 11 command and control domains and IP addresses, and the attackers also uses the IRC communication protocol to invoke commands for the botnet: ¡°We observed multiple IRC Channels, all starting with ¡®muhstik,'¡±said Netlab researchers in a report
+GreyNoise Intelligence said in a tweet that it detected the botnet to be exploiting a vulnerability (CVE-2017-10271) in Oracle WebLogic Server as well, indicating that Muhstik is exploiting vulnerabilities in other server applications
+New Amnesia malware targets TVT DVRs
+Nicknamed Amnesia, this new malware strain is based on an older version of the Tsunami IoT/Linux DDoS botnet malware
+ According to researchers, the malware's response is something that's not been seen before, with Amnesia deleting the entire VM filesystem, most likely out of revenge after being uncovered, and desperately attempting to hide its tracks
+Darlloz (aka Zollard), Linux
+Aidra (Linux
+Xorddos (aka XOR
+Gafgyt (aka GayFgt, Bashlite), Linux
+Ballpit (aka LizardStresser), Linux
+Moose, Linux
+Dofloo (aka AES
+Pinscan / Linux
+Pinscan
+B (aka PNScan), Linux
+Kaiten / Linux
+Kaiten
+Routrem (aka Remainten, KTN-Remastered, KTN-RM), Linux
+Wifatch (aka Ifwatch), and Linux
+LuaBot
+TRITON and Mirai, as well as variants of Stuxnet were among the detected threats
+The newly discovered Tsunami Trojan is derived from an earlier Linux-infecting backdoor Trojan, called Kaiten, which phoned home from infected machines to an IRC channel for further instructions

@@ -1,0 +1,178 @@
+ "It will be reworked to have the original BrickerBot functionality," Light told Anubhav and ZDNet
+ "It is going to target every single publicly known exploit that Mirai or Qbot load
+Security researchers discovered modified versions of the Mirai and Gafgyt Internet of Things (IoT) malware that are capable of targeting vulnerabilities affecting SonicWall’s Global Management System (GMS) and Apache Struts
+ Further investigation revealed that the IP address intermittently hosted a version of the Gafgyt botnet containing an exploit for CVE-2018-9866, a vulnerability affecting an older version of SonicWall’s GMS
+Mirai and Gafgyt Signal Shift Toward Enterprise-Level Attacks
+Both Mirai and Gafgyt have been around for some time
+ For example, IoT_Reaper moved on from simply applying hard-coded passwords in the hope that they would unlock a system
+ By contrast, the Hide N Seek malware, which builds on IoT_Reaper’s methods, prefers to install cryptominers, which generate virtual currency
+In 2018, VPNFilter appeared, which F-Secure speculates may have been developed by Russian-backed actors to attack Ukraine
+ As well as targeting Supervisory Control and Data Acquisition (SCADA) systems used in manufacturing and the maintenance of infrastructure, VPNFilter also attacks domestic routers:
+ This file package also included a Dofloo backdoor and a Linux shell
+ Less than a year later, Infosecurity Magazine reported on the birth of Okiru, a Mirai member known for targeting ARC processors
+According to a blog post by Fortinet’s FortiGuard Labs research team, researchers dubbed the variant OMG
+ In addition to Mirai, Bashlite is another likely culprit
+ In operational technology, threat actors usually try to interrupt explicit services, as was the case with Stuxnet
+ It was part of an archive of files containing a Mirai dropper, a bitcoin miners slave, a Linux shell and Dofloo backdoor
+ A Trojan containing apparent code connections to the Elknot implant that worked with the rootkit to remain operational
+ Not long after unixfreaxjp’s research, for example, Trend Micro observed that new samples of Bashlite, a malware known for enlisting vulnerable internet of things (IoT) devices into DDoS botnets, had added both cryptomining and backdoor-related capabilities
+In August, Level 3 reported that it had detected that 1 million IoT devices built by Dahua Technology had been infected with malware called Bashlite - a
+ Lizkebab, Torlis, Gafgyt - which is also used to generate DDoS attacks
+Today, any would-be attackers can tap Bashlite malware
+ Referred to as the VPNFilter Trojan, it disables IoT devices and makes them virtually self-destruct
+ VPNFilter overwrites critical parts of the device’s firmware with useless data and then reboots the machine
+The ADB threat, meanwhile, is seemingly linked to the Satori version of Mirai and was likely created by the same author, according to a July 2018 IBM X-Force threat advisory
+ Unlike earlier botnets, which would patiently sit and wait for a command, cognitively enhanced botnets like Hide and Seek are decentralized and can make decisions on their own
+ In fall 2017, Check Point researchers said they discovered a new botnet, variously known as “IoTroop” and “Reaper,” that’s compromising IoT devices at an even faster pace than Mirai did
+ Reaper goes beyond that, targeting at least nine different vulnerabilities from nearly a dozen different device makers, including major players like D-Link, Netgear and Linksys
+According to research by Recorded Future, Reaper was used in attacks on European banks this year, including ABN Amro, Rabobank and Ing
+ “Some of the more famous ones are Hajime, Hide N’ Seek and TheMoon
+ The famous 2010 malware “Stuxnet” showed the feasibility of such an attack in the real world — at a nuclear enrichment facility in Iran
+ While Mirai has largely faded from view, Bleeping Computer reported that a new threat named IoT_Reaper is exploiting specific IoT security flaws and has already infected more than 2 million devices worldwide
+According to Wired, researchers from security firms Check Point and Qihoo identified the new threat and discovered that although it uses some of Mirai’s code, there’s a significant difference: Instead of using a list of common device credentials to gain access, Reaper uses known security flaws to bypass existing security and take control
+ The not-so-good news: There’s support for a DDoS attack in the Reaper source file, suggesting an eventual tipping point once the malware-makers control enough IoT technology and decide to activate their botnet
+The “Satori botnet” is another recent high-profile DDoS-style botnet attack against IoT networks
+ The malware, known as Hajime, appears to have been created by a vigilante attempting to improve IoT device security
+ Rapidty Networks discovered Hajime in October 2016, but only recently found that the malware is not being used against IoT devices errantly
+Hajime could help IT decision-makers and their organizations embrace the new era of connectivity associated with IoT devices
+What Is Hajime?
+Ars Technica explained that Hajime’s discovery followed in the wake of a similar IoT device botnet known as Mirai, which was associated with record-setting distributed denial-of-service (DDoS) attacks last year
+Like Mirai, Hajime spreads via unsecured devices that have open Telnet ports and rely on default passwords
+ However, Hajime is built on a peer-to-peer network and propagates across other machines over time
+According to Symantec, Hajime has spread quickly since its initial discovery
+ However, this spread is not necessarily bad news: The researchers noted that Hajime is using its self-replication module to fight Mirai and other IoT device botnets
+The giveaway is that Hajime is missing notable negative features
+Hajime has undoubtedly helped in the fight against Mirai and other IoT malware
+Wifatch and BrickerBot, have also attempted to secure devices or take systems offline
+Janit0r, the alleged creator of BrickerBot, a piece of malware designed to damage insecure IoT devices so severely that they become redundant, has apparently retired, but not before claiming to have ‘bricked’ over 10 million IoT devices in his recent career
+Read more: BrickerBot ‘creator’ claims two million IoT devices have been destroyed
+ Sooner or later, people are going to start questioning the credibility of the research and the seriousness of the situation,” Janit0r wrote, pointing to the cases of the Persirai, Hajime and Reaper botnets
+Operators of IoT DDoS botnets were taking precautions against BrickerBot, and this made Janit0r’s work even more challenging, they said, and they are wary of legal repercussions
+Read more: Reaper IoT botnet proves less virulent than expected
+As well as advising users to take sanctions against vendors that do not deliver security updates efficiently, the BrickerBot author suggested that ISPs use tools like Shodan to audit their networks and isolate ports and services that don’t need to be online
+ Existing examples of cybercriminals exploiting unprotected devices are the Mirai botnet and the IoT Reaper
+Read more: Reaper IoT botnet proves less virulent than expected
+Read more: Persirai leads in botnet battle for connected cameras, researchers find
+Satori IoT botnet gathers momentum
+According to a blog post from IT security company Qihoo Netlab, a new variant of Mirai called Satori has started to propagate
+Read more: Malwar! Hajime IoT botnet fights back against Mirai
+Researchers observed a family of bots dubbed Chalubo launching distributed denial-of-service (DDoS) attacks to conduct brute-force entry against Linux-based systems running internet-facing SSH servers
+The Chalubo botnet, which incorporates malware such as Xor
+ Chalubo’s components include a downloader, a Lua command script and the main bot, which was optimized for hardware running Intel x86 processors
+ Over the past few weeks, Chalubo’s creators have also turned to the Elknot dropper to release the full malware family, and the researchers noted that the bots can now run on a variety of other central processing unit (CPU) architectures, which could suggest that the botnet will become more pervasive in the near future
+Chalubo Steals Threat Tactics From Other Malware
+ The researchers noted that certain functions that allow the Xor
+DDoS family to achieve persistence were copied in the Chalubo code, for example
+ Similarly, code from Mirai had been copied to the main Chalubo bot
+Denial-of-service attacks can cripple website performance and bring other areas of enterprise IT to a grinding halt, so if Chalubo was found via a honeypot, its creators are likely aiming for real targets, too
+As a result of the availability and vulnerability of IoT devices and new advances in malware, it’s now relatively easy for botnet owners who know what they’re doing to build botnets that consist of hundreds of thousands of devices, such as the infamous Mirai botnet that weighed in at 600,000 at its peak, and even millions of devices as in the case of the Reaper botnet
+While the bruising attacks unleashed by IoT botnets are obviously awful, what may be even worse is waiting to see what Reaper-sized botnets have in store for the internet
+ Among the others are those which target unsecured IoT devices, subverting them into what is called a botnet – the likes of Mirai, Satori, VPNFilter, and Slingshot
+ The latter two have been linked to APT or nation state actors, Mirai and VPNFilter have been associated with distributed denial of service attacks, while Slingshot was reportedly used to pivot into internal networks
+Read more: Amnesia malware turns DVRs into botnet slaves
+ Whereas the vDOS botnet they’d been chasing was a variant of an older IoT zombie army — a 2014 botnet known as Qbot — this new botnet appeared to have been written from the ground up
+ Routers can also be infected by malware and enslaved by a malicious internet of things (IoT) botnet such as VPNFilter, which can eavesdrop on traffic passing through the router, or the Mirai botnet, which disrupted internet connections as well as telephony and television services in Germany for days before it was possible to stop the mayhem
+However, numerous security breaches right from the Stuxnet virus to Mirai and more show that demand for IoT is growing with little regard to security
+Another Malware called BrickerBot broke into thousands of IoT devices in April 2017 and bricked them by overwriting the stock firmware with garbage code
+"It will be reworked to have the original BrickerBot functionality," he said
+ The malware, like the BrickerBot malware in 2017, targeted insecure IoT devices and rendered them unusable
+ Right, Larry? It’s almost like BrickerBot, which for listeners, was the malware that back in 2017 attempted to permanently destroy insecure IoT devices as well
+ The BrickerBot malware, I think was built as a Python script I thought
+ So it was it was similar to BrickerBot but implemented in a different way
+LO: Right, yeah, I feel like kind of the motive behind both BrickerBot and this malware was clearly to say, look how insecure IoT devices are, we need to destroy them so that they won’t be, at least for BrickerBot so that these devices wouldn’t be infected with Mirai
+ I’m curious your thoughts on the IoT security market in general and whether you think that more malware such as Silex, such as BrickerBot will be seen in the future?
+• IoT Botnets: Recently, malware has also been seen enhancing codebases like Reaper and Mirai to target IoT devices along with multiple exploits
+ The malware is said to be copying the behavior of the old BrickerBot malware that compromised more than ten million IoT devices between April and December 2017
+“It will be reworked to have the original BrickerBot functionality,” Light told Anubhav and ZDNet
+ It is going to target every single publicly known exploit that Mirai or Qbot load
+ This malware attack might remind you of the BrickerBot malware that ended up destroying millions of devices in 2017
+ In a statement to Anubhav and ZDNet, he said, “It will be reworked to have the original BrickerBot functionality
+” He further added, “It is going to target every single publicly known exploit that Mirai or Qbot load
+Light didn’t give any justification for his actions neither have put across any manifesto as the author of BrickerBot (goes with the pseudonym-Janit0r) did post before the BrickerBot attacks
+A previous report by Palo Alto Networks' Unit 42 from September saw a strain of the Mirai botnet switching targets to attack Apache Struts servers using an exploit also employed during last year's Equifax breach, while a new Gafgyt version was observed while assailing SonicWall firewalls, as part of a larger move against enterprise assets
+ Satori - same, some of the code there, as well
+ The coordinating producer is Jennifer Eiben
+The last time Unit 42 noticed a similar trend was in September 2018, when company researchers reported that variants of Mirai and fellow IoT botnet Gafgyt (aka Bashlite) were respectively exploiting vulnerabilities in the Apache Struts open-source web application framework and SonicWall’s Global Management System
+ Further revealed additional samples hosted at a different IP address that also harbored some instances of Gafgyt
+It appears that the same IP was hosting some Gafgyt samples using the name “eeppinen
+ This exploit vector was publicly disclosed in April 2015, tracing back to several high profile IoT botnets like Satori and JenX, both of which can be traced back to an old ‘friend’ – Mirai – proving that the shelf life for an IoT-based exploit can last for years
+Remember the BrickerBot malware attack back in 2017? Well, that is back, in what is estimated in a larger scale, in a new form of malware created by a 14-year-old teenager known as “Light Leafon”
+ For those unaware, BrickerBot was responsible for the MTNL broadband service outage in New Delhi in 2017 and also affected at least 60,000 modems of BSNL broadband subscribers
+ The new malware strain, resembling BrickerBot-like payload, is called Silex and the malware has the capability to simply ruin smart IoT devices and render them useless, as per a report by ZDNet
+ Like the BrickerBot, the Silex malware simply wipes clean the storage of an IoT device, removes network configurations and renders firewall rules useless and finally kills or bricks the device
+ He confirmed that the new Silex malware is based on the “original BrickerBot functionality” and “plans to develop the malware further and add even more destructive functions
+ In an early warning, the teenager was quoted saying, “My friend Skiddy and I are going to rework the whole bot and it is going to target every single publicly known exploit that Mirai or Qbot load
+ Worm malware is another fitting example: Conficker was a thing in 2009/2010 but went down rapidly
+ One was a variant that labeled itself as VPNFilter, though it had nothing to do with the destructive VPNFilter bot that infected more than a half-million small and home office routers earlier this year, the security vendor said
+Stuxnet : A nation-state cyber weapon targeting industrial SCADA IoT devices controlling substantial and irreversible damage to Iran's nuclear program
+Stuxnet
+Stuxnet was the first known documented cyber weapon released to permanently damage another nation's assets
+ This kernel-mode signed driver was necessary to hide Stuxnet from wary antivirus packages
+ Stuxnet inserted itself between the WinCC system and the s7otbdx
+ Stuxnet delivered its damage by manipulating the PLCs with two different coordinated attacks to damage the entire array of Iran's facility
+ Today the Stuxnet code is available online and is essentially an open source playing field to create derivative exploits
+"SORA is an abandoned project for now and I will continue to work on OWARI," Wicked, the Sora malware author, said in an interview with NewSky Security
+It appears that other malware authors took it upon themselves to improve SORA's code
+Spikes of #botnet activity started in June
+ Mirai wasn't even the first of the big-name IoT baddies — that distinction goes to Stuxnet — but the sheer size of the attacks launched using the Mirai botnet and the malware's dogged persistence on devices around the world have made it the anti-hero poster child of IoT security
+Hron compares the potential level of threat that Torii poses to the VPNFilter botnet, which the FBI warned consumers about in June
+ But unlike VPNFilter, which can be wiped by rebooting an infected router, Torii has seven methods of persistence that operate simultaneously, so that turning an infected device off and on doesn’t remove the malware
+In a blog post today, Trend Micro reports that the newly discovered variant is similar to a 2018 variant called Omni, which used 11 of the above exploits, excluding the ones for Linksys and ThinkPHP, which have been seen in other variants
+Hajime , a worm which targets the TR-069 protocol used by many ISPs' routers
+, a worm which targets the TR-069 protocol used by many ISPs' routers IoT_Reaper , a botnet which attacks known, existing HTML vulnerabilities in the control interfaces often found in CCTV and other cameras
+, a botnet which attacks known, existing HTML vulnerabilities in the control interfaces often found in CCTV and other cameras Hide N Seek , a rework of IoT_Reaper that infects the same cameras and installs cryptominers
+, a rework of IoT_Reaper that infects the same cameras and installs cryptominers ADB
+, which uses Tor's anonymizing software to attack "six infection vectors" VPNFilter, a major attack on a wide variety of routers that destroys firmware and sniffs out credentials
+'s Unit 42 found new variants of the Gafgyt and Mirai botnets targeting unpatched enterprise devices with an assortment of vulnerabilities, including the Apache Struts bug that was exploited in the Equifax breach
+The Gafgyt and Mirai botnets received updates enabling them to exploit vulnerabilities in Apache Struts and in SonicWall's Global Management System
+ Palo Alto Networks' Unit 42 found new variants of the Gafgyt and Mirai botnets that are able to scan for vulnerable systems
+A 20-year-old from Vancouver, Washington was indicted last week on federal hacking charges and for allegedly operating the “Satori” botnet, a malware strain unleashed last year that infected hundreds of thousands of wireless routers and other “Internet of Things” (IoT) devices
+ But according to Poulsen, the charges are related to Schuchman’s alleged authorship and use of the Satori botnet
+ Satori, also known as “Masuta,” is a variant of the Mirai botnet, a powerful IoT malware strain that first came online in July 2016
+Schuchman reportedly went by the handle “Nexus Zeta,” the nickname used by a fairly inexperienced and clumsy ne’er-do-well who has tried on multiple occasions to get KrebsOnSecurity to write about the Satori botnet
+In each case, this person wanted to talk about a new IoT botnet that he was “researching” and that he thought deserved special attention for its size and potential disruptive impact should it be used in a massive Distributed Denial-of-Service (DDoS) attack aimed at knocking a Web site offline — something for which Satori would soon become known
+For weeks after that tweet, Nexus Zeta exchanged private twitter messages with Mursch and his team of botnet hunters at Bad Packets LLC in a bid to get them to Tweet or write about Satori/Masuta
+The following screenshots from their private Twitter discussions, republished with Mursch’s permission, showed that Nexus Zeta kept up the fiction about his merely “researching” the activities of Satori
+ Mursch played along, and asked gently probing questions about the size, makeup and activities of a rapidly growing Satori botnet
+Early in their conversations, Nexus Zeta says he is merely following the visible daily Internet scanning that Satori generated in a constant search for newly infectable IoT devices
+ But as their conversations continue over several weeks, Nexus Zeta intimates that he has much deeper access to Satori
+ 5, Chinese cybersecurity firm Netlab360 released a report on Satori noting that the IoT malware was spreading rapidly to Chinese-made Huawei routers with the help of two security vulnerabilities, including one “zero day” flaw that was unknown to researchers at the time
+ 29, 2017 titled “Good Zero Day Kiddie,” researchers at Israeli security firm CheckPoint pointed out that the domain name used as a control server to synchronize the activities of the Satori botnet — nexusiotsolutions-dot-net — was registered in 2016 to the email address nexuszeta1337@gmail
+ru, Paras Jha, ProxyPipe, Robert Coelho, Satori botnet author, stresser, Troy Mursch, zetastress
+Martin Hron, a security researcher at Avast says, if anything, Torii is more like the destructive VPNFilter malware that infected some 500,000 network attached storage devices and home-office routers this May
+ VPNFilter attacked network products from at least 12 major vendors and was capable of attacking not just routers and network attached storage devices but the systems behind them as well
+It's a Mirai/Gafgyt party
+This botnet, which has no particular name, runs on a variant of the Bashlite (Gafgyt) IoT malware, which is used as a skeleton and customized with several ExploitDB exploits on top --which in this case targeted Belkin WeMo devices
+In most cases, these botnets are built on the Bashlite (Gafgyt) or Mirai IoT malware strains, and only very rarely does a true malware coder come around to innovate and create new malware strains --such as hackers like Wicked or the Janit0r (the BrickerBot author)
+ He was also known as Wicked
+ In one video, he shows in real time how he took over the Akiru botnet and then informed its creator, our old friend Wicked, in a chat app channel for “money team staff members”
+ In addition to Wicked, another familiar name caught our attention: Anarchy
+ So, maybe Wicked and Anarchy are not the same person after all, but two different people from the same team
+Our suspicions that 400kQbot and Scarface were the same person was confirmed when in mid-September, he identified himself in a tweet from the 400kQBot handle
+ Perhaps the 13-years-old-fame-seeking skid is also a part of a money making team with Wicked and Anarchy
+A variant of the Satori botnet, a successor of the IoT device hijacking Mirai botnet, is designed to hijack cryptocurrency mining operations, syphoning off newly created digital coins Read Now
+News roundup: Okiru, a new Mirai variant, could put over 1
+Mirai and Gafgyt, two of the best known IoT botnets, have forked once again, with the new variants peeking at the enterprise sector for creating or replenishing their denial-of-service resources for distributed attacks
+A report from Palo Alto Networks' Unit 42 reveals that the new Mirai and Gafgyt add to their arsenal of exploits code that leverages some old vulnerabilities
+Gafgyt, also known as Bashlite, looks at business equipment as well, by targeting a freshly disclosed vulnerability (CVE-2018-9866, with perfect severity score) in unsupported versions of the Global Management System (GMS) from SonicWall
+Devices infected with Gafgyt can scan for other equipment ripe for compromise and deliver the appropriate exploit
+In August, the domain resolved to a different IP address and hosted intermittently the samples of Gafgyt leveraging the SonicWall bug
+Mirai, Gafgyt Botnets Resurface with New Tricks
+A new version of Mirai exploits the Apache Struts flaw linked to the Equifax breach, while Gafgyt targets an old flaw in SonicWall
+Well-known Internet of Things (IoT) botnets Mirai and Gafgyt have resurfaced with new variants targeting vulnerabilities in Apache Struts and SonicWall, respectively
+Researchers in Palo Alto Networks' Unit 42 detected the new versions of Mirai and Gafgyt, both of which have been linked to massive distributed denial of service (DDoS) attacks since November 2016
+The Mirai samples were found in the first week of September, while the Gafgyt samples were available on and off throughout the month of August
+Mirai is an evolution of the Gafgyt botnet (also known as Bashlite or Torlus), an IoT/Linux botnet, explains Ryan Olson, vice president of threat intelligence for Unit 42
+ During that time, the IP was sporadically hosting samples of Gafgyt that included an exploit against CVE-2018-9866, a SonicWall bug affecting older versions of the SonicWall Global Management System (GMS)
+Olson believes the two new variants of Mirai and Gafgyt come from the same actor but couldn't speak to why they might have chosen to leverage two botnets instead of one
+Stuxnet : A nation-state cyber weapon targeting industrial SCADA IoT devices controlling substantial and irreversible damage to Iran's nuclear program
+Stuxnet
+Stuxnet was the first known documented cyber weapon released to permanently damage another nation's assets
+ This kernel-mode signed driver was necessary to hide Stuxnet from wary antivirus packages
+ Stuxnet inserted itself between the WinCC system and the s7otbdx
+ Stuxnet delivered its damage by manipulating the PLCs with two different coordinated attacks to damage the entire array of Iran's facility
+ Today the Stuxnet code is available online and is essentially an open source playing field to create derivative exploits
+"In addition, we also see a high rate of shared strings with other known ChinaZ malware, reinforcing the possibility that actors behind HiddenWasp may have integrated and modified some MD5 implementation from [the] Elknot [malware] that could have been shared in Chinese hacking forums," the researcher added
+The new botnet, dubbed Fbot by researchers from Qihoo 360’s Netlab team, is related to another malware program called Satori, whose source code was leaked online in January
+ Satori itself is based on Mirai, one of the largest and most damaging IoT botnets in history
+ The botnet still retains a Mirai/Satori module that can be used to launch distributed denial-of-service (DDoS) attacks, but the researchers haven’t observed it being used yet

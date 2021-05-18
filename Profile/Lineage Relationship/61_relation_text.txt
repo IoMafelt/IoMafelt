@@ -1,0 +1,29 @@
+ New exploits for multiple Internet of Things (IoT) devices including door controllers, security cameras and digital video recorders (DVRs) helped massive global botnets such as Mirai and Satori to add even more compromised devices to their arsenal
+On Monday, researchers from Qihoo's 360Netlab said that Fbot, a botnet based on Satori botnet coding, is demonstrating some extremely odd behavior for such a system
+Satori is a botnet variant based on Mirai, the infamous botnet which was able to take down online services across an entire country
+Satori's code was released to the public in January
+ Cyber-espionage groups, also known as advanced persistent threats (APTs) have been increasingly leveraging routers for their attacks, with the most recent being the VPNFilter botnet, set up by Russia's APT28 group
+Coin Miner Malware Spikes 629% in 'Telling' Q1
+ The BrickerBot, Wifatch, and Mirai malware are known for such behavior
+But HNS was easy to spot anyway because it's only the second major IoT botnet besides Hajime known to use a P2P structure, so security researchers would have an easy time identifying it regardless
+Attackers do all this with the help of three modules, which Netlab has dubbed Shell DNSChanger, Js DNSChanger, and PyPhp DNSChanger, all based on the programming languages in which they have been coded
+The first module, Shell DNSChanger, is written in Shell and is a combination of 25 Shell scripts that can brute-force the passwords of 21 routers or firmware packages
+The second module, Js DNSChanger, is written in JavaScript, and is a collection of only 10 JS scripts that can brute-force the passwords of six routers or firmware packages
+The third module, PyPhp DNSChanger, is written in a combination of Python and PHP, and is the most potent of all three
+Netlab researchers say that they've managed to access this third module's admin area, where they discovered that PyPhp DNSChanger alone had infected over 62,000 routers just by itself
+Japanese government wants to secure IoT devices before Tokyo 2020 Olympics and avoid Olympic Destroyer and VPNFilter-like attacks
+Unlike other recent Linux malware such as Gafgyt and Mirai, which scan for vulnerable devices using randomly generated IP addresses, Xbash scans for them also by domain name
+Targets IP addresses and domain names: Modern Linux malware such as Mirai or Gafgyt usually generate random IP addresses as scanning destinations
+Furthermore, the lack of auto-update mechanisms keeps many of these devices in a vulnerable state, or until a user is reminded to update the firmware, usually after a major router hacking spree, such as the emergence of the Mirai and VPNFilter malware strains
+Now Netlab 360 researchers say they have identified a botnet, dubbed Muhstik, that is taking advantage of the Drupal bug
+The Muhstik botnet exploits Drupal vulnerability (CVE-2018-7600), impacting versions 6,7, and 8 of Drupal’s CMS platform
+ We name it Muhstik, for this keyword keeps popup in its binary file name and the communication IRC channel,” wrote Netlab 360 researchers
+According to Netlab, Muhstik is a variant of Tsunami, a malware strain that creates botnets with infected Linux servers and Linux-based IoT devices
+Muhstik has the capability to install two coinminers – XMRig (XMR) and CGMiner – to mine the open-source, peer-to-peer Dash cryptocurrency, according to Netlab
+Muhstik relies on 11 command and control domains and IP addresses, and the attackers also uses the IRC communication protocol to invoke commands for the botnet: “We observed multiple IRC Channels, all starting with ‘muhstik,'”said Netlab researchers in a report
+GreyNoise Intelligence said in a tweet that it detected the botnet to be exploiting a vulnerability (CVE-2017-10271) in Oracle WebLogic Server as well, indicating that Muhstik is exploiting vulnerabilities in other server applications
+ Radware’s Emergency Response Team (ERT) has spotted an increase in malicious activity following Kaspersky’s publication about the Slingshot APT malware that infected Mikrotik routers
+ It is believed this botnet is part of the Hajime botnet
+[You might also like: New Satori Botnet Variant Enslaves Thousands of Dasan WiFi Routers]
+As we follow the planned launch of India's second mission to the Moon, Chandrayaan-2 on 15 July, you can find our entire collection of stories, in-depth analysis, live updates, videos & more on our dedicated #Chandrayaan2TheMoon domain
+ Our CyberWire editor is John Petrik, social media editor Jennifer Eiben, technical editor Chris Russell, our staff writer is Tim Nodar, executive editor Peter Kilpe

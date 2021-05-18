@@ -1,0 +1,12 @@
+Lizard Squad may be mostly behind bars, but their LizardStresser botnet has spawned more than 100 clones
+LizardStresser is an illegal booter service partly-arrested hacking group Lizard Squad built on the back of hacked routers
+Bing says the tweaked and increasing LizardStresser bots have been used to attack banks, telcos, and gaming companies
+"The number of unique LizardStresser command-and-control sites has been steadily increasing throughout 2016," Bing says
+"LizardStresser is becoming the botnet-du-jour for IoT devices given how easy it is for threat actors to make minor tweaks to telnet scanning
+On peut ainsi citer Aidra, qui a repris en 2012 la m¨¦thode pour s¡¯attaquer cette fois non seulement aux routeurs, mais aussi aux cameras IP, t¨¦l¨¦visions connect¨¦es et autres appareils ARM fonctionnant sous Linux
+ On peut ¨¦galement citer Bashlite apparu en 2014, qui reprend la m¨ºme m¨¦thode, ou encore l¡¯inattendu Wifatch, un malware qui infecte les machines Linux afin de fermer les ports Telnet laiss¨¦s ouverts par les utilisateurs et ¨¦viter de futures infections
+ Sur sc¨¨ne, Rommel Joven de Fortinet cite ainsi l¡¯exemple du malware IoT Reaper, qui r¨¦utilise l¡¯essentiel du code source de Mirai
+ On peut ainsi retrouver des parties du code source de Mirai dans les malwares NewAidra (Decouvert en octobre 2016), Persirai (Mai 2017) ou encore au sein de Bashlite, dont les derni¨¨res versions ont int¨¦gr¨¦ plusieurs modules et identifiants directement tir¨¦s de Mirai
+Mirai se distinguait d¨¦j¨¤ par le nombre important d¡¯identifiants qu¡¯il utilisait pour infecter des machines (la liste en contenait 77, contre une dizaine pour un de ses pr¨¦d¨¦cesseurs comme Bashlite), mais l¡¯ajout d¡¯exploits vient renforcer le potentiel de ces malwares IoT, qui ciblent g¨¦n¨¦ralement des objets connect¨¦s dont la s¨¦curit¨¦ n¡¯est pas forcement prise au s¨¦rieux par leurs possesseurs
+On peut ainsi citer OMG, un malware d¨¦riv¨¦ de Mirai qui vise le m¨ºme type d¡¯appareils afin de les utiliser comme des proxys, afin de dissimuler l¡¯origine d¡¯une attaque informatique ou de son trafic internet
+ Aujourd¡¯hui, des virus comme Stuxnet ont pu saboter des installations industrielles, des malwares sont capables de voler des millions de donn¨¦es sensibles, sans compter les ransomwares qui prennent en otage les fichiers des PC

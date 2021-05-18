@@ -1,0 +1,55 @@
+New Mirai malware called OMG can turn any IoT device into the proxy server
+The new version of Mirai malware[1] has a short and vivid name ¨C OMG
+It seems that the main purpose of the OMG malware is to sell access to hacked IoT devices to cyber criminals
+Mirai OMG malware is not the first modification of the virus
+In 2017, researchers reported about Satori[4] ¨C version of Mirai botnet that exploited a zero-day vulnerability in Huawei routers
+ At the beginning of this year, Okiru malware was aiming at ARC processors
+ The Masuta (or PureMasuta) version of Mira was exploiting D-Link router¡¯s vulnerabilities
+ The recent discovery of OMG Mirai botnet allows assuming that similar attacks will continue in the future
+Today, IoT botnet families, including Mirai, Okiru, the Satori, the Masuta, the PureMasuta and Reaper, continue mutating
+In 2017, researchers identified a new IoT botnet, named IoT Reaper or IoTroop, that built on portions of Mirai's code
+ Specifically, researchers have identified the following four Mirai variants: Satori Botnet, Masuta Botnet, Wicked Mirai, and JenX botnet, each of which is described in further detail below
+Satori Botnet
+The Satori Botnet is a variant of Mirai that targets software associated with ARC processors, which are used in a variety of IoT devices
+ Once it finds a vulnerable IoT device, Satori performs a check to determine whether the device's default settings have been changed, and, if not, uses these default credentials to gain control of the device
+Most recently, researchers have identified that Satori-controlled devices were mass-scanning the Internet for cryptocurrency-mining devices that were exposed to the internet
+Masuta
+Masuta comes in two variants, Masuta Botnet, which uses the same techniques as Mirai by attempting to overcome the security of the target IoT devices using a built-in list of common passwords and default credentials, and PureMasuta, which has been described as "an enhanced version" with a built-in exploit against certain vulnerable routers
+ Masuta is believed to be the work of the same group responsible for developing the Satori Botnet, however unlike Satori, Masuta attacks allow the actors to take direct control of compromised devices, making other malicious actions possible, including:
+Wicked Mirai
+The Wicked iteration of Mirai contains a package that includes at least three exploits
+ Unlike Mirai, however, which used brute force to gain access to vulnerable IoT devices, the Wicked version relies on a variety of port-related vulnerability exploits, some new and some very old, to gain access to a device
+Once on a system, Wicked Mirai contacts a command and control server from which it downloads a payload (in some cases payloads from other Mirai variants like Sora, Owari, and Omni) that can vary based on the attackers' objective and the nature of the affected device
+ Wicked looks for specific vulnerabilities on a platform that the botnet can exploit
+ In addition, the Wicked variant is also able to maintain a presence on IoT devices it infects beyond the occasional reboots, increasing its power and persistence to launch substantial DDoS attacks
+JenX Botnet
+The JenX variant is a unique variant that leverages the Grand Theft Auto videogame community to infect IoT devices
+ Unlike the Satori and Masuta variants, JenX has a centralized infrastructure and uses a central server to perform the scanning of new hosts
+ The centralized structure of JenX provides the attackers with greater flexibility to add and improve the functionality of the malware over time
+The prime and pretty obvious clue that ties this new IoT botnet ¡ª named JenX¡ª with the gaming server rental service is the IoT's command-and-control server, located at skids
+Researchers from cyber-security firm Radware, who discovered this new botnet, say JenX is likely the botnet that powers a DDoS function included in one of San Calvicie's rental offers ¡ªnamed "Corriente Divina
+JenX assembled from the source code of other botnets
+According to an analysis by Radware's Cyber Security Evangelist Pascal Geenens, JenX ¡ªthe botnet believed to be behind San Calvicie's DDoS-for-hire service¡ª has been built by scrapping together different parts of several IoT botnets, whose source code leaked online in the past year
+For example, JenX uses two exploits previously used by the Satori botnet to break into devices and ensnare them into its grasp
+In addition, JenX also borrowed some techniques from the PureMasuta botnet source code, recently posted online and detailed in this NewSky Security report
+JenX is also different in its own right
+Both Satori and PureMasuta are variants of the Mirai IoT malware leaked online in late 2016, but despite this, JenX has its unique parts as well
+ While other botnets usually rely on infected hosts to perform the scanning of new hosts, JenX uses a central server
+Security researchers believe the author of the Satori botnet is at it again, this time attacking routers to craft a botnet dubbed "Masuta"
+The early-January Satori botnet attacked a Huawei router zero-day
+ Masuta also hits routers
+ There's Masuta, which takes the standard IoT approach of tapping devices for default credentials (hidden by a single XOR by 0x22 , inspired by Mirai); and there's the more sophisticated ¡°PureMasuta¡± which exploits an old network administration bug
+ That's what Pure Masuta tries to exploit
+Since the bug lets routers run anything after GetDeviceSettings, what PureMasuta's bot-herders do is run a wget to fetch and run a shell script, recruiting the device into its botnet
+NewSky's attribution of the botnet, to an entity they dub "Nexus Zeta", comes from the C&C URL nexusiotsolutions(dot)net , since this was the same URL as the Satori botnet used
+The hacker behind the Satori botnet, also known as Mirai Okiru, is involved in the creation of a new Mirai variant called Masuta, which means "master" in Japanese
+ The creator of Satori, who goes by the name Nexus Zeta, has also developed a variant of the Masuta botnet called PureMasuta
+Researchers at NewSky Security were able to get their hands on Masuta's source code in an invite-only dark web forum, which led them to uncover the link between Satori and Masuta
+ In December, Nexus Zeta was found exploiting a zero-day flaw in Huawei routers to escalate Satori attacks
+ Earlier this month, the malware code for the Satori botnet was also released on Pastebin for free
+According to NewSky Security researchers, since September 2017, Masuta attacks have soared twelve-fold
+ The researchers found that both Masuta and PureMasuta share the same server, hinting that PureMasuta may be a more recent and evolved version of Masuta
+They also believe that the proof of concept of the weaponised exploit used by PureMasuta could be leveraged in attacks by other hackers as it is publicly available
+According to the researchers, although Nexus Zeta was previously not considered as a very advanced hacker, his/her involvement in the creation of the Masuta botnet variants suggests that he/she may be more skilled than previously thought
+"Nexus Zeta is not a one-hit wonder creator of Satori, but also has been involved in the creation of the Masuta botnet," NewSky Security researcher Ankit Anubhav said in a report
+ Early reports of a new botnet variant, named 'Masuta', show how the initial Mirai simple password brute-force methods, which are still employed, are now being supplemented with more sophisticated vulnerability exploits," Sean Newman, Director of Product Management at Corero Network Security, told IBTimes UK

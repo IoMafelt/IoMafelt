@@ -1,0 +1,59 @@
+ Recently, we discovered a bot that combines the capabilities of Tsunami (also known as Kaiten) and Gafgyt
+ Based on artifacts found in the code, the authors call this new malware “KTN-Remastered” or “KTN-RM”
+A prominent feature of Linux/Gafgyt is telnet scanning
+Most of these capabilities are from Linux/Tsunami with the remainder from Linux/Gafgyt
+ Analysis reveal the description of that command by the malware author is correct: it is indeed an improved version Gafgyt’s telnet scanner
+2 is the fact that it also executes a wget/tftp command to download a shell script that downloads the bot binaries, just like Gafgyt usually does
+The shell script is distributed via another server, which was also providing the popular Gafgyt bots
+Perhaps it is a way to take revenge: MalwareMustDie is publishing a lot of details about Gafgyt, Tsunami and so on
+ Vor kurzem erst entdeckten wir einen Bot, der die Fähigkeiten von Tsunami (auch als Kaiten bekannt) und Gafgyt kombiniert
+ Vor kurzem erst entdeckten wir einen Bot, der die Fähigkeiten von Tsunami (auch als Kaiten bekannt) und Gafgyt kombiniert
+ Anhand im Code wird die Malware „KTN-Remastered” oder „KTN-RM” genannt
+Ein besonderes Merkmal von Linux/Gafgyt ist der Telnet-Scan
+Die meisten Fähigkeiten der Malware sind von Linux/Tsunami adaptiert – ein kleiner Rest auch von Linux/Gafgyt
+ Analysen zeigen, dass die Beschreibung des Befehls durch den Malware-Autor richtig ist: Es ist in der Tat eine verbesserte Version des Gafgyt Telnet- Scanners
+2 ist die Tatsache, dass es auch einen wget/tftp Befehl ausführt, um ein SHELL-Skript herunterzuladen, das wiederum die Bot Binärdateien herunterlädt – was Gafgyt normalerweise ebenfalls tut
+Das Shell-Skript wird über einen anderen Server verteilt, der auch die bekannten Gafgyt bots zur Verfügung stellt
+Vielleicht ein kleiner Racheakt: MalwareMustDie veröffentlicht jede Menge Details über Gafgyt, Tsunami und so weiter
+Kaiten, an Internet Relay Chat (IRC)-controlled malware typically used to carry out distributed denial-of-service (DDoS) attacks, has returned, in a stronger configuration
+ “Recently, we discovered a bot that combines the capabilities of Tsunami (also known as Kaiten) and Gafgyt
+ Based on artifacts found in the code, the authors call this new malware KTN-Remastered or KTN-RM
+Based primarily on Linux/Gafgyt’s telnet scanning, the new versions improve on the spreading mechanism by carrying downloader executable binaries for embedded platforms such as routers and other connected devices
+org which has published extensive details about Gafgyt, Tsunami and other members of this family of malware,” said Malík
+A new strain of malware targeting Linux systems, dubbed "Linux/Shishiga," could morph into a dangerous security threat
+Eset on Tuesday disclosed the threat, which represents a new Lua family unrelated to previously seen LuaBot malware
+Linux/Shishiga uses four different protocols -- SSH, Telnet, HTTP and BitTorrent -- and Lua scripts for modularity, wrote Detection Engineer Michal Malik and the Eset research team in an online post
+Linux/Shishiga "uses a series of modules in a scripting language called 'Lua,' which gives it a more flexible design," he told LinuxInsider
+Linux/Shishiga targets GNU/Linux systems using a common infection vector based on brute-forcing weak credentials on a built-in password list
+Eset found several binaries of Linux/Shishiga for various architectures, including MIPS (both big- and little-endian), ARM (armv4l), i686, and PowerPC, which are commonly used in IoT devices, Malik and the Eset research team noted
+Shishiga's Anatomy
+Linux/Shishiga is a binary packed with UPX (ultimate packer for executables) 3
+ The UPX tool potentially has trouble unpacking it because Shishiga adds data at the end of the packed file
+Despite a striking similarity to LuaBot instances that spread through weak Telnet and SSH credentials, Linux/Shishiga is different, according to Malik and the Eset researchers
+Shishiga still might evolve and become more widespread, they said
+Shishiga looks like it is targeted toward data centers or IoT devices, he told LinuxInsider
+ "Also, data centers hold crown jewel targets, and if attackers use Shishiga successfully against a data center, enterprises will have a difficult time finding their traces unless they have some solution that analyzes inside the VM activity, and east-west traffic
+To prevent your devices from being infected by Shishiga and similar worms, you should not use default Telnet and SSH credentials, suggested Malik and the Eset research team
+Darlloz (aka Zollard), Linux
+Aidra (Linux
+Xorddos (aka XOR
+Gafgyt (aka GayFgt, Bashlite), Linux
+Ballpit (aka LizardStresser), Linux
+Dofloo (aka AES
+Pinscan / Linux
+Pinscan
+B (aka PNScan), Linux
+Kaiten / Linux
+Kaiten
+B (aka Tsunami), Linux
+Routrem (aka Remainten, KTN-Remastered, KTN-RM), Linux
+Wifatch (aka Ifwatch), and Linux
+LuaBot
+In the past, other Linux malware families that were used to transform infected hosts into proxy servers and relay malicious traffic include the likes of Moose, LuaBot and NyaDrop
+ The security researchers have named this malware as “Linux/Shishiga” which utilizes four different protocols according to Eset research team
+ Michal Malik of Eset writes in his blog post that “Linux/Shishiga (meaning female swamp (or forest) creature in the Russian language) is a binary packed with UPX (ultimate packer for executables) 3
+ The researchers who discovered LuaBot botnet defined it as “the most advanced botnet hitting Linux-based IoT devices”:
+ It’s safe to say that Linux/Shishiga is a similar version of Linux/Moose
+According to security researchers, Linux/Shishiga is still a work in progress, and we might get to see some evolved forms of it pretty soon
+ DO NOT use default Telnet and SSH credentials, instead use a strong password! SSH stands for Secure Shell, and it’s a secure way to remotely access a site’s server however in Shishiga’s case situation is different
+Botnets-for-hire, such as Lizard Squad's LizardStresser tool, are already well established

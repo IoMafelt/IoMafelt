@@ -1,0 +1,35 @@
+“The idea of the actor as a blank slate is still limited too often to white actors who are overwhelmingly cast and paid to play a wide range of roles from which actors of color are precluded by virtue of their specificity,” said Jennifer Brody, Stanford professor and department chair of the school’s theater & performance studies
+Jennifer Steve is a freelance journalist and a cybersecurity expert
+ Jennifer has a degree in computer science
+ But unlike previous IoT attacks, which exploited a single vulnerability, new IoT botnets such as Reaper and Hajime are able to target multiple vulnerabilities simultaneously
+ Reaper’s flexible framework, built on a Lua engine and scripts, means that instead of the static, preprogrammed attacks of previous IoT exploits, its code can be easily updated
+ For example, Reaper exploit volume in early October was able to spike from 50K to 2
+ On April 28, Palo Alto Networks’ Unit 42 flagged a new variant of the Linux botnet Muhstik that exploits the vulnerability and compromises Linux servers and IoT devices for cryptomining and DDoS attacks
+ Other software loadouts included DoFloo and Mayday (also DDOS tools) as well as Skynet, a backdoor program
+In January, Brian Krebs reported on the LizardStresser attack service "powered mostly by thousands of hacked home Internet routers
+Black malware, as well as additional malware files, including Dofloo and Mayday, which are also used for DDoS attacks
+A -- as well as Dofloo and Mayday, all previously used for DDoS attacks
+Based on the research results, it is possible that multiple individuals or groups exploit the insecurity of the devices because Incapsula found other DoS kits, such as Dofloo and Mayday, although in a much smaller percentage, 5
+Darlloz (aka Zollard), Linux
+Aidra (Linux
+Xorddos (aka XOR
+Gafgyt (aka GayFgt, Bashlite), Linux
+Ballpit (aka LizardStresser), Linux
+Moose, Linux
+Pinscan / Linux
+Pinscan
+B (aka PNScan), Linux
+Kaiten / Linux
+Kaiten
+B (aka Tsunami), Linux
+Routrem (aka Remainten, KTN-Remastered, KTN-RM), Linux
+Wifatch (aka Ifwatch), and Linux
+LuaBot
+ Satori - same, some of the code there, as well
+ The coordinating producer is Jennifer Eiben
+The CSA said out of 470 malware variants detected in 2018, five – Gamarue, Conficker, Mirai, WannaCry and Gamut – accounted for over half of the observed infections
+Hajime , a worm which targets the TR-069 protocol used by many ISPs' routers
+, a worm which targets the TR-069 protocol used by many ISPs' routers IoT_Reaper , a botnet which attacks known, existing HTML vulnerabilities in the control interfaces often found in CCTV and other cameras
+, a botnet which attacks known, existing HTML vulnerabilities in the control interfaces often found in CCTV and other cameras Hide N Seek , a rework of IoT_Reaper that infects the same cameras and installs cryptominers
+, a rework of IoT_Reaper that infects the same cameras and installs cryptominers ADB
+, which uses Tor's anonymizing software to attack "six infection vectors" VPNFilter, a major attack on a wide variety of routers that destroys firmware and sniffs out credentials

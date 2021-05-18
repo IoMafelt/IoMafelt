@@ -1,0 +1,31 @@
+ Most notably, it lifts entire sections of source code from Aidra, one of the earliest known IoT bot packages
+ Aidra was discovered infecting more than 30,000 embedded Linux devices in an audacious and ethically questionable research project that infected more than 420,000 Internet-connected devices in an attempt to measure the security of the global network
+ As reported by the anonymous researcher, Aidra forced infected devices to carry out a variety of distributed denial-of-service attacks but worked on a limited number of devices
+The best-of-breed approach "is driving a high infection speed of Linux/IRCTelnet (new Aidra) so it can [infect] almost 3,500 bot clients within only five days from the moment its loader was first detected," a researcher who goes by the handle Unixfreakjp wrote in a blog post reporting on the new malware
+According to the team, Linux/IRCTelnet is similar to malware strains used to hijack vulnerable Internet of Things (IoT) devices -- such as routers, smart lighting systems, VCRs, and surveillance cameras -- but has been coded partially with the Tsunami/Kaiten protocol and Bashlite
+Linux/IRCTelnet is able to attack through both the IPv4 and IPv6 protocols and is based on the source code of the Aidra botnet
+ In the past, Aidra has been known to infect internet-connected devices, included embedded systems, to carry out DDoS attacks
+The source code used to build this botnet malware is based on the earlier Aidra botnet, according to MalwareMustDie
+ Linux/IRC Telnet or the 'new Aidra' was discovered by researchers who posted an analysis on an anti-malware site
+It's similar to strains recently used to hijack IoT devices - like routers and digital cameras - but this new strain is coded with Tsunami/Kaiten protocol and Bashlite to create DDoS attacks via an IRC botnet, researchers said
+Omniscient, the administrator of Hack Forums, the Internet's biggest freely accessible hacking-related forum, announced on Friday, October 26, that he would remove the DDoS-for-Hire section from the forum
+Omniscient feared that his forum was being demonized and made a scapegoat for the Dyn DDoS attack and the current state of freely-accessibly DDoS-for-Hire services
+Omniscient was also mad that a quote he provided to the Washington Post had been ignored and only certain portions used, giving the forum a bad image
+Fearing that law enforcement might soon be breathing down his neck, seize its servers, and arrest administrators, like they did with Darkode, Omniscient decided to remove the Server Stress Test (SST) section from his site on his own
+ Omniscient's full SST shutdown announcement is below
+What Omniscient fails to realize is that his forum is also advertising or selling other questionable "testing" tools such as RATs, keyloggers, and hacking tutorials
+The user, who sells the Qbot malware and goes by the name of qbotwithasupermicroontop, said the attackers only tried to DDoS the Play Station Network on the day EA launched the Battlefield 1 game, which was October 21, the day of the Dyn DDoS attack
+ Malware such as Mirai, GafGyt, LuaBot, Kaiten, BillGates, Rex, and the more recent IRCTelnet, bounce around the Internet and infect devices, adding them to botnets, sometimes going over the 100,000 figure
+ Ce malware tire principalement son inspiration et son fonctionnement de Mirai, mais emprunte également du code à d’autres projets similaires tels que le projet Aidra
+Le projet de botnet Aidra scannait déjà en 2013 des objets connectés afin de détecter les failles de sécurité, mais ce projet de recherche était mené par un white hat qui cherchait à l’époque à simplement obtenir des données sur l’état de la sécurité des objets connectés
+ Le nouveau logiciel malveillant identifié par MalwareMustDie emprunte ainsi du code au projet Aidra, mais profite également des listes d’identifiants par défaut utilisés par Mirai ainsi que des outils de c&c via IRC utilisés par le malware Kaiten
+Demnach kombiniert Linux/IRCTelnet große Teile des Quellcodes von Aidra, einem der ersten bekannten IoT-Malwarebots, mit den Scanningfähigkeiten von Bashlite und der Liste von Standardzugangsdaten, die Mirai benutzt, um Geräte heimlich zu übernehmen
+Beberapa botnet yang namanya sudah cukup familiar seperti Remaiten, Mirai, Hajime, Brickerbot (thingbot agresif yang diciptakan untuk merusak segala perangkat yang terinfeksi Mirai), IRCTelnet, Satori, Persirai, Reaper, dan Hide ‘N Seek
+Beberapa botnet yang namanya sudah cukup familiar seperti Remaiten, Mirai, Hajime, Brickerbot (thingbot agresif yang diciptakan untuk merusak segala perangkat yang terinfeksi Mirai), IRCTelnet, Satori, Persirai, Reaper, dan Hide 'N Seek
+Das ganze Potenzial von "Kollege Roboter" nutzen - so geht's! Melden Sie sich gleich an!
+ Allein zwischen 2009 und 2011 wuchs die Branche der Roboterhersteller um 170 Prozent, wie McKinsey zeigt
+Les vulnérabilités utilisées par Wicked incluent une injection de commandes Netgear R7000 et R64000 (CVE-2016-6277), une exécution de code à distance CCTV-DVR et un shell Invoker dans des serveurs Web compromis
+ Cependant, durant leur analyse, ils ont noté que les échantillons de bot Owari ne pouvaient plus être trouvés sur le site et quà la place Wicked téléchargeait le bot Omni, une autre variante de Mirai
+Des hackers ont détourné des centaines de caméras de surveillance pour mener des attaques DDoS en utilisant l'outil dédié LizardStresser
+ La semaine dernière, l’expert en sécurité qui avait mis la main sur Mirai a annoncé, sur son blog Malware Must Die, avoir découvert Linux/NyaDrop, une nouvelle menace qui s’en prend aux architectures MIPS que l’on retrouve notamment au cœur des routeurs et autres éléments de réseau
+Des hackers ont détourné des centaines de caméras de surveillance pour mener des attaques DDoS en utilisant l'outil dédié LizardStresser

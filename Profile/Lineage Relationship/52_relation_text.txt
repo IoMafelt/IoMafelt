@@ -1,0 +1,6 @@
+Eset on Tuesday disclosed the threat, which represents a new Lua family unrelated to previously seen LuaBot malware
+ This is a similar approach used by Linux/Moose, with the added capability of brute-forcing SSH credentials
+By comparison, Linux/Moose is a malware family that primarily targets Linux-based consumer routers, cable and DSL modems, and other embedded computers
+Despite a striking similarity to LuaBot instances that spread through weak Telnet and SSH credentials, Linux/Shishiga is different, according to Malik and the Eset researchers
+ The researchers who discovered LuaBot botnet defined it as “the most advanced botnet hitting Linux-based IoT devices”:
+ It’s safe to say that Linux/Shishiga is a similar version of Linux/Moose

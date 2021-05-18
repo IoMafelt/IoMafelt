@@ -1,0 +1,16 @@
+ A Trojan containing apparent code connections to the Elknot implant that worked with the rootkit to remain operational
+ These include the Bashlite malware and the older, but ever resilient, Tsunami backdoor
+ Talos reports that the family of malware that ESET detects as Linux/VPNFilter
+VPNFilter
+In view of the current issues with routers vulnerable to the VPNFilter malware, here a few ESET links with information from Stephen Cobb that seems particularly relevant right now
+Stephen Cobb: VPNFilter update: More bad news for routers
+¡°New research into VPNFilter finds more devices hit by malware that¡¯s nastier than first thought, making rebooting and remediating of routers more urgent
+ "It will be reworked to have the original BrickerBot functionality," Light told Anubhav and ZDNet
+New Mirai malware called OMG can turn any IoT device into the proxy server
+The new version of Mirai malware[1] has a short and vivid name ¨C OMG
+It seems that the main purpose of the OMG malware is to sell access to hacked IoT devices to cyber criminals
+Mirai OMG malware is not the first modification of the virus
+In 2017, researchers reported about Satori[4] ¨C version of Mirai botnet that exploited a zero-day vulnerability in Huawei routers
+ At the beginning of this year, Okiru malware was aiming at ARC processors
+ The Masuta (or PureMasuta) version of Mira was exploiting D-Link router¡¯s vulnerabilities
+ The recent discovery of OMG Mirai botnet allows assuming that similar attacks will continue in the future

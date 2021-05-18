@@ -1,0 +1,301 @@
+Wifatch and BrickerBot, have also attempted to secure devices or take systems offline
+ But unlike previous IoT attacks, which exploited a single vulnerability, new IoT botnets such as Reaper and Hajime are able to target multiple vulnerabilities simultaneously
+ Reaper＊s flexible framework, built on a Lua engine and scripts, means that instead of the static, preprogrammed attacks of previous IoT exploits, its code can be easily updated
+ For example, Reaper exploit volume in early October was able to spike from 50K to 2
+Read more: Reaper IoT botnet proves less virulent than expected
+Read more: Persirai leads in botnet battle for connected cameras, researchers find
+Satori IoT botnet gathers momentum
+According to a blog post from IT security company Qihoo Netlab, a new variant of Mirai called Satori has started to propagate
+ In fall 2017, Check Point researchers said they discovered a new botnet, variously known as ※IoTroop§ and ※Reaper,§ that＊s compromising IoT devices at an even faster pace than Mirai did
+ Reaper goes beyond that, targeting at least nine different vulnerabilities from nearly a dozen different device makers, including major players like D-Link, Netgear and Linksys
+According to research by Recorded Future, Reaper was used in attacks on European banks this year, including ABN Amro, Rabobank and Ing
+ ※Some of the more famous ones are Hajime, Hide N＊ Seek and TheMoon
+Janit0r, the alleged creator of BrickerBot, a piece of malware designed to damage insecure IoT devices so severely that they become redundant, has apparently retired, but not before claiming to have ＆bricked＊ over 10 million IoT devices in his recent career
+Read more: BrickerBot ＆creator＊ claims two million IoT devices have been destroyed
+ Sooner or later, people are going to start questioning the credibility of the research and the seriousness of the situation,§ Janit0r wrote, pointing to the cases of the Persirai, Hajime and Reaper botnets
+Operators of IoT DDoS botnets were taking precautions against BrickerBot, and this made Janit0r＊s work even more challenging, they said, and they are wary of legal repercussions
+Read more: Reaper IoT botnet proves less virulent than expected
+As well as advising users to take sanctions against vendors that do not deliver security updates efficiently, the BrickerBot author suggested that ISPs use tools like Shodan to audit their networks and isolate ports and services that don＊t need to be online
+, a worm which targets the TR-069 protocol used by many ISPs' routers IoT_Reaper , a botnet which attacks known, existing HTML vulnerabilities in the control interfaces often found in CCTV and other cameras
+, a botnet which attacks known, existing HTML vulnerabilities in the control interfaces often found in CCTV and other cameras Hide N Seek , a rework of IoT_Reaper that infects the same cameras and installs cryptominers
+, a rework of IoT_Reaper that infects the same cameras and installs cryptominers ADB
+, which uses Tor's anonymizing software to attack "six infection vectors" VPNFilter, a major attack on a wide variety of routers that destroys firmware and sniffs out credentials
+ In 2015, researchers came across Wifatch malware
+ Wifatch also targeted IoT devices and closed ports, changed default passwords and left behind warning messages
+Just like Wifatch and Hajime, the BrickerBot malware is the work of a vigilante grey-hat, who goes online by the name of Janit0r, a nickname he chose on the Hack Forums discussion boards
+If you're unfamiliar, BrickerBot is a new malware family that was first identified at the start of the month by Radware researchers
+Since BrickerBot's appearance, law enforcement and the infosec community have been on the hunt for new information regarding how BrickerBot operates and who's behind it
+New information surfaced over the Easter weekend when Bleeping Computer received an anonymous tip about the online identity of BrickerBot's creator
+ We expected that that two weeks after BrickerBot's discovery, Hack Forums would be abuzz with people trying to take credit for BrickerBot, but it was strangely silent
+ Remind you, this still almost two months and a half before Radware's BrickerBot discovery
+His second and third posts also came before BrickerBot became public and attested to his skills as a reverse engineer, in a topic he started himself, discussing a security flaw in Dahua 2nd and 3rd generation IP cameras
+His last post was in a topic started by a user who "heard" that BrickerBot's source had leaked
+At this point, we had to confirm that Janit0r was indeed BrickerBot's author and not just some guy bragging on Hack Forums
+By Wednesday, we didn't manage to find any other clue of Janit0r's existence, or anybody else claiming to be BrickerBot's author, with some solid proof on his side
+ That's when we just gave up, and launched a desperate tweet, asking BrickerBot's author to reach out
+BrickerBot's Author reaches out
+ The same day, we received an email from a person claiming to be BrickerBot's creator
+The email contained lots of details about BrickerBot's operation and internal structure
+In the Bleeping Computer article that broke the news of BrickerBot's existence, we asked Victor for his expert opinion on this new malware's behavior and repercussions
+ Victor not only put BrickerBot in perspective for our readers, but also asked BrickerBot's creator to reach out and discuss an alternative method of dealing with unsecured IoT devices, instead of blindly destroying people's property
+Unknown to all was that BrickerBot author had reached out to Victor hours after our article went live
+"Yes, I was janit0r on Hackforums," the BrickerBot author started his email, which then continued with Janit0r showing his anger at the sad state of affairs in the realm of IoT security
+ At least with 'BrickerBot' there was some brief hope that such dangerous devices could become the merchant's and manufacturer's problem rather than our problem
+BrickerBot allegely wiped over two million devices
+I hope the unconventional actions by 'BrickerBot' have helped in buying another year of time for governments, vendors and the industry in general to get the current IoT security nightmare under control
+Many other people have also done important things to combat IoT malware (Team White, Hajime author, @packetcop and his fellow sinkholers, etc) so I'm by no means claiming credit for Mirai being weak in Q1/2017, but if Imeij and Amnesia have suffered a little recently then it's probably mainly my fault ;)
+Janit0r's email then goes on to detail a few operational details regarding BrickerBot's infrastructure, also dispelling the notion that he's a madman set on the random destruction of IoT devices
+In reality, Janit0r wants to be considered in the same class as the White Team, the self-proclaimed white-hat hackers behind the Wifatch malware, and the author of the Hajime malware, another vigilante who created a new malware family last October that tries to secure IoT devices by force
+The Radware writeup made 'BrickerBot' sound simplistic, but it actually carries 86 protocol and device-specific payloads and is relatively successful at mitigating commonly exploited devices
+As a preference 'BrickerBot' will try to secure units without damaging them and the bricking behavior is a 'plan B' (yes the B stands for brick :) for units which are unlikely to be securable
+ A blogger on the net wondered about 'BrickerBot' simply trying to change his honeypot's login and this would've been due to the bot assuming the device had a persistent user db
+For the time being, Janit0r doesn't seem interested in stopping BrickerBot attacks, or at least not until officials and hardware vendors take a look at IoT security and start changing things with a hurry
+Nonetheless, the actions of BrickerBot place this malware in the same category as other destructive e-threats, such as ransomware and banking trojans
+ Otherwise, they may get a visit from BrickerBot, and it might reach Plan B
+Reaper changed the binary nature of most malware
+Another recent innovation was found in the VPNFilter malware
+ VPNFilter includes a kill command that disables a device by deleting all file systems and then rebooting the device, rendering it completely inoperable
+ Reaper
+ Both Reaper and Hajime are based off Mirai, but the identity of their authors remains a mystery
+ Both the Reaper and Mirai worms amassed their zombie botnet armies through a traditional command-and-control (C&C) server infrastructure
+ Reaper can potentially generate greater damage on a multiplicity of devices
+ While Mirai only exploited poorly secured Telnet ports, Reaper actually used targeted hacking approaches to breach IoT networks
+Meanwhile, Hajime＊s surface benignity hides the potentiality of greater IoT breaches than those caused by Mirai or Reaper
+ However, these have the disadvantage of DMZ-stored SSL keys and certificates, which expose networks to Mirai, Hajime, or Reaper-based botnet attacks
+Hajime continues where Wifatch left off
+ In late 2015, Symantec researchers also discovered Wifatch, another malware targeting Linux-based IoT devices, that similarly took over smart devices, closed their ports, changed default passwords, and left warning messages in the device's console
+Wifatch, just like Hajime, was also the work of another vigilante, a team of mysterious security researchers going by the name of The White Team
+Just like Hajime is currently wrestling with Mirai for control over unsecured IoT devices, back in 2015, Wifatch played a major factor in crippling the botnet managed by the infamous Lizard Squad by taking over many of the devices the group was using to launch DDoS attacks
+Furthermore, Hajime also got a helping hand from another malware strain called BrickerBot, which also appears to be the work of another Internet vigilante
+ The downside is that BrickerBot doesn't bother securing open ports, but rather deletes everything on the device's storage, including firmware, effectively bricking IoT devices, sometimes to the point where they're rendered useless and need to be replaced
+In an era where IoT vendors don't seem to bother with creating secure devices, vigilante malware such as Wifatch, Hajime, and BrickerBot is about to become more widespread
+ Two weeks ago, researchers uncovered IoT malware they dubbed BrickerBot 
+ BrickerBot gets its name because it attempts to damage routers and other Internet-connected appliances so badly that they become effectively inoperable, or "bricked
+" In 2015, researchers from security provider Symantec exposed Wifatch , a piece of Linux malware that works much the way Hajime does
+ Illegal as they are, Hajime and BrickerBot are understandable and possibly inevitable reactions to the proliferation of poorly secured IoT devices, a vexing problem that seems to only be getting worse
+A variant of the Satori botnet, a successor of the IoT device hijacking Mirai botnet, is designed to hijack cryptocurrency mining operations, syphoning off newly created digital coins Read Now
+News roundup: Okiru, a new Mirai variant, could put over 1
+ Further investigation by the research team uncovered a new variant of the Satori botnet capable of aggressive scanning and exploitation of CVE-2017-18046 〞 Dasan Unauthenticated Remote Code Execution
+[You may also like: New Satori Botnet Variant Enslaves Thousands of Dasan WiFi Routers]
+The rapidly growing botnet referred to as ※Satori
+Satori IoT Botnet Worm Variant
+ The previously unseen payload was delivered by the infamous Satori botnet
+ It uses the same exploit as the Reaper botnet to infect devices, although there's currently no indication that the two armies of hijacked machines are related
+ "The bot can perform web exploitation against a series of devices via the same exploit as Reaper (CVE-2016-10401 and other vulnerabilities against networking equipment)
+"While IoT botnets have been around for years, mainly used for DDoS attacks, the discoveries made during the investigation of the Hide and Seek bot reveal greater levels of complexity and novel capabilities such as information theft 每 potentially suitable for espionage or extortion," they wrote
+ BrickerBot (see "Beware BrickerBot, the IoT Killer") is a recent malware strain attacking connected devices and causing them to ※brick,§ making an electronic device completely useless in a permanent denial-of-service (PDoS) attack
+ BrickerBot＊s goal appears to counter Mirai＊s: Bricking insecure Linux devices so that malware such as Mirai can＊t subjugate these devices in another DDoS attack
+ Its Zyxel modems were victim to BrickerBot and another malware, possibly Mirai
+Hajime is another Mirai-like worm that has been spreading during the past several months with similar goals as BrickerBot: Thwarting malware such as Mirai in exploiting poorly secured IoT devices to do their bidding
+BrickerBot is the first malware of its kind whose goal is to cause a PDoS by bricking devices not fully secure, with the seeming goal of removing them as potential victims of malware that will enslave them for DDoS attacks
+ There have been multiple versions of BrickerBot, and the suspected author of it claims to have bricked over 2 million devices
+ BrickerBot 1 targets devices running Linux with BusyBox and an exposed Telnet service
+ BrickerBot 2 targets Linux-based devices more widely using a similar tactic of leveraging an exposed Telnet service with a default or hard-coded password
+ The results of vigilante hacking, like that of Hajime and BrickerBot, to combat the Mirai-driven DDoS attacks has generated much debate
+ And they argue that malware such as BrickerBot is a drastic but necessary measure to hit them where it hurts, and in the process, disable insecure devices from being a part of another DDoS attack
+A common counter-argument of vigilante hacking is ※Why should the consumers be punished? Where is the line someone can cross to anonymously take the law into their own hands?§ There is neither accountability nor certainty that the authors of BrickerBot or Hajime are completely well-meaning, or if there＊s something nefarious the public has yet to discover
+ There are good reasons for concern that Reaper, as the botnet has been dubbed, could pose as big a threat as Mirai, the mass IoT infection that last year caused chaos with record-setting distributed denial-of-service attacks
+The more nuanced reality is that Reaper exhibits some unusual behavior that makes it impossible to assess the real danger the botnet presents
+ Some facts that have come to light over the past few days strongly suggest its developers are amateurs and don't pose the existential Internet threat initially thought, particularly when comparing Reaper to another established IoT botnet that has gone largely ignored for more than a year
+Then again, Reaper exhibits other attributes that give it an advantage over other botnets
+ Another advantage is that Reaper's development platform is flexible enough to wage a suite of attacks that go well beyond mere DDoSes
+ With a few improvements and a few lucky breaks, Reaper could prove to be a real menace
+The most important fact to emerge is Reaper's true size
+ In fact, other researchers have said Reaper's size is significantly smaller
+China-based Netlab 360, which reported on Reaper a day after Check Point did, is one of at least four security companies that puts the infection estimate in the 10,000 to 20,000 range
+But NetLab 360 went on to report something else that suggests Reaper just might have the ability to quickly mushroom into a botnet of almost unimaginable size
+ The same Reaper control server had a queue of 2 million IoT devices that appeared to be vulnerable to the botnet's advanced exploit mechanism but had not yet been compromised
+Pascal Geenens, a researcher at security firm Radware, told Ars that estimating Reaper's size is difficult for a host of reasons
+ Another is that, as was the case with Mirai and most other IoT botnets, Reaper infections don't survive a reboot, meaning the number changes all the time
+In any event, a honeypot of laboratory devices Radware uses to monitor Reaper has logged only 4,000 unique IP addresses
+Geenens said queries on the Shodan search engine indicates that of the nine or 10 exploits Reaper uses to spread, there are only 350,000 devices that might be vulnerable, and it's possible many of those devices have been patched
+ It's possible that Reaper has better visibility than Shodan does, but the size of the discrepancy lends credence to the Netlab 360 theory that Reaper may not accurately measure the number of devices it can infect
+There are other reasons to doubt Reaper will pack the same potent threat Mirai did
+Unlike many Hajime and other botnets, Reaper doesn't protect infected devices from being infected by other pieces of competing malware
+ That makes it easy for Reaper-infected devices to be disinfected or taken over by greyhat and blackhat hackers
+ It's hard to know what to make of the behavior, but at the moment it suggests Reaper isn't nearly as aggressive as its peers
+None of this is to say that Reaper couldn't one day pose a serious threat
+An updated version of Reaper, Netlab 360 reported in Thursday's update, adds this exploit against D-Link DIR-645 devices
+ Right now, there are patches available for most of the vulnerabilities Reaper exploits
+ But the addition suggests attackers are diligently expanding the base of vulnerable devices Reaper may be able to infect
+Should Reaper add new exploits for widely used devices for which no patch will ever become available〞which is an unfortunate reality in the IoT landscape〞its exploit-centric approach could give it a major advantage over other IoT malware
+Besides its ability to infect a potentially wider range of devices, Reaper also has an advantage over Mirai in that it has an update mechanism
+Ultimately, Reaper contains a potentially game-changing infection mechanism, and its developers have demonstrated a willingness to build its existing arsenal of exploits
+ If its developers were to substantially overhaul their malware to add new exploits and better protect its control infrastructure, Reaper has the potential to grow into an unprecedented size
+ What's more, the developers' use of the Lua programming language makes it easy to use Reaper for a variety of attacks beyond DDoSes, Geenens said
+But so far, the threat of Reaper remains overshadowed by Mirai〞for which source code is one download away〞and Hajime〞which is extremely hard to block or take down
+ While it's worth keeping an eye on Reaper, the more alarming prospect still may be Mirai or Hajime adopting Reaper's exploit mechanism
+ "IoT_Reaper has been thought of as a potential candidate, but all indicators lead one to believe that this will not be the case
+The latest threat for sysadmins to worry about is Hakai, carrying on a naming convention that Mirai, Hajime, and Satori seem to have cemented
+ The first sighting was something based on Qbot, an IoT-centric malware that has been in the wild for some years now
+ZDNet speculates that the shift in tone from the Hakai author might have something to do with the recent arrest of the person behind the Satori botnet, the twenty-year-old Kenneth Schuhman from Washington
+ Schuhman is being investigated by the same team that took down the Mirai authors 每 fitting, given that Satori is an evolution of Mirai
+ The malware spawned a number of variants and copycats, including the destructive BrickerBot malware family that bricks vulnerable IoT devices running with telnet exposed to the internet with default passwords
+All of these, if exploited, could allow attackers to blow new life into Mirai, an IoT malware family that has been slowly losing ground to newcomers such as Persirai, BrickerBot, or the older Hajime worm
+While for many years the GafGyt malware strain dominated the IoT malware landscape, in 2016, new threats rose to power, such as Mirai, LuaBot, Rex, PNScan, LizardStresser, Hajime, and others
+Besides Imeij, Mirai, and Hajime, other IoT malware families that target the ARM platform, very popular with IoT makers, are LuaBot and Umbreon
+ Recent Internet of Things (IoT) botnets, such as Reaper and Hajime, have not only been designed to target multiple vulnerabilities simultaneously but they also have the capability to attack "a la carte" by intelligently selecting an attack method from a growing exploit base
+Reaper's flexible framework, for example, means that its code can be easily updated on the fly to run new and more malicious attacks as soon as they become available
+ The technique is clearly effective, as exploit volumes associated with Reaper after it appeared last October jumped from 50,000 to 2
+Hajime uses DHT to connect to a P2P botnet, just like Rex; uses a list of built-in username & password combinations to brute-force random IPs and spread on its own, just like Mirai; and uses a multi-stage infection mechanism, just like NyaDrop
+The difference is that Hajime is written in C, not Go (Rex), uses a P2P network, not a direct C&C server connection (Mirai), and works with a larger number of platforms, not just MIPS (NyaDrop)
+Based on the hardcoded credentials included in the worm's source code, Hajime targets routers, DVRs, and CCTV systems, just like Mirai and NyaDrop
+The author of the BrickerBot malware has announced his retirement in an email to Bleeping Computer, also claiming to have bricked over 10 million devices since he started the "Internet Chemotherapy" project in November 2016
+Known as The Doctor (self-given name) and The Janit0r (HackForums nickname), this individual (or group) is the author of BrickerBot, a malware strain that was purposely created to brick IoT devices
+First spotted in April this year, BrickerBot operates by scanning the Internet for vulnerable devices and then using exploit code to gain a foothold on the exposed equipment to rewrite the device's flash storage with random data
+Devices infected with BrickerBot often need to be reinstalled, or in some cases, replaced altogether, as the malware sometimes rewrites their firmware
+BrickerBot is a controversial project
+Following BrickerBot's public disclosure, The Janit0r reached out to Bleeping Computer and explained why he created BrickerBot
+ In an interview this spring, the Janitor explained that he refers internally to BrickerBot as "Internet Chemotherapy" and that he created the malware as a way to sabotage vulnerable devices before they were infected with the Mirai malware, which a hacker had used in the autumn of 2016 to launch some of the biggest DDoS attacks known to date
+The Janit0r said this onslaught on the IoT scene determined him to create BrickerBot as a way to take vulnerable devices offline, force owners to install updated firmware, and take them out of the reach of Mirai botnets
+BrickerBot continued to operate all year
+Despite criticism, BrickerBot did not stop and Bleeping Computer reported on other attacks over the summer, such as the ones against a US ISP and several Indian Internet providers
+These were only the documented cases, and the BrickerBot author claimed in many emails to have been behind many other attacks and downtimes all over the world
+BrickerBot explains why he retired
+The Janit0r cites the cases of Persirai, Hajime, or Reaper botnets that have been advertised as "the next big thing" in terms of IoT botnets, but have never lived up to the hype
+The Janit0r then adds that once his efforts became public, the operators of IoT DDoS botnets also started taking precautions against BrickerBot, making his work even harder
+ The DHS surely noticed his actions, because it issued an official alert after BrickerBot's public disclosure
+Janit0r dumps some of BrickerBot's source code
+These are the reasons the BrickerBot author invoked in the email Bleeping Computer received earlier today
+Bleeping Computer is not going to link to this manifesto since it also contains the source code for some of BrickerBot's attack (bricking) modules
+The BrickerBot author goes on to detail a case where he breached an ISP's network, disrupted devices for months, yet ISP employees failed to understand what was happening, let alone take precautionary actions
+According to the Janit0r, the incident can be attributed to BrickerBot running amok in some DC police-owned DVRs, which are typically the place where you find IoT malware and not ransomware
+Persirai targets more than a thousand different internet protocol camera models
+Persirai malware infection flow [Source: Trend Micro bog post]
+The development of Persirai comes just weeks after the arrival of Hajime 每 the "vigilante" IoT worm that blocks rival botnets 每 and months after the infamous Mirai IoT botnet
+Unlike its relatives, Persirai sticks to IP cameras rather than also going after internet-connected digital video recorders, routers, and other vulnerable IoT devices
+Security researchers have discovered a new Internet of Things (IoT) botnet dubbed Persirai targeting more than 1,000 different Internet Protocol (IP) camera models
+And now, a year later, an even more sophisticated IoT-based attack called Reaper has been discovered
+ Reaper bears some similarities to Mirai, such as its use of Mirai code to infect IoT systems
+ However, Reaper shows some significant evolutionary advances over both Mirai and Hajime
+ Vendors targeted by Reaper include NetGear, Linksys, GoAhead, and Avtech
+Reaper is also built around a Lua engine combined with scripts used to run its attacks
+ The emergence of hybrid IoT botnets like Reaper and Hajime, which are built around flexible frameworks that test multiple vulnerabilities at the same time, took the threat to a new menacing level as self-modifying botnets proved they could be dynamically updated to target new types of devices
+IoT malware like Mirai, Hajime, BrickerBot, Persirai, and others, were seen exploiting GoAhead flaws in the past year 〞among with other flaws for many other vendors
+A new malware strain called BrickerBot is bricking Internet of Things (IoT) devices around the world by corrupting their storage capability and reconfiguring kernel parameters
+Right from the get-go, two different versions of BrickerBot were detected: BrickerBot
+1 and BrickerBot
+BrickerBot spreads to devices with open Telnet ports
+Just like Mirai, Hajime, LuaBot, and other IoT malware, BrickerBot uses a list of known default credentials used for various IoT devices
+If device owners failed to change their default credentials, BrickerBot logs in and performs a series of Linux commands
+BrickerBot bricks your "smart" devices
+Commands executed by BrickerBot
+1 (via Radware) Commands executed by BrickerBot
+The company's experts say the two BrickerBot variants are distributed via two different infrastructures
+ Currently, attacks with BrickerBot
+Attacks from BrickerBot
+2, the more advanced version of the BrickerBot malware family and the one that executes more commands, are hidden behind Tor exit nodes, and are almost impossible to trace back to their origin
+ The good news is that this more advanced version was only responsible for 333 PDoS attacks, far less than the ones with BrickerBot
+BrickerBot the work of a vigilante?
+All in all, BrickerBot isn't like anything we've seen before in the landscape of IoT malware
+BrickerBot's destructive capabilities are something new, which don't benefit anyone
+ Not BrickerBot's author, and certainly not the device owner, who'll have to reinstall firmware, or even worse, buy a new device
+BrickerBot could also be the work of an Internet vigilante that wants to destroy insecure IoT devices
+Wifatch, this IoT malware strain took over insecure routers and then executed commands that improved the device's security
+BrickerBot is bent on destroying IoT devices
+The same cannot be said for BrickerBot's author, who clearly is intent on wiping as much of unsecured IoT devices as he can
+BrickerBot's approach is definitely illegal and dangerous, as Gevers points out
+So Gevers is making a proposition for the BrickerBot authors
+The Radware security alert containing the technical details of BrickerBot's modus operandi is available here
+Reaper changed that
+The recent discovery of the VPNFilter malware moved the needle even further towards launching destructive and highly contagious malware with far-reaching consequences
+ VPNFilter includes a kill command that disables a device by deleting all file systems and then rebooting the device, rendering completely inoperable
+ Janit0r is reportedly the one behind a particularly gnarly but undeniably fascinating form of malware called BrickerBot
+ BrickerBot, as the name implies, will brick internet of things (IoT) devices that fail a simple security test
+News recently emerged that a third and fourth version of BrickerBot was spotted in the wild
+ In other words, BrickerBot bricks unsecured gadgets like cameras, lightbulbs, TVs, and thousands more
+ BrickerBot
+ BrickerBot
+ A fourth BrickerBot has been detected, too, although it＊s unclear how aggressively it＊s launching attacks
+ According to the reported creator of the botnets, however, the reason is very clear: BrickerBot is shutting down devices before truly malicious software can take control of them
+ According to the reported creator of BrickerBot, it＊s also why a rogue hacker called the Janit0r decided to start destroying everybody＊s crappy web-connected cameras, thermostats, light bulbs, and any other category of IoT devices
+ A few years ago, researchers discovered Wifatch, a batch of code that would infect IoT devices not to engage in malicious activities but rather to prevent other attackers from being able to break in
+ Hajime, like Wifatch before it, appeared to block ports that were known to be exploited by evil malware
+BleepingComputer, a delightful website devoted to helping people understand how computers work, was the first to spot and report on BrickerBot back in early April
+ Recently, after some top-notch sleuthing, the site managed to identify the Janit0r as the likely creator of BrickerBot and even managed to get him to explain why he crafted the attacks on unsecured IoT devices
+BrickerBot, the botnet that permanently incapacitates poorly secured Internet of Things devices before they can be conscripted into Internet-crippling denial-of-service armies, is back with a new squadron of foot soldiers armed with a meaner arsenal of weapons
+Pascal Geenens, the researcher who first documented what he calls the permanent denial-of-service botnet, has dubbed the fiercest new instance BrickerBot
+ It appeared out of nowhere on April 20, exactly one month after BrickerBot
+ Not only did BrickerBot
+ BrickerBot
+1, by comparison, fired 1,895 volleys during the four days it was active, and the still-active BrickerBot
+"Just like BrickerBot
+ "Shorter than the four days BrickerBot
+ The attacks from BrickerBot
+3 came in on a different honeypot than the one that recorded BrickerBot
+Shortly after BrickerBot
+3 began attacking, Geenens discovered BrickerBot
+ Like BrickerBot
+Two weeks ago, Radware ran a separate blog post documenting the destructive effects BrickerBot
+On Friday, technology news site Bleeping Computer published a profile of an individual claiming to be the BrickerBot operator
+BrickerBot isn't the only botnet that researchers believe is the work of a vigilante who wants to reduce the number of nuisance IoT devices populating the Internet
+ In many respects, Hajime mimics Wifatch, a botnet discovered in 2015
+There are other vigilante botnets competing with it: Hajime has infected at least 10,000 devices, and is a successor, of sorts, to the Wifatch botnet, which shut down vulnerable devices in 2015
+Pascal Geenens, the researcher who first documented what he calls the permanent denial-of-service botnet, has dubbed the fiercest new instance BrickerBot
+ It appeared out of nowhere on April 20, exactly one month after BrickerBot
+ Not only did BrickerBot
+ BrickerBot
+1, by comparison, fired 1,895 volleys during the four days it was active, and the still-active BrickerBot
+"Just like BrickerBot
+ "Shorter than the four days BrickerBot
+ The attacks from BrickerBot
+3 came in on a different honeypot than the one that recorded BrickerBot
+" Commands performed by BrickerBot
+3 are identical to those carried out by BrickerBot
+ Shortly after BrickerBot
+3 began attacking, Geenens discovered BrickerBot
+ Like BrickerBot
+BrickerBot, the permanent denial-of-service botnet, is back with a vengeance
+ Pascal discovered the BrickerBot, JenX and Demonbot botnets, did extensive research on Hajime, the Hadoop YARN attack surface, and follows closely new developments and threats in the IoT space as well as applications of AI in cyber security and hacking
+ Codenamed IoT_reaper (Reaper for this article), researchers estimate its current size at nearly two million infected devices
+The biggest difference between Reaper and Mirai is its propagation method
+Reaper does not rely on a Telnet scanner, but primarily uses exploits to forcibly take over unpatched devices and add them to its command and control (C&C) infrastructure
+Netlab says that Reaper, at the time of writing, primarily uses a package for nine vulnerabilities: D-Link 1, D-Link 2, Netgear 1, Netgear 2, Linksys, GoAhead, JAWS, Vacron, and AVTECH
+Reaper "baby" botnet is still growing
+Both Check Point and Netlab point out that Reaper did not launch any DDoS attack, as of yet
+ Nonetheless, Netlab says Reaper comes with a Lua-based execution environment integrated into the malware that allows its operator to deliver modules for various tasks, such as DDoS attacks, traffic proxying, and other
+But Reaper's Lua core also comes embedded with 100 DNS open resolvers, a functionality that will allow it to carry out DNS amplification attacks with ease
+The botnet, dubbed "Reaper" by researchers at Netlab 360, had ensnared vulnerable internet-connected webcams, security cameras, and digital video recorders (DVRs) over the past few weeks
+Reaper quietly targets and exploits known vulnerabilities in devices and injects its malicious code, effectively hijacking the device for whenever the botnet controller is ready to issue their commands, said security firm Check Point, which also published research
+There are still plenty of unanswered questions about Reaper -- not least that nobody seems to know for sure what the botnet is for
+"Our current assessment of Reaper is that it is likely intended for use as a booter/stresser service primarily serving the intra-China DDoS-for-hire market," said Arbor
+A breakdown of the Reaper botnet shows that the loader used to infect vulnerable devices may have more firepower in its arsenal than a traditional DDoS-for-hire botnet
+ While the Mirai botnet was a point-and-shoot botnet that could be used to hose systems with vast amounts of bandwidth, Reaper can be used to run complex attack scripts on infected devices
+ As more resources are put on Reaper to find out what its potential is, already researchers have found that attacks from the botnet could be easily mitigated
+Pascal Geenens, a researcher at cybersecurity firm Radware, said in a blog post that Reaper is "not as sophisticated" as other botnets he's seen, like the mysterious 300,000-strong Hajime botnet
+ "There is unfortunately not much that can be done to protect those devices and prevent them from joining the army of Reaper-bots
+Wannabe hackers looking to create their very own Reaper botnet might have gotten more than they asked when they downloaded an IP scanner over the past few weeks
+The IP scanner is a PHP file that was made available as a free download a few weeks back after news broke about Reaper, a botnet made up of vulnerable routers and IoT devices
+Reaper was different because its creators used an IP scanner to find vulnerable systems and then they used exploits for various vulnerabilities to install the Reaper malware on vulnerable devices
+Hacker rides the Reaper hype train
+Wannabe hackers were interested in this script because it allowed them to identify devices with GoAhead servers, usually IP security cameras, for which public exploits exist and which were also targeted by the Reaper botnet
+ The fourth part would download and execute the Kaiten botnet malware on the server where the IP scanner was being executed
+Basically, users looking into creating their own Reaper-like botnet would end up being part of someone else's Kaiten botnet
+BrickerBot was active on Sierra Tel's network
+The incident was brought to Bleeping Computer's attention by Janit0r, a man who claims to have developed BrickerBot, an IoT malware family that bricks unsecured IoT devices
+"BrickerBot was active on the Sierra Tel network at the time their customers reported issues," Janit0r told Bleeping Computer in an email, "but their modems had also just been mass-infected with malware, so it's possible some of the network problems were caused by this concomitant activity
+While it is impossible to say what caused the Sierra Tel modems to go offline, all clues line up with BrickerBot entering "Plan B," the sequence Janit0r says is responsible with bricking devices
+In a previous interview with Bleeping Computer, Janit0r said that BrickerBot is not intentionally configured to destroy devices
+Janit0r also said he developed BrickerBot to go after the same devices targeted by other IoT malware families, which makes pinpointing the source of Sierra Tel's outage even harder
+It's quite possible that Sierra Tel's Zyxel modems went offline as the result of a secret turf war waged among various families of IoT malware, such as Mirai, BrickerBot, Hajime, Wifatch, Gafgyt, Imeij, and others
+BrickerBot author congratulates ISP on its transparency
+Over the weekend, Radware, the cyber-security firm who first spotted BrickerBot issued another report unveiling two newer versions of the BrickerBot malware, with different bricking techniques compared to the first samples they discovered
+ The company also has a series of recommandations for keeping IoT devices safe from BrickerBot and other IoT malware
+EXCLUSIVE 〞 The author of the BrickerBot malware has claimed a cyber-attack that took place in various Indian states and has caused over 60,000 modems and routers to lose Internet connectivity
+BrickerBot author claims downtime
+Over the weekend, the author of the BrickerBot malware approached Bleeping Computer and claimed he was behind the downtime
+ BrickerBot is a malware strain that affects Linux-based IoT and networking devices
+ Unlike other malware that hoards devices into botnets for DDoS attacks and other purposes, BrickerBot "bricks" the equipment by rewriting its flash storage
+In a previous interview with Bleeping Computer, the BrickerBot dev said he created and proliferated the malware only to raise awareness among ISPs that they are running unsecured devices
+ He also wanted to brick IoT devices so they wouldn't become part of IoT DDoS botnets, hoping that in the future, owners and ISPs will take greater care to safeguard devices against bricking and indirectly secure devices against Mirai, Hajime, Imeij, Amnesia, and other DDoS malware
+"BSNL's devices are generally insecure and BSNL isn't being honest about the situation by blaming its customers for negligence," the BrickerBot author wrote in an email
+The BrickerBot author also provided technical details about other hard-coded logins in BSNL devices that the BrickerBot malware used 〞 outside of the default admin/admin credentials 〞 to connect to vulnerable equipment
+The BrickerBot author 〞 who also likes to go by the name The Doctor 〞 also pinned the cause of the cyber-attack on BSNL and MTNL allowing external connections into their network via port 7547
+The open TR069 ports and the hard-coded logins in some devices allowed BrickerBot to wreak havoc among the two Indian ISPs during the past week
+"This 'attack' on India telco modems has nothing to do with politics or nationality," the BrickerBot dev told Bleeping Computer, fearing Indian authorities might blame it on neighboring Pakistan
+The BrickerBot author also raised the alarm about similar exposed devices on the network of Pakistan Telecommunication Company Limited (PTCL)
+"Their [REDACTED] routers are even more dangerous than BSNL's," the BrickerBot dev said
+BrickerBot author to continue his IoT security crusade
+ In previous months, BrickerBot has been linked to infections where the device could not be recovered, and the "bricking" action was permanent
+ Radware＊s Emergency Response Team (ERT) has spotted an increase in malicious activity following Kaspersky＊s publication about the Slingshot APT malware that infected Mikrotik routers
+[You might also like: New Satori Botnet Variant Enslaves Thousands of Dasan WiFi Routers]

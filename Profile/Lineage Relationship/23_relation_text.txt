@@ -1,0 +1,16 @@
+﻿ Im Untersuchungszeitraum wurden dabei die Malware-Familien, wie Mirai, Bushido, Rift, Hakai, Gafgyt und Muhstik erkannt und gestoppt
+According to Netlab, Muhstik is a variant of Tsunami, a malware strain that creates botnets with infected Linux servers and Linux-based IoT devices
+ The most common malware families that target such devices are Mirai, Rift, Gafgyt, Bushido, Hakai and Muhstik
+At the technical level, Netlab says Muhstik is built on top of Tsunami, a very old strain of malware that has been used for years to create botnets by infecting Linux servers and smart devices running Linux-based firmware
+Crooks have used Tsunami initially for DDoS attacks, but its feature-set has greatly expanded after its source code leaked online
+The Muhstik version of Tsunami, according to a Netlab report published today, can launch DDoS attacks, install the XMRig Monero miner, or install the CGMiner to mine Dash cryptocurrency on infected hosts
+The five botnets are known under codenames such as Hajime, Mettle, Mirai, Muhstik, and Satori
+ According to Netlab, the exploits of four botnets (Hajime, Mirai, Muhstik, and Satori) contain errors and are broken, preventing the botnets from bringing the routers under their control
+TheMoon botnet behind new Dasan GPON zero-day
+The botnet exploiting this new GPON router zero-day is called TheMoon, a very old threat that was first spotted in 2014 infecting Linux servers but has started switching to home routers IoT in recent years
+TheMoon is only the latest botnet to add support for exploiting Dasan GPON routers
+ Five botnets —Hajime, Mettle, Mirai, Muhstik, and Satori— have been exploiting two older exploits for almost a week
+This might change in the upcoming days thanks to the new zero-day deployed by TheMoon botnet, but also because botnet operators have been working on improving their exploit payloads in the past days
+ Mirai, Rift, Gafgyt, Bushido, Hakai et Muhstik
+ As famílias de malware mais comuns que visam tais dispositivos são Mirai, Rift, Gafgyt, Bushido, Hakai e Muhstik
+ Raport podaje, że w ciągu kwartału cyberwłamywacze dokonują aż 6000 udanych ataków - najpopularniejsze szkodniki to Mirai, Rift, Gafgyt, Bushido, Hakai i Muhstik

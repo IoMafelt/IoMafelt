@@ -1,0 +1,35 @@
+ Recently, we discovered a bot that combines the capabilities of Tsunami (also known as Kaiten) and Gafgyt
+A prominent feature of Linux/Gafgyt is telnet scanning
+Most of these capabilities are from Linux/Tsunami with the remainder from Linux/Gafgyt
+ Analysis reveal the description of that command by the malware author is correct: it is indeed an improved version Gafgyt¡¯s telnet scanner
+ We have seen this technique before being used to spread malware between embedded Linux devices, such as in Linux/Moose
+2 is the fact that it also executes a wget/tftp command to download a shell script that downloads the bot binaries, just like Gafgyt usually does
+The shell script is distributed via another server, which was also providing the popular Gafgyt bots
+Perhaps it is a way to take revenge: MalwareMustDie is publishing a lot of details about Gafgyt, Tsunami and so on
+ Recently, we discovered a bot that combines the capabilities of Tsunami (also known as Kaiten) and Gafgyt
+A prominent feature of Linux/Gafgyt is telnet scanning
+Most of these capabilities are from Linux/Tsunami with the remainder from Linux/Gafgyt
+ Analysis reveal the description of that command by the malware author is correct: it is indeed an improved version Gafgyt¡¯s telnet scanner
+ We have seen this technique before being used to spread malware between embedded Linux devices, such as in Linux/Moose
+2 is the fact that it also executes a wget/tftp command to download a shell script that downloads the bot binaries, just like Gafgyt usually does
+The shell script is distributed via another server, which was also providing the popular Gafgyt bots
+Perhaps it is a way to take revenge: MalwareMustDie is publishing a lot of details about Gafgyt, Tsunami and so on
+Darlloz (aka Zollard), Linux
+Aidra (Linux
+Xorddos (aka XOR
+Gafgyt (aka GayFgt, Bashlite), Linux
+Ballpit (aka LizardStresser), Linux
+Moose, Linux
+Dofloo (aka AES
+Pinscan / Linux
+Pinscan
+B (aka PNScan), Linux
+Kaiten / Linux
+Kaiten
+B (aka Tsunami), Linux
+Wifatch (aka Ifwatch), and Linux
+LuaBot
+Spybot - Search & Destroy 1
+2 Spybot - Search & Destroy to darmowe (do cel¨®w niekomercyjnych), popularne i niezwykle skuteczne
+Spybot - Search & Destroy 2
+64 Spybot - Search & Destroy to darmowe (do cel¨®w niekomercyjnych) i zarazem skuteczne oprogramowanie do

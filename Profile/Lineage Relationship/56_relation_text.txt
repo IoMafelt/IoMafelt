@@ -1,0 +1,80 @@
+"SORA is an abandoned project for now and I will continue to work on OWARI," Wicked, the Sora malware author, said in an interview with NewSky Security
+Spikes of #botnet activity started in June
+ He was also known as Wicked
+ In one video, he shows in real time how he took over the Akiru botnet and then informed its creator, our old friend Wicked, in a chat app channel for “money team staff members”
+ In addition to Wicked, another familiar name caught our attention: Anarchy
+ So, maybe Wicked and Anarchy are not the same person after all, but two different people from the same team
+Our suspicions that 400kQbot and Scarface were the same person was confirmed when in mid-September, he identified himself in a tweet from the 400kQBot handle
+ Perhaps the 13-years-old-fame-seeking skid is also a part of a money making team with Wicked and Anarchy
+The new version of Mirai -- a powerful cyberattack tool which took down large swathes of the internet across the US and Europe in late 2016 -- has been uncovered by researchers at security company Fortinet, who have dubbed it Wicked after lines in the code
+While the original Mirai uses traditional brute force attacks in an attempt to gain control of IoT devices, Wicked uses known and available exploits in order to do its work
+Vulnerabilities used by Wicked include a Netgear R7000 and R64000 Command Injection (CVE-2016-6277), a CCTV-DVR Remote Code Execution and an Invoker shell in compromised web servers
+Following a successful compromise, Wicked downloads an additional payload in the form of Owari, another Mirai variant -- although researchers found that the Owari bot samples could no longer be found in the website directory and Wicked was now downloading the Omni bot
+ Researchers have come to the conclusion that four IoT botnets -- Wicked, Sora, Owari and Omni -- are all by the same author
+The LizardStresser botnet, a distributed denial-of-service (DDoS)-for-hire system, for example, was able to launch 400Gbps attacks thanks to our vulnerable IoT devices
+After the source code was released to the public in 2015, LizardStresser botnet variants were discovered which targeted IoT products use telnet brute-force logins to random IP addresses with a hard-coded list of user credentials
+ The code was used in the Satori and Brickerbot botnets, as well as a string of variants which were based on the infamous Mirai botnet, which is still going strong
+While the motives have not been made clear, the hacker told Anubhav that they wanted to make "the biggest, baddest botnet in town," which may suggest we could have another LizardStresser scenario on our hands in the future, in which another botnet will be used in targeted attacks -- or even be made available for hire
+Anubhav suspects that Anarchy may be the same hacker known as Wicked, who has been linked with the creation of the Owari/Sora botnets
+ Anarchy/Wicked told the researcher that they also intend to start a scan for Realtek router vulnerability CVE-2014-8361, in order to enslave more devices
+In 2017, researchers identified a new IoT botnet, named IoT Reaper or IoTroop, that built on portions of Mirai's code
+ Specifically, researchers have identified the following four Mirai variants: Satori Botnet, Masuta Botnet, Wicked Mirai, and JenX botnet, each of which is described in further detail below
+Satori Botnet
+The Satori Botnet is a variant of Mirai that targets software associated with ARC processors, which are used in a variety of IoT devices
+ Once it finds a vulnerable IoT device, Satori performs a check to determine whether the device's default settings have been changed, and, if not, uses these default credentials to gain control of the device
+Most recently, researchers have identified that Satori-controlled devices were mass-scanning the Internet for cryptocurrency-mining devices that were exposed to the internet
+Masuta
+Masuta comes in two variants, Masuta Botnet, which uses the same techniques as Mirai by attempting to overcome the security of the target IoT devices using a built-in list of common passwords and default credentials, and PureMasuta, which has been described as "an enhanced version" with a built-in exploit against certain vulnerable routers
+ Masuta is believed to be the work of the same group responsible for developing the Satori Botnet, however unlike Satori, Masuta attacks allow the actors to take direct control of compromised devices, making other malicious actions possible, including:
+Wicked Mirai
+The Wicked iteration of Mirai contains a package that includes at least three exploits
+ Unlike Mirai, however, which used brute force to gain access to vulnerable IoT devices, the Wicked version relies on a variety of port-related vulnerability exploits, some new and some very old, to gain access to a device
+Once on a system, Wicked Mirai contacts a command and control server from which it downloads a payload (in some cases payloads from other Mirai variants like Sora, Owari, and Omni) that can vary based on the attackers' objective and the nature of the affected device
+ Wicked looks for specific vulnerabilities on a platform that the botnet can exploit
+ In addition, the Wicked variant is also able to maintain a presence on IoT devices it infects beyond the occasional reboots, increasing its power and persistence to launch substantial DDoS attacks
+JenX Botnet
+The JenX variant is a unique variant that leverages the Grand Theft Auto videogame community to infect IoT devices
+ Unlike the Satori and Masuta variants, JenX has a centralized infrastructure and uses a central server to perform the scanning of new hosts
+ The centralized structure of JenX provides the attackers with greater flexibility to add and improve the functionality of the malware over time
+The original Mirai used traditional brute-force attempts to gain access to connected things in order to enslave them, but the Wicked Botnet, named after the underground handle chosen by its author, prefers to go the exploit route to gain access
+Specifically, port 8080 brings an exploit for a flaw in Netgear DGN1000 and DGN2200 v1 routers (also used by the Reaper botnet); a connection to port 81 makes use of a CCTV-DVR remote code execution flaw; port 8443 connections use a command injection exploit for the Netgear R7000 and R6400 routers (CVE-2016-6277); and port 80 corresponds with an invoker shell in compromised web servers
+ Mirai) have already attacked devices via default passwords/ brute-forcing, new attacks like Wicked bot are forced to take a different option like the use of exploits to become effective,” explained Joven, in an interview with Threatpost
+They also uncovered that Wicked is a botnet that’s used to download another botnet
+ Rather than just equipping Wicked itself with the ability to carry out whatever action the criminal behind the bot wants, the author wanted to separate the distribution and its payload
+A Wicked Web of Botnets
+The analysts also found that the Wicked bot is connected to other, previous Mirai-based botnets; in fact, in terms of payloads, Wicked is built to download them
+ This led them to the author behind the Wicked bot
+They essentially followed a trail of breadcrumbs: For one, the Wicked bot’s code contains a the string called “SoraLOADER,” which seems to indicate that it’s a spreader for the Sora botnet, another Mirai variant
+On top of that, the payload that it delivers is not Owari at all, but rather the Omni bot, which based on its code can be used for DDoS attack similar to Mirai
+Thus, it would seem that Omni, Owari and Sora are all connected to the Wicked bot
+“Fuzzing the website’s /bins directory, we found other Omni samples in the directory, which were reported to be delivered using the GPON vulnerability (CVE-2018-10561),” the researchers said
+Putting this connection together with an interview last April conducted by NewSky Security, the researchers were able to trace the new bot back to an author using the pseudonym “Wicked” in which he confirmed himself as the author of both Sora and Owari
+“Apparently, as seen in the /bins repository, Sora and Owari botnet samples have now both been abandoned and replaced with Omni,” Fortinet’s Joven and Yang said
+ “This also leads us to the conclusion that while the Wicked bot was originally meant to deliver the Sora botnet, it was later repurposed to serve the author’s succeeding projects
+But Anubhav believes Anarchy may actually be a hacker who previously identified as Wicked, which Anubhav interviewed on NewSky's blog and Fortinet featured in a report here
+Wicked/Anarchy is a well-known malware author who, in the past, has created variations of the Mirai IoT malware
+ These variations and their respective botnets were known as Wicked, Omni, and Owari (Sora), and had been previously used for DDoS attacks
+CVE-2017-17215 is a well-known exploit that has been abused by at least two versions of the Satori botnet [1, 2], and many of the smaller Mirai-based offshoots
+The Wicked botnet -- so called by its author, who uses the same pseudonym -- uses at least three exploits to target unpatched IoT devices
+, discovered the Wicked botnet and analyzed its similarities to other known botnets
+ "The Wicked bot, on the other hand, uses known and available exploits, with many of them already being quite old
+The Wicked botnet scans ports 8080, 8443, 80 and 81, the researchers said, and it will try to exploit the device once a connection is established
+The targeted devices include flawed Netgear routers -- some of which were also used by the Reaper botnet -- and closed-circuit video cameras that have a remote code execution flaw
+Joven and Yang also noted that the Wicked botnet is connected to previous variants of Mirai, including Owari, Sora and Omni
+ In another turn of events, it turns out that they have been replaced by the samples shown below, which were later found to be the Omni bot
+The Wicked botnet's connection to Owari, Sora and Omni is how the FortiGuard team connected the dots to find the author of the botnets
+ In 2017, NewSky Security published an interview with the author of the Sora, Owari and Omni bots, who goes by the pseudonym Wicked, which led FortiGuard to make the connection to the new botnet
+"Based on the author's statements in the above-mentioned interview as to the different botnets being hosted in the same host, we can essentially confirm that the author of the botnets Wicked, Sora, Owari and Omni are one and the same," Joven and Yang said
+ "This also leads us to the conclusion that while the Wicked bot was originally meant to deliver the Sora botnet, it was later repurposed to serve the author's succeeding projects
+Wicked Mirai Brings New Exploits to IoT Botnets
+ That's just one of the lessons that comes with Wicked Mirai, the latest variation on the Mirai Internet of Things botnet software
+Researchers at Fortinet recently found this new variation, which they dubbed Wicked Mirai, named for a string within the code that seems to point back to the hacker responsible for the new variant
+Once on a system, Wicked Mirai contacts a C&C server from which it downloads a payload
+ The payload seems to include something from the Sora, Owari, and Omni Mirai variant families — the specific download appears to have shifted between the three during the time that the researchers have been monitoring the server
+Wicked looks for specific vulnerabilities on a platform that the botnet can exploit
+Wicked has also added IoT persistence to its toolkit, making the malware part of the IoT devices it infects beyond the occasional reboot seen in IoT networks
+ The same code was used in the Satori and Brickerbot botnets, and also within other botnets based on Mirai botnets (Mirai botnets were used in 2016 to disrupt Internet services across the US on a huge scale)
+The NetSky security researcher suspects that Anarchy may be the same hacker known as Wicked, who was linked with the creation of the Owari/Sora botnets
+ Moreover, Anarchy/Wicked told the researcher that they also plan to start a scan for Realtek router vulnerability CVE-2014-8361, in order to enslave more devices
+ Mais ceux-ci sont également responsables de la création de multiples autres botnets, tels qu’Owari, Wicked, Omni, Anarchy, et autres, tous utilisés pour des attaques DDoS
+ A suposição da equipe, de que 400kQbot e Scarface eram a mesma pessoa, foi confirmada em meados de setembro último

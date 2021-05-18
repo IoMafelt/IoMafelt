@@ -1,0 +1,55 @@
+Remember the radar system Batman had at his disposal in The Dark Knight Rises? Turns out it is more fact than fiction
+ E l＊immagine che ci figuriamo 豕 quella di un impavido e onesto personaggio alla Cordell Walker, interpretato da Chuck Norris nella serie di grandissimo successo ※Walker Texas ranger§
+Satori
+ Further investigation by the research team uncovered a new variant of the Satori botnet capable of aggressive scanning and exploitation of CVE-2017-18046 〞 Dasan Unauthenticated Remote Code Execution
+[You may also like: New Satori Botnet Variant Enslaves Thousands of Dasan WiFi Routers]
+The rapidly growing botnet referred to as ※Satori
+Hajime Expands to MikroTik RouterOS
+Satori IoT Botnet Worm Variant
+ The previously unseen payload was delivered by the infamous Satori botnet
+For example, JenX uses two exploits previously used by the Satori botnet to break into devices and ensnare them into its grasp
+In addition, JenX also borrowed some techniques from the PureMasuta botnet source code, recently posted online and detailed in this NewSky Security report
+Both Satori and PureMasuta are variants of the Mirai IoT malware leaked online in late 2016, but despite this, JenX has its unique parts as well
+ This exploit vector was publicly disclosed in April 2015, tracing back to several high profile IoT botnets like Satori and JenX, both of which can be traced back to an old ＆friend＊ 每 Mirai 每 proving that the shelf life for an IoT-based exploit can last for years
+But where the BrickerBot author crafted his botnet to seek out and permanently disable vulnerable devices in order to protect the internet from would be wrongdoers, JenX appears to be designed solely for profit
+While JenX has grown, it is unlikely that it can reach the same massive scale that its Mirari and Satori predecessors achieved
+ When the Mirai and Satori botnets infected a device, each of those new controlled bots would scan for more insecure devices themselves
+Researchers at Radware have discovered a new botnet that uses vulnerabilities linked with the Satori botnet and is leveraging the Grand Theft Auto videogame community to infect IoT devices
+Satori is a derivative of Mirai, the notorious botnet that in 2016 infamously managed to take down Dyn, a DNS hosting provider that supports some of the world＊s largest websites
+ ※Nearly all botnets, including Mirai, Hajime, Persirai, Reaper, Satori and Masuta perform distributed scanning and exploiting
+In 2017, researchers identified a new IoT botnet, named IoT Reaper or IoTroop, that built on portions of Mirai's code
+ Specifically, researchers have identified the following four Mirai variants: Satori Botnet, Masuta Botnet, Wicked Mirai, and JenX botnet, each of which is described in further detail below
+Satori Botnet
+The Satori Botnet is a variant of Mirai that targets software associated with ARC processors, which are used in a variety of IoT devices
+ Once it finds a vulnerable IoT device, Satori performs a check to determine whether the device's default settings have been changed, and, if not, uses these default credentials to gain control of the device
+Most recently, researchers have identified that Satori-controlled devices were mass-scanning the Internet for cryptocurrency-mining devices that were exposed to the internet
+Masuta
+Masuta comes in two variants, Masuta Botnet, which uses the same techniques as Mirai by attempting to overcome the security of the target IoT devices using a built-in list of common passwords and default credentials, and PureMasuta, which has been described as "an enhanced version" with a built-in exploit against certain vulnerable routers
+ Masuta is believed to be the work of the same group responsible for developing the Satori Botnet, however unlike Satori, Masuta attacks allow the actors to take direct control of compromised devices, making other malicious actions possible, including:
+Wicked Mirai
+The Wicked iteration of Mirai contains a package that includes at least three exploits
+ Unlike Mirai, however, which used brute force to gain access to vulnerable IoT devices, the Wicked version relies on a variety of port-related vulnerability exploits, some new and some very old, to gain access to a device
+Once on a system, Wicked Mirai contacts a command and control server from which it downloads a payload (in some cases payloads from other Mirai variants like Sora, Owari, and Omni) that can vary based on the attackers' objective and the nature of the affected device
+ Wicked looks for specific vulnerabilities on a platform that the botnet can exploit
+ In addition, the Wicked variant is also able to maintain a presence on IoT devices it infects beyond the occasional reboots, increasing its power and persistence to launch substantial DDoS attacks
+ Unlike the Satori and Masuta variants, JenX has a centralized infrastructure and uses a central server to perform the scanning of new hosts
+ Both vulnerabilities are also exploited by a different Internet-of-things botnet known as Satori
+By contrast, Mirai, Satori, Reaper, and other IoT botnets rely on infected devices to locate and infect vulnerable devices
+JenX, Satori, Reaper, and other second-generation IoT botnets have gotten around this limitation by exploiting firmware vulnerabilities in Internet-connected devices
+The potential for this botnet is comparable to Satori as it uses the exact same exploits
+ However, the growth rate of this bot will not be as high as Satori because Satori is using bots that each scan and exploit by themselves〞so more bots, more scanners, more victims, even more bots, even more scanners, etc＃
+ so exponential growth rate for the Mirai, Satori and Reaper botnets
+ By adding more servers they can make it grow faster, but never will be as efficient and aggressive as Mirai, Satori and Reaper
+, Satori, JenX, etc
+ The work looks at four Mirai variants 每 Satori, JenX, OMG and Wicked 每 to illustrate how their authors have built upon Mirai and added their own flair:
+Satori leveraged remote code injection exploits to enhance the Mirai code
+OMG adds a novel feature in the form of an HTTP and SOCKS proxy
+Wicked can target Netgear routers and CCTV-DVR devices that happen to be vulnerable to remote code execution flaws
+ Within the exploit, Wicked includes instructions to download and execute a copy of the Owari bot
+ Pascal discovered the BrickerBot, JenX and Demonbot botnets, did extensive research on Hajime, the Hadoop YARN attack surface, and follows closely new developments and threats in the IoT space as well as applications of AI in cyber security and hacking
+CVE-2014-8361, for example, was first publicly disclosed in April 2015 and has been used in a number of IoT botnets including the high profile Satori and JenX
+ The most popular attack over the past four months came from an exploit that was publicly known about back in April 2015, and is connected to attacks from the Satori and JenX botnets, the company said on its blog
+Satori , che scaturisce dalle capacit角 di iniezione di codice da remoto sfruttando la scansione di Mirai
+ Il bot OMG , che 豕 una new entry sulla scena dei malware dell＊IoT, e che fa leva sul codice sorgente di Mirai per ampliarlo, conseguendo cos足 capacit角 proxy HTTP e SOCKS
+ Wicked, che 豕 il pi迄 recente pupillo di Mirai, e che si introduce invece nelle falle RCE per infettare router Netgear e dispositivi CCTV-DVR
+ Satori - same, some of the code there, as well

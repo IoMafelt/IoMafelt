@@ -1,0 +1,5 @@
+ Robot” and “CSI: Cyber,” the Dark Web will become less exclusive
+Another Malware called BrickerBot broke into thousands of IoT devices in April 2017 and bricked them by overwriting the stock firmware with garbage code
+Black Hat Q&A: Understanding NSA's Quest to Open Source Ghidra (Dark Reading) National Security Agency researcher Brian Knighton previews his October Black Hat USA talk on the evolution of Ghidra
+ Less than a year later, Infosecurity Magazine reported on the birth of Okiru, a Mirai member known for targeting ARC processors
+ Several pieces of precursor malware, Duqu and Conficker, were launched in advance and were crucial in the development and spread of Stuxnet

@@ -1,0 +1,100 @@
+ For example, IoT_Reaper moved on from simply applying hard-coded passwords in the hope that they would unlock a system
+ By contrast, the Hide N Seek malware, which builds on IoT_Reaper’s methods, prefers to install cryptominers, which generate virtual currency
+In 2018, VPNFilter appeared, which F-Secure speculates may have been developed by Russian-backed actors to attack Ukraine
+ As well as targeting Supervisory Control and Data Acquisition (SCADA) systems used in manufacturing and the maintenance of infrastructure, VPNFilter also attacks domestic routers:
+The ADB threat, meanwhile, is seemingly linked to the Satori version of Mirai and was likely created by the same author, according to a July 2018 IBM X-Force threat advisory
+ One well-known example of evasion is the Stuxnet worm, which was programmed to target and seek out only specific industrial control systems (ICS) from a particular manufacturer, and only with certain hardware and software configurations
+Automation will transform the workforce: Robotic process automation and machine learning (ML) will transform how business operates
+Caretaking robots — Robots are already in our homes in the form of vacuum cleaners and cute mechanical dogs, but Andrew McAfee, MIT research scientist, envisions more sophisticated robots helping senior citizens with dementia or children with autism
+ Quickly thereafter, attacks distributing a never-before-seen ransomware variant called “Sodinokibi” emerged; and then attacks spreading a new variant of the Muhstik botnet, which is used to launch distributed-denial-of-service (DDoS) and cryptojacking attacks
+Unit 42 researchers have observed a wide variety of payloads in addition to Muhstik and Sodinokibi, such as a PowerShell loader that fetches the open-source Monero cryptominer known as XMRig
+ Several large data breaches or debilitating attacks, such as the Mirai and Okiru malware attacks, have occurred over the past couple of years
+May - 'Tappy the Robot' sparks industrial espionage controversy
+"Trust needs a level playing field, and that means having a baseline that everyone can follow," says Eva Schulz-Kamm, global head of government affairs, Siemens, who reported at the company's Munich campus that it's been rethinking its approach to cybersecurity ever since the Stuxnet virus emerged in 2010
+Los investigadores dicen que la botnet se creó al infectar los enrutadores domésticos con una nueva cepa de malware llamada VPNFilter
+VPNFilter la botnet comprende más de 500,000 dispositivos pirateados
+Cisco dice que detectó el malware VPNFilter en más de 500,000 enrutadores fabricados por Linksys, MikroTik, NETGEAR y TP-Link, pero también desde dispositivos NAS de QNAP
+ Symantec dice que detectó malware de VPNFilter en los siguientes dispositivos:
+VPNFilter es una variedad muy compleja de malware IoT
+ El malware VPNFilter es una de las cepas de malware de IoT/enrutador más complejas y capaz de realizar comportamientos bastante destructivos
+El módulo de malware VPNFilter de la Etapa Dos no sobrevive al reinicio del dispositivo, sino que se basa en el módulo de la Etapa Uno para volver a descargarlo cuando el usuario reinicie (y limpie inadvertidamente) su dispositivo
+Cisco sospecha que los operadores de VPNFilter han creado otros módulos que no han desplegado hasta este momento
+VPNFilter es también un "wiper" (Limpiador)
+"Esta acción es irrecuperable para la mayoría de las víctimas, que requieren capacidades técnicas, conocimientos técnicos o herramientas que ningún consumidor debería tener", dijeron hoy los investigadores de Cisco en un informe sobre VPNFilter
+Actualmente, hay varios modos en que los atacantes podrían usar VPNFilter:
+Cisco dice que actualmente está trabajando con entidades del sector público y privado para identificar dispositivos infectados con VPNFilter y paralizar la botnet antes de que inicie cualquier ataque
+” The most dramatic example of this was the success of Stuxnet in allegedly bridging the “air gap” to infect hardened Iranian computer networks, disrupting/slowing their nuclear program
+Torii is the third IoT botnet, after VPNFilter and Hide and Seek, to gain persistence on the infected device
+Marco Ramilli of Yoroi cybersecurity company analyzed the malware and noticed similarities to the Persirai worm that exploited weaknesses in the UPnP protocol to infect IP cameras in May last year
+But the more elaborate and craftily designed Command-and-control protocols, also called C&C or C2 mechanisms, and update features such as those provided by Hajime and HNS are a bigger initial investment for the attackers in coding the features but provide a more persistent platform that can be grown by adding more infection vectors and malicious payloads over time
+Take Hajime for example, initially detected two days before the DYN attacks and still operational
+Hajime is a sophisticated, flexible, thoughtfully designed and future-proof IoT botnet
+Hajime , a worm which targets the TR-069 protocol used by many ISPs' routers
+, a worm which targets the TR-069 protocol used by many ISPs' routers IoT_Reaper , a botnet which attacks known, existing HTML vulnerabilities in the control interfaces often found in CCTV and other cameras
+, a botnet which attacks known, existing HTML vulnerabilities in the control interfaces often found in CCTV and other cameras Hide N Seek , a rework of IoT_Reaper that infects the same cameras and installs cryptominers
+, a rework of IoT_Reaper that infects the same cameras and installs cryptominers ADB
+, which uses Tor's anonymizing software to attack "six infection vectors" VPNFilter, a major attack on a wide variety of routers that destroys firmware and sniffs out credentials
+These threats, actively exploiting devices in the wild, included Hide 'N Seek, VPNFilter, and Ghost DNS
+ VPNFilter, in particular, marked a new dawn for IoT threats given this is the first that appears to have been sponsored by a nation-state, according to F-Secure
+Mirai’s successor was the Hajime ransomworm
+ While Mirai was basically a blunt force instrument, Hajime included an impressive set of sophisticated cybertools
+ Hajime, as well, was able to identify CPE devices and protocols and then remove the rules that allow a CPE device to talk to its service provider
+Reaper changed the binary nature of most malware
+Another recent innovation was found in the VPNFilter malware
+ VPNFilter includes a kill command that disables a device by deleting all file systems and then rebooting the device, rendering it completely inoperable
+ In May 2018, Bitdefender identified Hide and Seek, the first IoT botnet with device persistence, closely followed by Cisco’s discovery of VPNFilter – a piece of malware with more advanced survival capabilities
+But HNS was easy to spot anyway because it's only the second major IoT botnet besides Hajime known to use a P2P structure, so security researchers would have an easy time identifying it regardless
+ It uses the same exploit as the Reaper botnet to infect devices, although there's currently no indication that the two armies of hijacked machines are related
+While Hide 'N Seek isn't the first botnet to have a peer-to-peer element -- the Hajime botnet used P2P architecture -- but rather than being constructed around a existing BitTorrent protocol, HNS uses a custom-built P2P system
+In fact, according to Bogdan Botezatu, Bitdefender senior e-threat analyst, the HNS botnet is more similar to Hajime rather than Mirai
+"It is the second known IoT botnet to date, after the notorious Hajime botnet, that has a decentralized, peer-to-peer architecture," Botezatu says
+ "However, if in the case of Hajime, the P2P functionality was based on the BitTorrent protocol, here we have a custom-built P2P communication mechanism
+ "The bot can perform web exploitation against a series of devices via the same exploit as Reaper (CVE-2016-10401 and other vulnerabilities against networking equipment)
+"It is the second known IoT botnet to date, after the notorious Hajime botnet, that has a decentralized, peer-to-peer architecture," Bitdefender wrote
+ "However, if in the case of Hajime, the p2p functionality was based on the BitTorrent protocol, here we have a custom-built p2p communication mechanism
+ And VPNFilter, the advanced nation-state-sponsored attack, is also able to target SCADA/ICS environments
+ VPNFilter represents a significant new threat because it not only performs data exfiltration but can also render devices, including industrial control systems, completely inoperable
+VPNFilter was first documented and shared with the Cyber Treat Alliance (CTA) this past May, an organization co-founded by Fortinet and made up of leading security research teams, and is part of another line of IoT-targeted threats that we have been tracking over the past few years
+Like Hide ‘N Seek, VPNFilter can also perform a wide variety of compromises, including data exfiltration, command execution, file collection, and device management, and as mentioned previously, it can also render infected devices inoperable, enabling it to take a network or network segment offline with a single command
+Wicked Mirai Brings New Exploits to IoT Botnets
+ That's just one of the lessons that comes with Wicked Mirai, the latest variation on the Mirai Internet of Things botnet software
+Researchers at Fortinet recently found this new variation, which they dubbed Wicked Mirai, named for a string within the code that seems to point back to the hacker responsible for the new variant
+Once on a system, Wicked Mirai contacts a C&C server from which it downloads a payload
+ The payload seems to include something from the Sora, Owari, and Omni Mirai variant families — the specific download appears to have shifted between the three during the time that the researchers have been monitoring the server
+Wicked looks for specific vulnerabilities on a platform that the botnet can exploit
+Wicked has also added IoT persistence to its toolkit, making the malware part of the IoT devices it infects beyond the occasional reboot seen in IoT networks
+Researchers say the botnet has been created by infecting home routers with a new malware strain named VPNFilter
+VPNFilter botnet comprises over 500,000 hacked devices
+Cisco says it spotted the VPNFilter malware on over 500,000 routers manufactured by Linksys, MikroTik, NETGEAR, and TP-Link, but also from QNAP NAS devices
+ Symantec says it spotted VPNFilter malware on the following devices:
+VPNFilter is a very complex strain of IoT malware
+ The VPNFilter malware is one of the most complex IoT/router malware strains and capable of some pretty destructive behavior
+The Stage Two VPNFilter malware module does not survive device reboots but relies on the Stage One module to re-download it when the user reboots (and inadvertantly cleans) his device
+Cisco suspects VPNFilter operators have created other modules that they have not deployed until this point
+VPNFilter is also a wiper
+"This action is unrecoverable by most victims, requiring technical capabilities, know-how, or tools that no consumer should be expected to have," Cisco researchers said today in a report about VPNFilter
+Currently, there are various ways attackers could use VPNFilter:
+Cisco says it's currently working with private and public sector entities to identify devices infected with VPNFilter and cripple the botnet before it launches any attacks
+ The malware itself, detected by Trend Micro as Coinminer
+For example, Wicked -- the latest version of the Mirai botnet malware, originally released in 2016 -- leverages at least three new exploits
+07/02 - FEATURE - Matthew Mead/SPR - IoTroop botnet: How to protect yourself from the cyber-storm of the century - The IoTroop botnet, which shares an extensive code base with the leaked Mirai source code, stands to cause even more damage than its predecessor
+03/11 - FEATURE - Paul Lipman/BullGuard - From botnets to ransoms – the rapid rise of IoT attacks - The Reaper botnet is just the beginning of IoT-based attacks, as with nearly 400 million vulnerable smart devices the situation will get much worse before it gets better
+ Both vulnerabilities are also exploited by a different Internet-of-things botnet known as Satori
+Unlike most of the IoT botnets seen so far, the one tracked by Geenens, which he's calling JenX, uses a handful on non-IoT servers to scan the Internet for vulnerable devices and, once found, to exploit them
+ That makes it much harder to estimate the number of infected devices that make up JenX, because the simulated vulnerable routers Geenens uses in his laboratory to track the botnet see the same limited number of attack servers
+By contrast, Mirai, Satori, Reaper, and other IoT botnets rely on infected devices to locate and infect vulnerable devices
+ JenX gets its name from "Jennifer," the name the malware developers gave to the binary that infects vulnerable devices
+ That's the same domain hosting the JenX command-and-control server
+ It advertises itself as being resistant to the types of attacks Mirai and JenX use to bring down rival game hosts
+ Ironically, over the past few days, the Jennifer binary delivered to exploited routers was hosted on an IP address belonging to OVH, Geenens said
+JenX is an example of the second generation of IoT botnets
+JenX, Satori, Reaper, and other second-generation IoT botnets have gotten around this limitation by exploiting firmware vulnerabilities in Internet-connected devices
+JenX is different from most IoT botnets, because, as mentioned earlier, it relies on centralized servers to seek out and exploit vulnerable devices
+The potential for this botnet is comparable to Satori as it uses the exact same exploits
+ However, the growth rate of this bot will not be as high as Satori because Satori is using bots that each scan and exploit by themselves—so more bots, more scanners, more victims, even more bots, even more scanners, etc…
+ so exponential growth rate for the Mirai, Satori and Reaper botnets
+ The JenX botnet uses servers for the scanning and exploiting devices, so growth will be less than linear
+ By adding more servers they can make it grow faster, but never will be as efficient and aggressive as Mirai, Satori and Reaper
+At the time this post was going live, Geenens told Ars that abuse teams at Leaseweb Netherlands and Leaseweb Germany took down some of the JenX exploit servers that had been hosted in their datacenters
+"This is only sending them the message that they need to get better at hiding from us," the researcher wrote in an email, referring to the JenX operators
+ Air Force MQ-9 Reaper hunter/killer UAV

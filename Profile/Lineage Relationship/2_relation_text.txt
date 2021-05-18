@@ -1,0 +1,99 @@
+ ¡°Some of the more famous ones are Hajime, Hide N¡¯ Seek and TheMoon
+Janit0r, the alleged creator of BrickerBot, a piece of malware designed to damage insecure IoT devices so severely that they become redundant, has apparently retired, but not before claiming to have ¡®bricked¡¯ over 10 million IoT devices in his recent career
+Read more: BrickerBot ¡®creator¡¯ claims two million IoT devices have been destroyed
+ Sooner or later, people are going to start questioning the credibility of the research and the seriousness of the situation,¡± Janit0r wrote, pointing to the cases of the Persirai, Hajime and Reaper botnets
+Operators of IoT DDoS botnets were taking precautions against BrickerBot, and this made Janit0r¡¯s work even more challenging, they said, and they are wary of legal repercussions
+As well as advising users to take sanctions against vendors that do not deliver security updates efficiently, the BrickerBot author suggested that ISPs use tools like Shodan to audit their networks and isolate ports and services that don¡¯t need to be online
+Read more: Persirai leads in botnet battle for connected cameras, researchers find
+Satori IoT botnet gathers momentum
+According to a blog post from IT security company Qihoo Netlab, a new variant of Mirai called Satori has started to propagate
+Read more: Malwar! Hajime IoT botnet fights back against Mirai
+ But unlike previous IoT attacks, which exploited a single vulnerability, new IoT botnets such as Reaper and Hajime are able to target multiple vulnerabilities simultaneously
+ Angriffe, die mit IoT-Malware wie Mirai, IoTroop/Reaper und VPNFilter in Zusammenhang stehen, haben sich seit Mai 2018 mehr als verdoppelt
+ For example, Internet of Things (IoT) botnets IoTroop and Satori took code from Mirai
+Pascal Geenens, a researcher at cybersecurity firm Radware, said in a blog post that Reaper is "not as sophisticated" as other botnets he's seen, like the mysterious 300,000-strong Hajime botnet
+ Specifically, researchers have identified the following four Mirai variants: Satori Botnet, Masuta Botnet, Wicked Mirai, and JenX botnet, each of which is described in further detail below
+Satori Botnet
+The Satori Botnet is a variant of Mirai that targets software associated with ARC processors, which are used in a variety of IoT devices
+ Once it finds a vulnerable IoT device, Satori performs a check to determine whether the device's default settings have been changed, and, if not, uses these default credentials to gain control of the device
+Most recently, researchers have identified that Satori-controlled devices were mass-scanning the Internet for cryptocurrency-mining devices that were exposed to the internet
+Masuta
+Masuta comes in two variants, Masuta Botnet, which uses the same techniques as Mirai by attempting to overcome the security of the target IoT devices using a built-in list of common passwords and default credentials, and PureMasuta, which has been described as "an enhanced version" with a built-in exploit against certain vulnerable routers
+ Masuta is believed to be the work of the same group responsible for developing the Satori Botnet, however unlike Satori, Masuta attacks allow the actors to take direct control of compromised devices, making other malicious actions possible, including:
+Wicked Mirai
+The Wicked iteration of Mirai contains a package that includes at least three exploits
+ Unlike Mirai, however, which used brute force to gain access to vulnerable IoT devices, the Wicked version relies on a variety of port-related vulnerability exploits, some new and some very old, to gain access to a device
+Once on a system, Wicked Mirai contacts a command and control server from which it downloads a payload (in some cases payloads from other Mirai variants like Sora, Owari, and Omni) that can vary based on the attackers' objective and the nature of the affected device
+ Wicked looks for specific vulnerabilities on a platform that the botnet can exploit
+ In addition, the Wicked variant is also able to maintain a presence on IoT devices it infects beyond the occasional reboots, increasing its power and persistence to launch substantial DDoS attacks
+JenX Botnet
+The JenX variant is a unique variant that leverages the Grand Theft Auto videogame community to infect IoT devices
+ Unlike the Satori and Masuta variants, JenX has a centralized infrastructure and uses a central server to perform the scanning of new hosts
+ The centralized structure of JenX provides the attackers with greater flexibility to add and improve the functionality of the malware over time
+This zero-day (which doesn't have a CVE identifier yet) should not be confused with a recent vulnerability discovered by CORE Security researchers (which affects the router's SMB service), and is not the same vulnerability recently exploited by the Hajime botnet
+ Parmi les anc¨ºtres de Mirai, les chercheurs de Fortinet citent ainsi Hydra, un malware apparu en 2008 et qui visait principalement des ¨¦quipements r¨¦seau (routeurs, switch et autres modems
+) Si Hydra ne vise pas des objets connect¨¦s, il profite des mots de passe par d¨¦faut souvent laiss¨¦ en place par les utilisateurs pour infecter les machines et les utiliser afin de mener des attaques DdoS
+On peut ainsi citer Aidra, qui a repris en 2012 la m¨¦thode pour s¡¯attaquer cette fois non seulement aux routeurs, mais aussi aux cameras IP, t¨¦l¨¦visions connect¨¦es et autres appareils ARM fonctionnant sous Linux
+ On peut ¨¦galement citer Bashlite apparu en 2014, qui reprend la m¨ºme m¨¦thode, ou encore l¡¯inattendu Wifatch, un malware qui infecte les machines Linux afin de fermer les ports Telnet laiss¨¦s ouverts par les utilisateurs et ¨¦viter de futures infections
+ On peut ainsi retrouver des parties du code source de Mirai dans les malwares NewAidra (Decouvert en octobre 2016), Persirai (Mai 2017) ou encore au sein de Bashlite, dont les derni¨¨res versions ont int¨¦gr¨¦ plusieurs modules et identifiants directement tir¨¦s de Mirai
+Mirai se distinguait d¨¦j¨¤ par le nombre important d¡¯identifiants qu¡¯il utilisait pour infecter des machines (la liste en contenait 77, contre une dizaine pour un de ses pr¨¦d¨¦cesseurs comme Bashlite), mais l¡¯ajout d¡¯exploits vient renforcer le potentiel de ces malwares IoT, qui ciblent g¨¦n¨¦ralement des objets connect¨¦s dont la s¨¦curit¨¦ n¡¯est pas forcement prise au s¨¦rieux par leurs possesseurs
+On peut ainsi citer OMG, un malware d¨¦riv¨¦ de Mirai qui vise le m¨ºme type d¡¯appareils afin de les utiliser comme des proxys, afin de dissimuler l¡¯origine d¡¯une attaque informatique ou de son trafic internet
+Only time will tell if this botnet will ever be deployed in live attacks like Mirai, or will be a dud like Hajime
+ By contrast, a honeypot Radware used in August to monitor Mirai and a different, much more advanced IoT botnet researchers are calling Hajime, saw infections on average every two minutes
+ Hajime, by contrast, is extremely hard to defend against and nearly impossible to take out
+ Hajime, which at its peak in April controlled about 300,000 infected devices, also uses robust encryption to communicate
+Unlike many Hajime and other botnets, Reaper doesn't protect infected devices from being infected by other pieces of competing malware
+But so far, the threat of Reaper remains overshadowed by Mirai¡ªfor which source code is one download away¡ªand Hajime¡ªwhich is extremely hard to block or take down
+ While it's worth keeping an eye on Reaper, the more alarming prospect still may be Mirai or Hajime adopting Reaper's exploit mechanism
+ Hajime
+ Both Reaper and Hajime are based off Mirai, but the identity of their authors remains a mystery
+Meanwhile, Hajime¡¯s surface benignity hides the potentiality of greater IoT breaches than those caused by Mirai or Reaper
+ Notably, Hajime is based on a decentralized peer-to-peer network infrastructure, which makes it harder to detect
+ The anonymous hacker responsible for Hajime assures us that he¡¯s a well-meaning white hat idealist
+Cyber-security experts contend that the Hajime actually seals off Mirai-vulnerable ports such as 5358, 23, 7547, and 5555
+ Currently, the Hajime uses a tracker-less torrent to facilitate C&C based exchanges and BitTorrent¡¯s DHT protocol to enable peer exchanges
+ In the last year, cyber-security experts have issued industry warnings about Hajime¡¯s increasingly aggressive nature
+This is because Hajime recently ¡°updated¡± its code to begin exploiting the TR-069 standard used by Internet service providers
+ However, these have the disadvantage of DMZ-stored SSL keys and certificates, which expose networks to Mirai, Hajime, or Reaper-based botnet attacks
+ In January, researchers identified a variant called Satori (Mirai Okiru) The available Mirai source code has also given new life to the DDoS as a service industry, since the Mirai code isn¡¯t easily converted into a profit-making machine without some previous expertise
+A 20-year-old from Vancouver, Washington was indicted last week on federal hacking charges and for allegedly operating the ¡°Satori¡± botnet, a malware strain unleashed last year that infected hundreds of thousands of wireless routers and other ¡°Internet of Things¡± (IoT) devices
+ But according to Poulsen, the charges are related to Schuchman¡¯s alleged authorship and use of the Satori botnet
+ Satori, also known as ¡°Masuta,¡± is a variant of the Mirai botnet, a powerful IoT malware strain that first came online in July 2016
+Schuchman reportedly went by the handle ¡°Nexus Zeta,¡± the nickname used by a fairly inexperienced and clumsy ne¡¯er-do-well who has tried on multiple occasions to get KrebsOnSecurity to write about the Satori botnet
+In each case, this person wanted to talk about a new IoT botnet that he was ¡°researching¡± and that he thought deserved special attention for its size and potential disruptive impact should it be used in a massive Distributed Denial-of-Service (DDoS) attack aimed at knocking a Web site offline ¡ª something for which Satori would soon become known
+For weeks after that tweet, Nexus Zeta exchanged private twitter messages with Mursch and his team of botnet hunters at Bad Packets LLC in a bid to get them to Tweet or write about Satori/Masuta
+The following screenshots from their private Twitter discussions, republished with Mursch¡¯s permission, showed that Nexus Zeta kept up the fiction about his merely ¡°researching¡± the activities of Satori
+ Mursch played along, and asked gently probing questions about the size, makeup and activities of a rapidly growing Satori botnet
+Early in their conversations, Nexus Zeta says he is merely following the visible daily Internet scanning that Satori generated in a constant search for newly infectable IoT devices
+ But as their conversations continue over several weeks, Nexus Zeta intimates that he has much deeper access to Satori
+ 5, Chinese cybersecurity firm Netlab360 released a report on Satori noting that the IoT malware was spreading rapidly to Chinese-made Huawei routers with the help of two security vulnerabilities, including one ¡°zero day¡± flaw that was unknown to researchers at the time
+ 29, 2017 titled ¡°Good Zero Day Kiddie,¡± researchers at Israeli security firm CheckPoint pointed out that the domain name used as a control server to synchronize the activities of the Satori botnet ¡ª nexusiotsolutions-dot-net ¡ª was registered in 2016 to the email address nexuszeta1337@gmail
+ru, Paras Jha, ProxyPipe, Robert Coelho, Satori botnet author, stresser, Troy Mursch, zetastress
+Six months later, we saw the launch of the Hajime IoT-based botnet, which was significantly more sophisticated
+ Unlike Mirai, which was basically a blunt DDoS instrument, Hajime included a variety of sophisticated cybertools and was also cross-platform compatible, capable of supporting five different platforms
+Hajime also leveraged automation
+ For example, to evade detection Hajime was designed to be less noisy
+ However, Reaper shows some significant evolutionary advances over both Mirai and Hajime
+Today, IoT botnet families, including Mirai, Okiru, the Satori, the Masuta, the PureMasuta and Reaper, continue mutating
+ According to the company, these attacks, which are linked to the propagation of IoT malware like Mirai, IoTroop/Reaper and VPNFilter, have more than doubled since May
+Mirai¡¯s successor was the Hajime ransomworm
+ While Mirai was basically a blunt force instrument, Hajime included an impressive set of sophisticated cybertools
+ Hajime, as well, was able to identify CPE devices and protocols and then remove the rules that allow a CPE device to talk to its service provider
+Another recent innovation was found in the VPNFilter malware
+ VPNFilter includes a kill command that disables a device by deleting all file systems and then rebooting the device, rendering it completely inoperable
+The original Mirai used traditional brute-force attempts to gain access to connected things in order to enslave them, but the Wicked Botnet, named after the underground handle chosen by its author, prefers to go the exploit route to gain access
+ Mirai) have already attacked devices via default passwords/ brute-forcing, new attacks like Wicked bot are forced to take a different option like the use of exploits to become effective,¡± explained Joven, in an interview with Threatpost
+They also uncovered that Wicked is a botnet that¡¯s used to download another botnet
+ Rather than just equipping Wicked itself with the ability to carry out whatever action the criminal behind the bot wants, the author wanted to separate the distribution and its payload
+A Wicked Web of Botnets
+The analysts also found that the Wicked bot is connected to other, previous Mirai-based botnets; in fact, in terms of payloads, Wicked is built to download them
+ This led them to the author behind the Wicked bot
+They essentially followed a trail of breadcrumbs: For one, the Wicked bot¡¯s code contains a the string called ¡°SoraLOADER,¡± which seems to indicate that it¡¯s a spreader for the Sora botnet, another Mirai variant
+On top of that, the payload that it delivers is not Owari at all, but rather the Omni bot, which based on its code can be used for DDoS attack similar to Mirai
+Thus, it would seem that Omni, Owari and Sora are all connected to the Wicked bot
+¡°Fuzzing the website¡¯s /bins directory, we found other Omni samples in the directory, which were reported to be delivered using the GPON vulnerability (CVE-2018-10561),¡± the researchers said
+Putting this connection together with an interview last April conducted by NewSky Security, the researchers were able to trace the new bot back to an author using the pseudonym ¡°Wicked¡± in which he confirmed himself as the author of both Sora and Owari
+¡°Apparently, as seen in the /bins repository, Sora and Owari botnet samples have now both been abandoned and replaced with Omni,¡± Fortinet¡¯s Joven and Yang said
+ ¡°This also leads us to the conclusion that while the Wicked bot was originally meant to deliver the Sora botnet, it was later repurposed to serve the author¡¯s succeeding projects
+These attacks, linked to the propagation of IoT malware such as Mirai, IoTroop/Reaper and VPNFilter have more than doubled since May
+Enterprises faced growing risk from increasing use of lateral infection techniques that proved to be seriously problematic in the case of last year¡¯s WannaCry, NotPetya and BadRabbit malware ¨C and were tweaked in IoT botnets such as IoTroop and Satori

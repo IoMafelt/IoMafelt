@@ -1,0 +1,51 @@
+ For example, IoT_Reaper moved on from simply applying hard-coded passwords in the hope that they would unlock a system
+ By contrast, the Hide N Seek malware, which builds on IoT_Reaper’s methods, prefers to install cryptominers, which generate virtual currency
+Mikrotik: CCR1009, CCR1016, CCR1036, CCR1072, CRS109, CRS112, CRS125, RB411, RB450, RB750, RB911, RB921, RB941, RB951, RB952, RB960, RB962, RB1100, RB1200, RB2011, RB3011, RB Groove, RB Omnitik, STX5
+ Among the others are those which target unsecured IoT devices, subverting them into what is called a botnet – the likes of Mirai, Satori, VPNFilter, and Slingshot
+ The latter two have been linked to APT or nation state actors, Mirai and VPNFilter have been associated with distributed denial of service attacks, while Slingshot was reportedly used to pivot into internal networks
+ Hasta hace unas semanas, ninguna cepa de malware IoT había sido capaz de sobrevivir a los reinicios de dispositivos, con el botnet Hide and Seek convirtiéndose en el primero a principios de este mes
+ Angriffe, die mit IoT-Malware wie Mirai, IoTroop/Reaper und VPNFilter in Zusammenhang stehen, haben sich seit Mai 2018 mehr als verdoppelt
+Das Reaper-Botnetz hat bereits über eine Millionen IoT-Geräte infiziert
+Reaper rückt den IoT-Geräten dabei mit einem Arsenal an Hacking-Tools zu Leibe und versucht, Schwachstellen im Code ausfindig zu machen
+Die Experten Qihoo 360 stellten fest, dass Reaper mehrere verschiedene Pakete im Repertoire hat, die auf Schwachstellen in Geräten von D-Link, Netgear, Linksys, AVTech, Vacron, JAWS und GoAhead sowie einigen Marken von Sicherheitskameras ausgerichtet sind
+Laut den Sicherheitsexperten sind etwa 60 Prozent der Netzwerke mit der Reaper-Malware infiziert
+ Beide Sicherheits-Unternehmen sagten aber, dass das Reaper-Botnet bislang noch nicht für schändliche Zwecke eingesetzt wurde
+RB Omnitik
+Hajime , a worm which targets the TR-069 protocol used by many ISPs' routers
+, a worm which targets the TR-069 protocol used by many ISPs' routers IoT_Reaper , a botnet which attacks known, existing HTML vulnerabilities in the control interfaces often found in CCTV and other cameras
+, a botnet which attacks known, existing HTML vulnerabilities in the control interfaces often found in CCTV and other cameras Hide N Seek , a rework of IoT_Reaper that infects the same cameras and installs cryptominers
+, a rework of IoT_Reaper that infects the same cameras and installs cryptominers ADB
+RB Omnitik (new)
+Mikrotik: CCR1009, CCR1016, CCR1036, CCR1072, CRS109, CRS112, CRS125, RB411, RB450, RB750, RB911, RB921, RB941, RB951, RB952, RB960, RB962, RB1100, RB1200, RB2011, RB3011, RB Groove, RB Omnitik, and STX5
+Devices affected by VPNFilter ASUS D-Link Linksys TP-Link ASUS RT-AC66U D-Link DES-1210-08P Linksys E1200 TP-Link R600VPN ASUS RT-N10 D-Link DIR-300 Linksys E2500 TP-Link TL-WR741ND ASUS RT-N10E D-Link DIR-300A Linksys E3000 TP-Link TL-WR841N ASUS RT-N10U D-Link DSR-250N Linksys E3200 ASUS RT-N56U D-Link DSR-500N Linksys E4200 Huawei ASUS RT-N66U D-Link DSR-1000 Linksys RV082 Huawei HG8245 D-Link DSR-1000N Linksys WRVS4400N Ubiquiti ZTE Upvel QNAP Ubiquiti NSM2 ZTE Devices ZXHN H108N Upvel Devices – unknown models QNAP TS251 Ubiquiti PBE M5 QNAP TS439 Pro Other QNAP NAS devices running QTS software MikroTik Netgear MikroTik CCR1009 MikroTik CCR1016 Netgear DG834 Netgear DGN1000 MikroTik CCR1036 MikroTik CCR1072 Netgear DGN2200 Netgear DGN3500 MikroTik CRS109 MikroTik CRS112 Netgear FVS318N Netgear MBRN3000 MikroTik CRS125 MikroTik RB411 Netgear R6400 Netgear R7000 MikroTik RB450 MikroTik RB750 Netgear R8000 Netgear WNR1000 MikroTik RB911 MikroTik RB921 Netgear WNR2000 Netgear WNR2200 MikroTik RB941 MikroTik RB951 Netgear WNR4000 Netgear WNDR3700 MikroTik RB952 MikroTik RB960 Netgear WNDR4000 Netgear WNDR4300 MikroTik RB962 MikroTik RB1100 Netgear WNDR4300-TN Netgear UTM50 MikroTik RB1200 MikroTik RB2011 MikroTik RB3011 MikroTik RB Groove MikroTik RB Omnitik MikroTik STX5
+In April 2018, the Department of Homeland Security (DHS), Federal Bureau of Investigation (FBI), and the UK's National Cyber Security Centre (NCSC) issued a joint statement warning of state-sponsored hackers leveraging vulnerabilities in routers, with the highly-publicized Slingshot and VPNFilter malware families discovered the same year
+The same code was also famously used in Stuxnet, a worm which is believed to have damaged Iranian nuclear systems around 2010
+Mirai’s successor was the Hajime ransomworm
+ While Mirai was basically a blunt force instrument, Hajime included an impressive set of sophisticated cybertools
+ Hajime, as well, was able to identify CPE devices and protocols and then remove the rules that allow a CPE device to talk to its service provider
+Reaper changed the binary nature of most malware
+Torii is the third IoT botnet, after VPNFilter and Hide and Seek, to gain persistence on the infected device
+It is worth noting that although Torii shares some features with the Hide and Seek IoT botnet discovered in January by Bitdefender, the two are separate beasts
+Marco Ramilli of Yoroi cybersecurity company analyzed the malware and noticed similarities to the Persirai worm that exploited weaknesses in the UPnP protocol to infect IP cameras in May last year
+RB Omnitik
+Similarly, the Slingshot malware was discovered to be dormant in routers for six years and is capable of information gathering, persistence, and data exfiltration
+ Seculist researchers pointed out the similarities between Slingshot and the "Chimay Red" exploit published by WikiLeaks as part of the "Vault 7" releases of vulnerabilities, which WikiLeaks claims originated from the CIA
+According to the report, IoT threats were rarely encountered before 2014, but that changed around the time of the release of the source code for Gafgyt – a threat that targeted a variety of IoT devices, including BusyBox devices, closed-circuit television (CCTV) devices and many digital video recorder (DVR) devices
+In October 2016, Mirai, which was developed from Gafgyt’s code, became the first IoT malware to achieve global prominence when its botnet was used to launch one of the largest distributed denial-of-service (DDoS) attacks in history that targeted domain name system (DNS) services provider Dyn
+Malicious hackers are mass exploiting a critical vulnerability in D-Link DSL routers in an attempt to make them part of Satori, the potent Internet-of-things botnet that is used to take down websites and mine digital coins, researchers said
+Since making its debut late last year, Satori has proven to be a particularly versatile and sophisticated botnet
+ A month later, Satori operators released a new version that infected devices used to mine digital coins , proving that the IoT botnet could also take control of more traditional computing devices
+ In February, Satori resurfaced when it infected tens of thousands of routers manufactured by Dasan Networks
+A key to Satori’s success is its use of the publicly released Mirai IoT botnet source code to turn devices with easily guessable passwords into platforms for launching Internet-crippling attacks
+ Satori operators use the Mirai code as a foundation on which they’ve erected an evolving series of new exploits that allow the botnet to control devices even when they’re secured with strong passwords
+Over the past five days, researchers said, Satori has started mass exploiting a critical vulnerability in the D-Link DSL 2750B, a combination router and DSL modem that’s used by subscribers of Verizon and other ISPs
+ Attack code exploiting the two-year-old remote code-execution vulnerability was published last month, although Satori’s customized payload delivers a worm
+Researchers with Netlab 360 first reported Satori was exploiting the D-Link vulnerability in a blog post published Friday
+ They also said Satori had started exploiting a vulnerability in a router made by XiongMai
+ Dubbed VPNFilter, the malware isn’t believed to have any connection to Satori
+ In May 2018, Bitdefender identified Hide and Seek, the first IoT botnet with device persistence, closely followed by Cisco’s discovery of VPNFilter – a piece of malware with more advanced survival capabilities
+Video: Understanding the increase in cyberattacks against critical infrastructure From Stuxnet to Ukraine, hackers are ramping up attacks against infrastructure such as energy grids
+The new IoT botnet variants reported by NOKIA in its monitored infrastructures in 2018, possibly malignant for CSP networks, include Mirai-based HideNSeek, DoubleDoor, VPNFilter – allegedly authored by Russian group “Fancy Bear” to destroy Linux/Busybox based routers and industrial control infrastructure, Torii responsible for telnet attacks from Tor exit nodes, Fbot that targets Android-operating IoT devices by scanning for an open port to get shell access over the infrastructure, and GhostDNS, which is used on home routers to steal banking credentials via fake banking servers
+ The agent has been successful in stopping recent malware including DirtyCOW, Mirai, VPNFilter, Torii, and Chalubo
+Wifatch malware that closed security holes on a variety of Linux-based routers
+In 2017, a more devious vigilante hacker named The Janit0r deployed the BrickerBot malware that erased firmware or bricked IoT devices that had not been updated

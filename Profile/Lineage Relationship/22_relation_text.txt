@@ -1,0 +1,155 @@
+The malware, dubbed "Linux/Moose" by Olivier Bilodeau and Thomas Dupuy of the security firm ESET Canada Research, exploits routers open to connections from the Internet via Telnet by performing brute-force login attempts using default or common administrative credentials
+Moose spreads itself using a file named elan2¡ª"¨¦lan" is the French word for moose, Bilodeau and Dupuy explained in their report
+The main purpose of Moose, however, appears to be to create a network of covert HTTP proxies that can be used by the worm's command and control (C&C) servers to communicate with social networks
+While not intended to target Internet of Things devices specifically, Bilodeau and Dupuy found that Moose could infect a number of such devices, including medical ones
+ "Based on recent security research, we have evidence to state that even medical devices like the Hospira Drug Infusion Pump could be infected with Linux/Moose," the pair wrote
+Because of the way that the worm communicates, the ESET researchers were unable to determine the number of devices that have been infected by Moose, which they say they first found late in July of 2014
+Fortunately, Linux/Moose apparently has no persistence on a router or other embedded computing device
+ Amnesia is a variation of an older IoT botnet client called Tsunami, but what makes it interesting is that it attempts to detect whether it's running inside a virtualized environment
+Meanwhile, researchers from security services provider Radware discovered a different malware attack, aimed at IoT devices, that they've dubbed BrickerBot
+In fact, one of the BrickerBot attack variations is not even limited to embedded and IoT devices and will work on any Linux-based system that is accessible over Telnet, if it has weak or default credentials
+It's not clear what is the goal behind the BrickerBot attacks
+ However, they will immediately know that something is wrong if they're hit by BrickerBot because their devices will stop working and many of them will likely require manual intervention to fix
+ The attacks came from two separate botnets¡ªdubbed BrickerBot
+1 and BrickerBot
+ BrickerBot
+1 eventually went silent, but even now the more destructive BrickerBot
+ The motivation for the PDoS attacks remains unclear, in part because BrickerBot
+"When I discovered the first BrickerBot, I thought it was a drastic attempt to stop the IoT Botnet DDoS threat," Radware researcher Pascal Geenens told Ars
+ But upon discovery of the second BrickerBot this theory changed, as the second one is targeting any Linux-based system¡ªnot only embedded, BusyBox-based Linux with flash storage
+All of the devices targeted by BrickerBot
+ Most of the destructive effects of BrickerBot
+ During a four-day period starting on March 20, BrickerBot
+Meaner, stealthier BrickerBot
+Less than an hour after BrickerBot
+ BrickerBot
+ BrickerBot
+ Still, BrickerBot
+ As the image above shows, in addition to corrupting the storage device, BrickerBot
+The common thread linking all the devices¡ªwhether targeted by BrickerBot
+1 or BrickerBot
+Hackers have brewed up a new variant of the IoT/Linux botnet "Tsunami" that exploits a year-old but as yet unresolved vulnerability
+Nicknamed Amnesia, this new malware strain is based on an older version of the Tsunami IoT/Linux DDoS botnet malware
+ This new Tsunami alteration is particularly advanced because this appears to be the first version of IoT malware that includes sandbox detection features, usually found in Android and Windows malware
+Malicious hackers are mass exploiting a critical vulnerability in D-Link DSL routers in an attempt to make them part of Satori, the potent Internet-of-things botnet that is used to take down websites and mine digital coins, researchers said
+Since making its debut late last year, Satori has proven to be a particularly versatile and sophisticated botnet
+ A month later, Satori operators released a new version that infected devices used to mine digital coins , proving that the IoT botnet could also take control of more traditional computing devices
+ In February, Satori resurfaced when it infected tens of thousands of routers manufactured by Dasan Networks
+A key to Satori¡¯s success is its use of the publicly released Mirai IoT botnet source code to turn devices with easily guessable passwords into platforms for launching Internet-crippling attacks
+ Satori operators use the Mirai code as a foundation on which they¡¯ve erected an evolving series of new exploits that allow the botnet to control devices even when they¡¯re secured with strong passwords
+Over the past five days, researchers said, Satori has started mass exploiting a critical vulnerability in the D-Link DSL 2750B, a combination router and DSL modem that¡¯s used by subscribers of Verizon and other ISPs
+ Attack code exploiting the two-year-old remote code-execution vulnerability was published last month, although Satori¡¯s customized payload delivers a worm
+Researchers with Netlab 360 first reported Satori was exploiting the D-Link vulnerability in a blog post published Friday
+ They also said Satori had started exploiting a vulnerability in a router made by XiongMai
+ Dubbed VPNFilter, the malware isn¡¯t believed to have any connection to Satori
+ Neither the D-Link DSL-2750B nor the XiongMai device is included on the list of routers known to be targeted by VPNFilter
+Linux/IRCTelnet, as the underlying malware has been named, borrows code from several existing malicious IoT applications
+ Most notably, it lifts entire sections of source code from Aidra, one of the earliest known IoT bot packages
+ Aidra was discovered infecting more than 30,000 embedded Linux devices in an audacious and ethically questionable research project that infected more than 420,000 Internet-connected devices in an attempt to measure the security of the global network
+ As reported by the anonymous researcher, Aidra forced infected devices to carry out a variety of distributed denial-of-service attacks but worked on a limited number of devices
+Linux/IRCTelnet also borrows telnet-scanning logic from a newer IoT bot known as Bashlight
+The best-of-breed approach "is driving a high infection speed of Linux/IRCTelnet (new Aidra) so it can [infect] almost 3,500 bot clients within only five days from the moment its loader was first detected," a researcher who goes by the handle Unixfreakjp wrote in a blog post reporting on the new malware
+Like most IoT bots, Linux/IRCTelnet doesn't have what malware experts refer to as persistence
+ Linux/IRCTelnet is likely only the beginning of what could be a long line of next-generation malware that steadily improves its capabilities
+Mirai, the botnet that threatened the Internet as we knew it last year with record-setting denial-of-service attacks, is facing an existential threat of its own: A competing botnet known as Hajime has infected at least 10,000 home routers, network-connected cameras, and other so-called Internet of Things devices
+ Important messages will be signed like this! Hajime Author
+Hajime uses a decentralized peer-to-peer network to issue commands and updates to infected devices
+ Hajime uses the same list of user name and password combinations Mirai uses, with the addition of two more
+ Most interesting of all: Hajime appears to be the brainchild of a grayhat hacker, as evidenced by a cryptographically signed message it displays every 10 minutes or so on terminals
+Another sign Hajime is a vigilante-style project intended to disrupt Mirai and similar IoT botnets: It blocks access to four ports known to be vectors used to attack many IoT devices
+ Hajime also lacks distributed denial-of-service capabilities or any other attacking code except for the propagation code that allows one infected device to seek out and infect other vulnerable devices
+Hajime isn't the first botnet to shows signs its mission is to take out poorly secured Internet devices
+ Two weeks ago, researchers uncovered IoT malware they dubbed BrickerBot 
+ BrickerBot gets its name because it attempts to damage routers and other Internet-connected appliances so badly that they become effectively inoperable, or "bricked
+" In 2015, researchers from security provider Symantec exposed Wifatch , a piece of Linux malware that works much the way Hajime does
+There's a temptation to applaud Hajime and its companions because they take aim at one of the great Internet scourges
+ One day a device may belong to the Mirai botnet, after the next reboot it could belong to Hajime, then the next, any of the many other IoT malware/worms that are out there scanning for devices with hardcoded passwords
+Aside from the long-term inefficacy of Hajime, the fact remains that what its designer is doing¡ªsurreptitiously installing a backdoor without permission on tens of thousands of devices¡ªis both unethical and illegal in most jurisdictions around the world
+ For this reason, I'm characterizing it as a grayhat project rather than a whitehat one, as Grange and the Hajime developer do
+ Illegal as they are, Hajime and BrickerBot are understandable and possibly inevitable reactions to the proliferation of poorly secured IoT devices, a vexing problem that seems to only be getting worse
+VPNFilter¡ªas the modular, multi-stage malware has been dubbed¡ªworks on consumer-grade routers made by Linksys, MikroTik, Netgear, TP-Link, and on network-attached storage devices from QNAP, Cisco researchers said in an advisory
+Sniffers included with VPNFilter collect login credentials and possibly supervisory control and data acquisition traffic
+ Cisco¡¯s report doesn¡¯t explicitly name Russia, but it does say that VPNFilter contains a broken function involving the RC4 encryption cipher that¡¯s identical to one found in malware known as BlackEnergy
+BlackEnergy, however, is believed to have been repurposed by other attack groups, so on its own, the code overlap isn¡¯t proof VPNFilter was developed by the Russian government
+There¡¯s little doubt that whoever developed VPNFilter is an advanced group
+Cisco researchers urged both consumers and businesses to take the threat of VPNFilter seriously
+EXCLUSIVE ¡ª The author of the BrickerBot malware has claimed a cyber-attack that took place in various Indian states and has caused over 60,000 modems and routers to lose Internet connectivity
+BrickerBot author claims downtime
+Over the weekend, the author of the BrickerBot malware approached Bleeping Computer and claimed he was behind the downtime
+ BrickerBot is a malware strain that affects Linux-based IoT and networking devices
+ Unlike other malware that hoards devices into botnets for DDoS attacks and other purposes, BrickerBot "bricks" the equipment by rewriting its flash storage
+In a previous interview with Bleeping Computer, the BrickerBot dev said he created and proliferated the malware only to raise awareness among ISPs that they are running unsecured devices
+ He also wanted to brick IoT devices so they wouldn't become part of IoT DDoS botnets, hoping that in the future, owners and ISPs will take greater care to safeguard devices against bricking and indirectly secure devices against Mirai, Hajime, Imeij, Amnesia, and other DDoS malware
+"BSNL's devices are generally insecure and BSNL isn't being honest about the situation by blaming its customers for negligence," the BrickerBot author wrote in an email
+The BrickerBot author also provided technical details about other hard-coded logins in BSNL devices that the BrickerBot malware used ¡ª outside of the default admin/admin credentials ¡ª to connect to vulnerable equipment
+The BrickerBot author ¡ª who also likes to go by the name The Doctor ¡ª also pinned the cause of the cyber-attack on BSNL and MTNL allowing external connections into their network via port 7547
+The open TR069 ports and the hard-coded logins in some devices allowed BrickerBot to wreak havoc among the two Indian ISPs during the past week
+"This 'attack' on India telco modems has nothing to do with politics or nationality," the BrickerBot dev told Bleeping Computer, fearing Indian authorities might blame it on neighboring Pakistan
+The BrickerBot author also raised the alarm about similar exposed devices on the network of Pakistan Telecommunication Company Limited (PTCL)
+"Their [REDACTED] routers are even more dangerous than BSNL's," the BrickerBot dev said
+BrickerBot author to continue his IoT security crusade
+ In previous months, BrickerBot has been linked to infections where the device could not be recovered, and the "bricking" action was permanent
+ There are good reasons for concern that Reaper, as the botnet has been dubbed, could pose as big a threat as Mirai, the mass IoT infection that last year caused chaos with record-setting distributed denial-of-service attacks
+The more nuanced reality is that Reaper exhibits some unusual behavior that makes it impossible to assess the real danger the botnet presents
+ Some facts that have come to light over the past few days strongly suggest its developers are amateurs and don't pose the existential Internet threat initially thought, particularly when comparing Reaper to another established IoT botnet that has gone largely ignored for more than a year
+Then again, Reaper exhibits other attributes that give it an advantage over other botnets
+ Another advantage is that Reaper's development platform is flexible enough to wage a suite of attacks that go well beyond mere DDoSes
+ With a few improvements and a few lucky breaks, Reaper could prove to be a real menace
+The most important fact to emerge is Reaper's true size
+ In fact, other researchers have said Reaper's size is significantly smaller
+China-based Netlab 360, which reported on Reaper a day after Check Point did, is one of at least four security companies that puts the infection estimate in the 10,000 to 20,000 range
+But NetLab 360 went on to report something else that suggests Reaper just might have the ability to quickly mushroom into a botnet of almost unimaginable size
+ The same Reaper control server had a queue of 2 million IoT devices that appeared to be vulnerable to the botnet's advanced exploit mechanism but had not yet been compromised
+Pascal Geenens, a researcher at security firm Radware, told Ars that estimating Reaper's size is difficult for a host of reasons
+ Another is that, as was the case with Mirai and most other IoT botnets, Reaper infections don't survive a reboot, meaning the number changes all the time
+In any event, a honeypot of laboratory devices Radware uses to monitor Reaper has logged only 4,000 unique IP addresses
+ By contrast, a honeypot Radware used in August to monitor Mirai and a different, much more advanced IoT botnet researchers are calling Hajime, saw infections on average every two minutes
+Geenens said queries on the Shodan search engine indicates that of the nine or 10 exploits Reaper uses to spread, there are only 350,000 devices that might be vulnerable, and it's possible many of those devices have been patched
+ It's possible that Reaper has better visibility than Shodan does, but the size of the discrepancy lends credence to the Netlab 360 theory that Reaper may not accurately measure the number of devices it can infect
+There are other reasons to doubt Reaper will pack the same potent threat Mirai did
+ Hajime, by contrast, is extremely hard to defend against and nearly impossible to take out
+ Hajime, which at its peak in April controlled about 300,000 infected devices, also uses robust encryption to communicate
+Unlike many Hajime and other botnets, Reaper doesn't protect infected devices from being infected by other pieces of competing malware
+ That makes it easy for Reaper-infected devices to be disinfected or taken over by greyhat and blackhat hackers
+ It's hard to know what to make of the behavior, but at the moment it suggests Reaper isn't nearly as aggressive as its peers
+None of this is to say that Reaper couldn't one day pose a serious threat
+An updated version of Reaper, Netlab 360 reported in Thursday's update, adds this exploit against D-Link DIR-645 devices
+ Right now, there are patches available for most of the vulnerabilities Reaper exploits
+ But the addition suggests attackers are diligently expanding the base of vulnerable devices Reaper may be able to infect
+Should Reaper add new exploits for widely used devices for which no patch will ever become available¡ªwhich is an unfortunate reality in the IoT landscape¡ªits exploit-centric approach could give it a major advantage over other IoT malware
+Besides its ability to infect a potentially wider range of devices, Reaper also has an advantage over Mirai in that it has an update mechanism
+Ultimately, Reaper contains a potentially game-changing infection mechanism, and its developers have demonstrated a willingness to build its existing arsenal of exploits
+ If its developers were to substantially overhaul their malware to add new exploits and better protect its control infrastructure, Reaper has the potential to grow into an unprecedented size
+ What's more, the developers' use of the Lua programming language makes it easy to use Reaper for a variety of attacks beyond DDoSes, Geenens said
+But so far, the threat of Reaper remains overshadowed by Mirai¡ªfor which source code is one download away¡ªand Hajime¡ªwhich is extremely hard to block or take down
+ While it's worth keeping an eye on Reaper, the more alarming prospect still may be Mirai or Hajime adopting Reaper's exploit mechanism
+ "IoT_Reaper has been thought of as a potential candidate, but all indicators lead one to believe that this will not be the case
+Last week, Ars introduced readers to Hajime, the vigilante botnet that infects IoT devices before blackhats can hijack them
+As previously reported, Hajime uses the same list of user name and password combinations used by Mirai, the IoT botnet that spawned several record-setting denial-of-service attacks last year
+ Once Hajime infects an Internet-connected camera, DVR, and other Internet-of-things device, the malware blocks access to four ports known to be the most widely used vectors for infecting IoT devices
+But unlike the bare-bones functionality found in Mirai, Hajime is a full-featured package that gives the botnet reliability, stealth, and reliance that's largely unparalleled in the IoT landscape
+ Wednesday's technical analysis, which was written by Pascal Geenens, a researcher at security firm Radware, makes clear that the unknown person or people behind Hajime invested plenty of time and talent
+One example: Hajime doesn't rashly cycle through a preset list of the most commonly used user name-password combinations when trying to hijack a vulnerable device
+ When attacking a MikroTik router, for instance, Hajime attempts to log in using the user name "admin" and an empty password
+ By reducing the number of invalid passwords entered into the login page, Hajime lowers the chances of being locked out or blacklisted
+Also, in stark contrast to Mirai and its blackhat botnet competitors, Hajime goes to great lengths to maintain resiliency
+ The encryption and decentralized design make Hajime more resistant to takedowns by ISPs and Internet backbone providers
+ After researchers from Rapidity Networks in October uncovered a flaw in the encryption implemented in an earlier version of Hajime, a Hajime developer updated the botnet software to fix it
+ Hajime has a way of detecting the reachability of the infecting device, and if its loader service port is not available from the Internet it will use another node from its network that is known to be reachable to download the initial malware binary
+ During the five weeks that Geenens observed his honeypot, Hajime attempted almost 15,000 hijacks from more than 12,000 unique IP addresses scattered all over the world
+ For now, the greyhat Hajime is outstripping the blackhat IoT botnets in features, robustness, and possibly even the number of infected devices
+"If Hajime is a glimpse into what the future of IoT botnets looks like, I certainly hope the IoT industry gets its act together and starts seriously considering securing existing and new products," Geenens wrote in a separate post
+Satori, as the botnet has been dubbed, quickly made a name for itself in December, when it infected more than 100,000 routers in just 12 hours by exploiting critical vulnerabilities in two models, one made by Huawei and the other by RealTek
+ Last month, Satori operators released a new version that infected devices used to mine digital coins, a feat that allowed the attackers to mine as much as $3,000 worth of Ethereum, based on prices the digital coin was commanding at the time
+In recent days, Satori has started infecting routers manufactured by Dasan Networks of South Korea
+ The company has yet to respond to an advisory published in December that documented the code-execution vulnerability Satori is exploiting, making it possible that most or all of the devices will eventually become part of the botnet
+Satori is based on Mirai, the open source Internet of Things malware that powered a series of botnets that delivered record-breaking distributed denial of service attacks in 2016 and debilitated core parts of the Internet for days
+ Unlike thousands of other Mirai variants, Satori featured a key improvement
+ Whereas Mirai and its imitators could infect only devices that were secured with easily guessed default passwords, Satori exploited firmware bugs, which often go unpatched, either because of manufacturer negligence or the difficulty device owners face in patching their devices
+"The Satori developer is actively updating the malware," Netlab 360 researcher Li Fengpei wrote in an email
+ "In the future, if Satori makes more headlines, we will not be surprised
+Like most IoT malware, Satori infections don't survive a device reboot
+ Besides the infection methods already mentioned, Satori has also managed to spread by exploiting flaws in custom versions of the GoAhead Web server that are embedded in wireless cameras and other types of IoT devices, researchers from security firm Fortinet reported two weeks ago
+Pascal Geenens, a researcher at security firm Radware who reported the new Satori variant on Monday, told Ars it's not entirely clear what the purpose of the botnet is
+ The variant, Geenens said, is a strong indication that Satori operators want to steal digital coins or computing resources used to generate them
+ He said both the Claymore and Dasan variants rely on the same command-and-control infrastructure and that the word Satori is included in the binary files of both versions

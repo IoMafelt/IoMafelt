@@ -1,0 +1,23 @@
+Read more: Reaper IoT botnet proves less virulent than expected
+Satori IoT botnet gathers momentum
+According to a blog post from IT security company Qihoo Netlab, a new variant of Mirai called Satori has started to propagate
+Read more: Malwar! Hajime IoT botnet fights back against Mirai
+Janit0r, the alleged creator of BrickerBot, a piece of malware designed to damage insecure IoT devices so severely that they become redundant, has apparently retired, but not before claiming to have ¡®bricked¡¯ over 10 million IoT devices in his recent career
+Read more: BrickerBot ¡®creator¡¯ claims two million IoT devices have been destroyed
+ Sooner or later, people are going to start questioning the credibility of the research and the seriousness of the situation,¡± Janit0r wrote, pointing to the cases of the Persirai, Hajime and Reaper botnets
+Operators of IoT DDoS botnets were taking precautions against BrickerBot, and this made Janit0r¡¯s work even more challenging, they said, and they are wary of legal repercussions
+Read more: Reaper IoT botnet proves less virulent than expected
+As well as advising users to take sanctions against vendors that do not deliver security updates efficiently, the BrickerBot author suggested that ISPs use tools like Shodan to audit their networks and isolate ports and services that don¡¯t need to be online
+Related: BrickerBot malware threatens to brick insecure IoT devices
+The development of Persirai comes just weeks after the arrival of Hajime ¨C the "vigilante" IoT worm that blocks rival botnets ¨C and months after the infamous Mirai IoT botnet
+The fourth IoT malware that Trend Micro discovered targeting IP cameras is dubbed TheMoon
+ TheMoon is the oldest malware directed at IoT devices, and has been around since at least 2014
+ In second place was Mirai, which accounted for about 28% of the infected cameras, while DvrHelper and TheMoon were present on roughly 7% and 1% of the devices, respectively
+Torii is the third IoT botnet, after VPNFilter and Hide and Seek, to gain persistence on the infected device
+It is worth noting that although Torii shares some features with the Hide and Seek IoT botnet discovered in January by Bitdefender, the two are separate beasts
+IoT malware like Mirai, Hajime, BrickerBot, Persirai, and others, were seen exploiting GoAhead flaws in the past year ¡ªamong with other flaws for many other vendors
+ It uses the same exploit as the Reaper botnet to infect devices, although there's currently no indication that the two armies of hijacked machines are related
+While Hide 'N Seek isn't the first botnet to have a peer-to-peer element -- the Hajime botnet used P2P architecture -- but rather than being constructed around a existing BitTorrent protocol, HNS uses a custom-built P2P system
+The new nasty, Linux/IRCTelnet discovered by security researchers at MalwareMustDie
+The source code used to build this botnet malware is based on the earlier Aidra botnet, according to MalwareMustDie
+Whether Linux/IRCTelnet is effective at spreading much less attacking systems is so far unclear

@@ -1,0 +1,124 @@
+Utilisé depuis 2012 pour exfiltrer discrètement des données gouvernementales et d’individus dans des pays en guerre ou politiquement instables (Irak, Somalie, Afghanistan, Libye, RDC, Yémen…), le logiciel de cyberespionnage (malware) Slingshot continue d’être actif (au moins une centaine de lésés) dans les pays les plus instables du Moyen-Orient et d’Afrique
+ Dénommé Roaming Mantis, le logiciel malveillant a pour objectif de subtiliser des informations comme des identifiants, ainsi que donner aux pirates un contrôle intégral des appareils infectés
+Duqu was discovered September 2011 and is believed to be closely related to the infamous Stuxnet worm, which resulted in the destruction of Iranian centrifuges
+ Indeed, many say that Duqu borrows much of the same source code as Stuxnet
+ It was called Reaper
+While devices infected with Mirai continued to operate as normal, that wasn't the case for those who found their IoT products infected with BrickerBot, a form of IoT malware that resulted in Homeland Security's Cyber Emergency Response Team (CERT) issuing new warnings
+ Devices infected with BrickerBot have their storage corrupted, leading them to be completely unusable and irrecoverable
+Stuxnet is generally regarded as the first instance of malware designed to spy on and subvert industrial systems and in 2010 it infiltrated Iran's nuclear program, infecting uranium centrifuges and irreparably damaging systems
+While no state has officially taken credit for the attacks, it's believed Stuxnet was the work of US and Israeli cyber forces
+Stuxnet was one of the most advanced malware attacks in history
+It has been almost seven years since Stuxnet first made headlines for its devastating attack on Iranian uranium enrichment centrifuges
+The years haven't made it less relevant though—it's still an important topic due to the fact the exploit Stuxnet took advantage of still ranked among the most widely used in 2016
+ Microsoft patched the exploit, CVE-2010-2568, in 2010, but malware that exploits it continues to live on—a prime example of why Stuxnet is still relevant
+Zero Days, a 2016 documentary on Stuxnet, helped cement the malware into public consciousness
+ Stuxnet has become synonymous with cyberattacks and cyberwarfare and questions continue to abound about its origin and the scope of its targets
+TechRepublic's smart person's guide about Stuxnet is a quick introduction to this government-created malware, as well as a "living" guide that will be updated periodically as news about its evolution and misuse occur
+What is Stuxnet? Stuxnet is a computer worm designed to disrupt the operation of programmable logic controllers (PLCs)
+Stuxnet is a computer worm designed to disrupt the operation of programmable logic controllers (PLCs)
+ When did Stuxnet happen? Stuxnet's outbreak began in early 2010, and updates were pushed to it from its C&C servers over the course of several months
+ There is evidence to suggest that Stuxnet precursors were being used as early as 2007 to target Iran's burgeoning nuclear program and pave the way for the larger Stuxnet attack
+Stuxnet's outbreak began in early 2010, and updates were pushed to it from its C&C servers over the course of several months
+ There is evidence to suggest that Stuxnet precursors were being used as early as 2007 to target Iran's burgeoning nuclear program and pave the way for the larger Stuxnet attack
+ Who did Stuxnet affect? Stuxnet's effect was felt most strongly in Iran, where over 60% of infections were located
+ While there's no confirmation of the breadth of the damage in Iran, many experts believe Stuxnet destroyed 1,000 centrifuges
+ Stuxnet's impact on the rest of the world was negligible
+Stuxnet's effect was felt most strongly in Iran, where over 60% of infections were located
+ While there's no confirmation of the breadth of the damage in Iran, many experts believe Stuxnet destroyed 1,000 centrifuges
+ Stuxnet's impact on the rest of the world was negligible
+ Why does Stuxnet matter? Stuxnet's command and control (C&C) servers may be offline, and it's no longer being spread, but the security community can still learn a lot from the malware attack
+ Stuxnet specifically targeted industrial machines; it was designed to spread to air-gapped networks; and it proved that attacking infrastructure is possible
+What is Stuxnet?
+Stuxnet was malware that was able to spread without a host file, making it a worm
+Stuxnet spreads from machine to machine while looking for Siemen's STEP 7 software used to control PLCs
+ Once it locates a machine with STEP 7 installed on it, Stuxnet begins to feed false information to the PLC, intercepting the data the PLC generates using the false information, and reporting normal operation states back to STEP 7 so that it appears as if everything is normal
+Stuxnet is incredibly sophisticated—it used four separate zero-day attacks (including CVE-2010-2568) to infiltrate systems and was precision built to only do damage to Siemens industrial control systems
+Researchers from Symantec have found evidence that Stuxnet was deployed against Iran's nuclear program as early as 2007, but that backdating of its birth was made well after Stuxnet's 2010 discovery when it was used to attack a nuclear facility in Iran
+As more evidence about the complexity of Stuxnet emerged, popular opinion began to solidify around it being built with the support of a national government
+ Since then it has been reported that Stuxnet was the work of a joint US-Israeli cyberwarfare group, though absolute proof remains nonexistent
+When did Stuxnet happen?
+Stuxnet was discovered in 2010, but it actually has a much more interesting timeline that goes back several years earlier
+ Several pieces of precursor malware, Duqu and Conficker, were launched in advance and were crucial in the development and spread of Stuxnet
+After targeting Iranian systems Stuxnet received several updates from its C&C servers before the C&C servers were discovered, blocked, and eventually taken offline
+ Stuxnet infections were purged over the next several months
+Who did Stuxnet affect?
+Stuxnet's primary victim was Iran—around 60% of the computers it infected were located in the country
+ Indonesia had 18% and India 8% of Stuxnet infections, and other nations were affected in the low single-digit percents
+The Iranian nuclear program is widely believed to have been the primary target of Stuxnet, and while Iran may have denied Stuxnet's effect on its nuclear centrifuges, the sudden failure of over 1,000 of them at an enrichment facility in Natanz, Iran, has led security analysts to conclude that Stuxnet was the culprit
+Why does Stuxnet matter?
+Stuxnet itself doesn't really matter anymore
+ Stuxnet's heydey has long since passed; its C&C servers are offline; and whatever government may have built it has abandoned it
+What matters is what Stuxnet revealed about the potential sophistication of malware and how effectively it could cripple industries and infrastructure
+Let's break down what Stuxnet revealed to the world about the capabilities of malware
+Stuxnet was incredibly effective in its targeting of control systems
+It was, according to many analysts, created by a state actor, and while Stuxnet was not the first cyberwar attack in history it was arguably the most sophisticated to date
+Stuxnet was designed to be initially delivered via USB drive to ensure it could infect air-gapped networks
+ Once Stuxnet was on a system, it was designed to spread rapidly, quickly searching out computers with control over Siemens software and PLCs
+While Stuxnet may be dead, its autopsied code is easily found online, which means its innovations are freely available
+ Stuxnet's intended purpose (i
+The exploit that enabled Stuxnet to spread continues to be one of the most targeted exploits in malware seven years later, and that's a bad sign for the security of organizations running software that controls industrial hardware
+ESET, as part of its reporting on Stuxnet, said it "was a breakthrough event that should have served as a wake up call for all those involved in security of industrial systems
+" But with at least one of the exploits Stuxnet used still common it's clear that it wasn't the wake-up call cybersecurity professionals hoped for
+It's only a matter of time before the narrowly-targeted Stuxnet reappears in a similar, much more devastating form
+ As with any other security threat, attacks like those that could follow in Stuxnet's footsteps can be avoided by keeping software up to date
+ This changed with Stuxnet in 2010 (and spin-offs later that year including Duqu and Flame)
+'Reaper': The Professional Bot Herders Thingbot
+ If you were the world’s best Internet of Things botnet builder and you wanted to show the world how well-crafted an IoT botnet could be, Reaper is what you’d build
+The interesting aspect of Reaper is not its current size, but its engineering, and therefore its potential
+ But from a pure research perspective, we’re interested in how Reaper is spreading
+ Instead of targeting weak auth like a common thingbot, Reaper weaponizes nine (and counting) different IoT vulnerabilities
+Brian Krebs puts the current size of Reaper at over 1M IoT devices
+ The reason Reaper could get so big is that, unlike its predecessors, Mirai and Persirai, Reaper uses multiple attack vectors
+ Persirai used the blank username+password combo, which, frankly, we think is such a doofus security error on the part of the manufacturer that we feel it barely deserves to have a CVE
+Reaper is almost showing off by not even trying the password cracking, and instead just exploiting different vulnerabilities (RCE’s, web shells, etc
+Reports on the “size” of Reaper vary
+ We’ve scanned 750,000 unique devices that match the nine vulnerabilities currently exploited by Reaper
+ We don’t know which of them are actually infected, but there’s no reason that Reaper itself couldn’t infect them, unless its authors didn’t want it to
+The nine vulnerabilities currently used by Reaper are fairly rudimentary, as vulnerabilities go
+ If the thingbot authors were to include a few dozen, existing vulnerabilities that fit Reaper’s device targeting profile, we think they could grow the thingbot an additional 2
+75 M to the 750,000 that are currently “Reaper-compatible” gives the number 3
+The actual size of Reaper is probably limited to whatever size its authors want it to be
+ Maybe Reaper is pure research
+So far, Reaper hasn’t been seen attacking anyone with massive volumetric DDoS attacks
+ If Reaper were to start being used as the ultimate Death Star weapon, that would cheapen its value
+ Hajime was more polite and merely blocked ports and left a cute little note informing the device owner that their device was participating in attacks and please stahp!
+If Reaper starts attacking people with DDoS, it will turn from a marvel of thingbot infrastructure engineering into (yawn) another volumetric attack tool
+Right now, Reaper is an object lesson for IoT manufacturers and security researchers
+We’ve been monitoring the Persirai botnet for the last six months
+ We regularly measured Persirai at 750,000 IP cameras
+ Persirai was never seen attacking anyone, either, and we speculated about what it could be doing
+Reaper’s mission could be any one, or even several of those
+Since Reaper is also composed of many digital video devices, we could speculate this: What if both Persirai and Reaper are actually surveillance networks? Think of the intel you could gather with access to millions of video cameras
+ Just because Reaper is the latest, doesn't mean it will be the last
+ If Reaper doesn’t attack anyone or give away its intentions, it may enter the same mythical space occupied by the Conficker worm of the 1990s
+Stuxnet is a malicious computer worm, first uncovered in 2010
+ Extremely sophisticated malware, which soon became known as “Stuxnet”, had deliberately targeted programmable logic controller (PLC) systems principally manufactured by Siemens
+ However, in the case of Stuxnet, the malware had been designed for this precise scenario and was able to proliferate across the network using infected USB drives as an alternate vector
+>See also: Ex-Army researcher links Conficker to Stuxnet
+>See also: US and Israel built Flame as well as Stuxnet – report
+ Some attacks, like Stuxnet, have a greater impact, but most malware found on ICS and SCADA systems don't appear to be from targeted attacks
+ Cyber threats have been evolving ever since: from the Morris worm (1988), to Code Red (2001), to Slammer (2003), to Conficker (2008), to Stuxnet (2010), and beyond
+ A simple analysis of Stuxnet reveals that one of the propagation methods used included the exploitation of the same vulnerabilities used by the Conficker worm that was identified and supposedly patched in 2008
+ Stuxnet, for example, attempted to avoid discovery by bypassing host intrusion detection (using zero-day exploits that are not detectable by traditional IDS/ IPS prior to its discovery, and by using various autorun and network-based vectors), disguised itself as legitimate software (through the use of stolen digital certificates), and then covered its tracks by removing trace files from systems if they are no longer needed or if they are resident on systems that are incompatible with its payload
+ As an extra precautionary measure, and to further elude the ability to detect the presence of the malware, Stuxnet would automatically remove itself from a host if it were not the intended target once it had infected other hosts a specific number of times
+ By definition, Stuxnet and many other modern malware samples are considered "Advanced Persistent Threats" (APT)
+ Stuxnet is, again, a useful example of weaponized malware
+ Stuxnet utilized multiple zero-day exploits for infection
+ Stuxnet raised a high degree of speculation about its source and its intent at least partly due to the level of resources required to deliver the worm through so many zero-days
+ Stuxnet also used "insider intelligence" to focus on its target control system, which again implied that the creators of Stuxnet had significant resources and that they either had access to an industrial control system with which to develop and test their malware, or they had enough knowledge about how such a control system was built that they were able to develop it in a simulated environment
+ The developers of Stuxnet could have used stolen intellectual property - which is the primary target of the APT - to develop a more weaponized piece of malware
+ A great deal can be learned from Night Dragon and Stuxnet, as they both have components that specifically relate to industrial systems
+ Although the attack did not result in sabotage, as was the case with Stuxnet, it did involve the theft of sensitive information, including operational oil and gas field production systems (including industrial control systems) and financial documents related to field exploration and bidding of oil and gas assets
+Stuxnet Stuxnet is largely considered as a "game changer" in the industry, because it was the first targeted, weaponized cyber-attack against an industrial control system
+ Prior to Stuxnet, it was still widely believed that industrial systems were either immune to cyber-attack (due to the obscurity and isolation of the systems), and were not being targeted by hackers or other cyber-threats
+ Proof-of-concept cyber-attacks, such as the Aurora project, were met with skepticism prior to Stuxnet
+ The "threat" pre-Stuxnet was largely considered to be limited to accidental infection of computing systems, or the result of an insider threat
+ It is understandable, then, why Stuxnet was so widely publicized, and why it is still talked about today
+ Stuxnet proved many assumptions of industrial cyber threats to be wrong, and did so using malware that was far more sophisticated than anything seen before
+ Perhaps the most important lesson that Stuxnet taught us is that a cyber-attack is not limited to PCs and servers
+ While Stuxnet used many methods to exploit and penetrate Windows-based systems, it also proved that malware could alter an automation process by infecting systems within the ICS, overwriting process logic inside a controller, and hiding its activity from monitoring systems
+ Stuxnet is discussed in detail in Chapter 7, "Hacking Industrial Control Systems
+Mayday
+ All’interno delle 10 vulnerabilità più utilizzate dagli hacker tre riguardano infatti l’Internet of things, con gli attacchi che vengono sferrati utilizzando i malware IoT Mirai, IoTroop/Reaper e VpnFilter
+Concerns about the security of industrial systems such as water and power plants has been heightened in recent years by the discovery of the Stuxnet worm, reportedly part of a U
+A research team showed in July 2011 how a Stuxnet-like attack on programmable logic controllers used in prisons could wreak havoc, taking control of doors, gates, video surveillance systems and alarms

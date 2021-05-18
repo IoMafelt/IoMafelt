@@ -1,0 +1,230 @@
+Wifatch, which has also been called Zollard and Reincarna, has been active since for the last two years
+ The malware, known as Hajime, appears to have been created by a vigilante attempting to improve IoT device security
+ Rapidty Networks discovered Hajime in October 2016, but only recently found that the malware is not being used against IoT devices errantly
+Hajime could help IT decision-makers and their organizations embrace the new era of connectivity associated with IoT devices
+What Is Hajime?
+Ars Technica explained that Hajime’s discovery followed in the wake of a similar IoT device botnet known as Mirai, which was associated with record-setting distributed denial-of-service (DDoS) attacks last year
+Like Mirai, Hajime spreads via unsecured devices that have open Telnet ports and rely on default passwords
+ However, Hajime is built on a peer-to-peer network and propagates across other machines over time
+According to Symantec, Hajime has spread quickly since its initial discovery
+ However, this spread is not necessarily bad news: The researchers noted that Hajime is using its self-replication module to fight Mirai and other IoT device botnets
+The giveaway is that Hajime is missing notable negative features
+Hajime has undoubtedly helped in the fight against Mirai and other IoT malware
+Wifatch and BrickerBot, have also attempted to secure devices or take systems offline
+Darlloz (aka Zollard), Linux
+Aidra (Linux
+Xorddos (aka XOR
+Gafgyt (aka GayFgt, Bashlite), Linux
+Ballpit (aka LizardStresser), Linux
+Moose, Linux
+Dofloo (aka AES
+Pinscan / Linux
+Pinscan
+B (aka PNScan), Linux
+Kaiten / Linux
+Kaiten
+B (aka Tsunami), Linux
+Routrem (aka Remainten, KTN-Remastered, KTN-RM), Linux
+LuaBot
+In 2017, a more devious vigilante hacker named The Janit0r deployed the BrickerBot malware that erased firmware or bricked IoT devices that had not been updated
+Hajime, an IoT malware strain discovered last October, appears to be the work of a vigilante who has set out to take over and neutralize as many smart devices as possible before other botnets like Mirai can get ahold of them
+While Hajime was first observed last year, it only recently became apparent to researchers that the author of this malware had no intention of using infected devices for evil
+When it was discovered last October, Hajime only came with a self-replication module that allowed it to spread from IoT device to IoT device via open and unsecured Telnet ports
+At the time, researchers didn't spot a DDoS module but that wasn't something noteworthy, as they just discovered this new threat, and to all intent and purpose, they considered Hajime an in-dev malware, one that could add DDoS capabilities once it matures
+Hajime matures but never adds a DDoS module
+The initial Rapidity Networks report that unveiled Hajime's presence to the world also detailed some bugs
+ According to Symantec researcher Waylon Grange, Hajime's author appears to have read the report and fixed those bugs, but that was it
+For the past six months, Hajime has been using its self-replication module to fight with Mirai and other IoT botnet for control over IoT devices
+Hajime used to secure IoT devices
+According to Grange, once Hajime infects a device it blocks access to ports 23, 7547, 5555, and 5358, which are all ports that have been exploited in the past by IoT malware
+After that, Hajime also contacts its command and control server and returns a cryptographically-signed message every ten minutes
+ Important messages will be signed like this! Hajime Author
+Hajime continues where Wifatch left off
+Wifatch, just like Hajime, was also the work of another vigilante, a team of mysterious security researchers going by the name of The White Team
+Just like Hajime is currently wrestling with Mirai for control over unsecured IoT devices, back in 2015, Wifatch played a major factor in crippling the botnet managed by the infamous Lizard Squad by taking over many of the devices the group was using to launch DDoS attacks
+Hajime's protective actions aren't permanent
+Hajime will do many of us a huge favor if it manages to restrict the reach of Mirai botnets, which have been behind the most devastating DDoS attacks known to date
+Unfortunately, Hajime's actions aren't permanent, because just as Mirai, the worm and its actions are removed from infected hosts when the owner reboots his device
+ This is why Hajime and Mirai are entangled in an infinite loop for control over these devices
+One day Mirai may be using your DVR to launch DDoS attacks against a gaming company, while the next day Hajime will be closing the DVR's ports
+Hajime was specifically created to protect against Mirai
+All clues point to the conclusion that Hajime was created to directly attack Mirai, and reduce the number of devices Mirai can infect
+First, Hajime appeared two-three weeks after Mirai carried out its biggest attacks, against OVH, Dyn, and KrebsOnSecurity, most likely as a response after Mirai's author released the malware's source code and made it available to anyone
+Second, Hajime includes the same usernames and password combinations used by Mirai, which shows a clear intention to target the same device-base Mirai is after
+Hajime has made a difference
+According to Grange, this tactic appears to have been a success as Hajime spread quickly across the globe, already taking over and neutralizing a large number of devices in countries such as Brazil, Iran, and Russia
+Putting Hajime's actions together with the takedowns of several Mirai C&C servers, both appear to have put a dent in Mirai's reach, with the number of Mirai bots steadily declining since the start of the year
+Furthermore, Hajime also got a helping hand from another malware strain called BrickerBot, which also appears to be the work of another Internet vigilante
+ The downside is that BrickerBot doesn't bother securing open ports, but rather deletes everything on the device's storage, including firmware, effectively bricking IoT devices, sometimes to the point where they're rendered useless and need to be replaced
+In an era where IoT vendors don't seem to bother with creating secure devices, vigilante malware such as Wifatch, Hajime, and BrickerBot is about to become more widespread
+Mirai, the botnet that threatened the Internet as we knew it last year with record-setting denial-of-service attacks, is facing an existential threat of its own: A competing botnet known as Hajime has infected at least 10,000 home routers, network-connected cameras, and other so-called Internet of Things devices
+ Important messages will be signed like this! Hajime Author
+Hajime uses a decentralized peer-to-peer network to issue commands and updates to infected devices
+ Hajime uses the same list of user name and password combinations Mirai uses, with the addition of two more
+ Most interesting of all: Hajime appears to be the brainchild of a grayhat hacker, as evidenced by a cryptographically signed message it displays every 10 minutes or so on terminals
+Another sign Hajime is a vigilante-style project intended to disrupt Mirai and similar IoT botnets: It blocks access to four ports known to be vectors used to attack many IoT devices
+ Hajime also lacks distributed denial-of-service capabilities or any other attacking code except for the propagation code that allows one infected device to seek out and infect other vulnerable devices
+Hajime isn't the first botnet to shows signs its mission is to take out poorly secured Internet devices
+ Two weeks ago, researchers uncovered IoT malware they dubbed BrickerBot 
+ BrickerBot gets its name because it attempts to damage routers and other Internet-connected appliances so badly that they become effectively inoperable, or "bricked
+" In 2015, researchers from security provider Symantec exposed Wifatch , a piece of Linux malware that works much the way Hajime does
+There's a temptation to applaud Hajime and its companions because they take aim at one of the great Internet scourges
+ One day a device may belong to the Mirai botnet, after the next reboot it could belong to Hajime, then the next, any of the many other IoT malware/worms that are out there scanning for devices with hardcoded passwords
+Aside from the long-term inefficacy of Hajime, the fact remains that what its designer is doing—surreptitiously installing a backdoor without permission on tens of thousands of devices—is both unethical and illegal in most jurisdictions around the world
+ For this reason, I'm characterizing it as a grayhat project rather than a whitehat one, as Grange and the Hajime developer do
+ Illegal as they are, Hajime and BrickerBot are understandable and possibly inevitable reactions to the proliferation of poorly secured IoT devices, a vexing problem that seems to only be getting worse
+A white hat hacker is believed responsible for the Hajime IoT botnet because its main objective appears to be to secure IoT devices vulnerable to the notorious Mirai malware
+Security experts say a white hat hacker is responsible for the Hajime IoT botnet, which is on a mission to secure IoT devices vulnerable to the notorious Mirai malware
+ Divergent goals between Mirai and Hajime, experts say, will spark a perpetual back-and-forth between Mirai black hats and a lone Hajime white hat racing to reach millions of routers, DVRs and internet-connected cameras
+“No one knows for sure who created Hajime
+Hajime is a Mirai-like malware, first discovered in October by Rapidity Networks, that has been spreading during the past several months infecting unsecure IoT devices that have open Telnet ports and use default passwords
+ However, while Hajime and Mirai’s modus operandi to self-propagate and infect is similar, their goals appears to be the opposite
+Unlike Mirai, which was used to carry out a series high-bandwidth DDoS attacks, Hajime has no malicious functionality
+Recent estimates by researchers suggest that Hajime malware has infected 10,000 home routers, internet-connected cameras, and a cadre of other IoT devices
+While similar, Hajime stands out from Mirai
+ For example, Hajime uses a peer-to-peer architecture instead of command and control server to send commands to bots
+ “Instead (Hajime) communicates over a distributed and decentralized overlay network to receive configuration and software updates,” according to a Rapidity Networks analysis of the malware (PDF)
+Hajime was not designed for DDoS attacks nor does it have the capability, say researchers
+ The biggest clue for him is that Hajime triggers the command and control system to send a message to the device’s terminal every 10 minutes that states: “Just a white hat, securing some systems
+ Important messages will be signed like this! Hajime Author
+However, Hajime’s efforts to harden IoT device’s is short-lived
+ As with Mirai, when an IoT device is rebooted the Hajime malware vanishes, reopening its vulnerable ports and leaving the device open to another Mirai attack
+That has led some researchers to forecast an ongoing tug-of-war between Hajime and Mirai, with both battling the other in perpetuity to re-infect millions IoT devices
+Hajime is not the first example of so-called vigilante malware
+ The danger with any of these, including Hajime, is that there may be collateral damage to the devices,” Smith said
+Just like Wifatch and Hajime, the BrickerBot malware is the work of a vigilante grey-hat, who goes online by the name of Janit0r, a nickname he chose on the Hack Forums discussion boards
+If you're unfamiliar, BrickerBot is a new malware family that was first identified at the start of the month by Radware researchers
+Since BrickerBot's appearance, law enforcement and the infosec community have been on the hunt for new information regarding how BrickerBot operates and who's behind it
+New information surfaced over the Easter weekend when Bleeping Computer received an anonymous tip about the online identity of BrickerBot's creator
+ We expected that that two weeks after BrickerBot's discovery, Hack Forums would be abuzz with people trying to take credit for BrickerBot, but it was strangely silent
+ Remind you, this still almost two months and a half before Radware's BrickerBot discovery
+His second and third posts also came before BrickerBot became public and attested to his skills as a reverse engineer, in a topic he started himself, discussing a security flaw in Dahua 2nd and 3rd generation IP cameras
+His last post was in a topic started by a user who "heard" that BrickerBot's source had leaked
+At this point, we had to confirm that Janit0r was indeed BrickerBot's author and not just some guy bragging on Hack Forums
+By Wednesday, we didn't manage to find any other clue of Janit0r's existence, or anybody else claiming to be BrickerBot's author, with some solid proof on his side
+ That's when we just gave up, and launched a desperate tweet, asking BrickerBot's author to reach out
+BrickerBot's Author reaches out
+ The same day, we received an email from a person claiming to be BrickerBot's creator
+The email contained lots of details about BrickerBot's operation and internal structure
+In the Bleeping Computer article that broke the news of BrickerBot's existence, we asked Victor for his expert opinion on this new malware's behavior and repercussions
+ Victor not only put BrickerBot in perspective for our readers, but also asked BrickerBot's creator to reach out and discuss an alternative method of dealing with unsecured IoT devices, instead of blindly destroying people's property
+Unknown to all was that BrickerBot author had reached out to Victor hours after our article went live
+"Yes, I was janit0r on Hackforums," the BrickerBot author started his email, which then continued with Janit0r showing his anger at the sad state of affairs in the realm of IoT security
+ At least with 'BrickerBot' there was some brief hope that such dangerous devices could become the merchant's and manufacturer's problem rather than our problem
+BrickerBot allegely wiped over two million devices
+I hope the unconventional actions by 'BrickerBot' have helped in buying another year of time for governments, vendors and the industry in general to get the current IoT security nightmare under control
+Many other people have also done important things to combat IoT malware (Team White, Hajime author, @packetcop and his fellow sinkholers, etc) so I'm by no means claiming credit for Mirai being weak in Q1/2017, but if Imeij and Amnesia have suffered a little recently then it's probably mainly my fault ;)
+Janit0r's email then goes on to detail a few operational details regarding BrickerBot's infrastructure, also dispelling the notion that he's a madman set on the random destruction of IoT devices
+In reality, Janit0r wants to be considered in the same class as the White Team, the self-proclaimed white-hat hackers behind the Wifatch malware, and the author of the Hajime malware, another vigilante who created a new malware family last October that tries to secure IoT devices by force
+The Radware writeup made 'BrickerBot' sound simplistic, but it actually carries 86 protocol and device-specific payloads and is relatively successful at mitigating commonly exploited devices
+As a preference 'BrickerBot' will try to secure units without damaging them and the bricking behavior is a 'plan B' (yes the B stands for brick :) for units which are unlikely to be securable
+ A blogger on the net wondered about 'BrickerBot' simply trying to change his honeypot's login and this would've been due to the bot assuming the device had a persistent user db
+For the time being, Janit0r doesn't seem interested in stopping BrickerBot attacks, or at least not until officials and hardware vendors take a look at IoT security and start changing things with a hurry
+Nonetheless, the actions of BrickerBot place this malware in the same category as other destructive e-threats, such as ransomware and banking trojans
+ Otherwise, they may get a visit from BrickerBot, and it might reach Plan B
+A new malware strain called BrickerBot is bricking Internet of Things (IoT) devices around the world by corrupting their storage capability and reconfiguring kernel parameters
+Right from the get-go, two different versions of BrickerBot were detected: BrickerBot
+1 and BrickerBot
+BrickerBot spreads to devices with open Telnet ports
+Just like Mirai, Hajime, LuaBot, and other IoT malware, BrickerBot uses a list of known default credentials used for various IoT devices
+If device owners failed to change their default credentials, BrickerBot logs in and performs a series of Linux commands
+BrickerBot bricks your "smart" devices
+Commands executed by BrickerBot
+1 (via Radware) Commands executed by BrickerBot
+The company's experts say the two BrickerBot variants are distributed via two different infrastructures
+ Currently, attacks with BrickerBot
+Attacks from BrickerBot
+2, the more advanced version of the BrickerBot malware family and the one that executes more commands, are hidden behind Tor exit nodes, and are almost impossible to trace back to their origin
+ The good news is that this more advanced version was only responsible for 333 PDoS attacks, far less than the ones with BrickerBot
+BrickerBot the work of a vigilante?
+All in all, BrickerBot isn't like anything we've seen before in the landscape of IoT malware
+BrickerBot's destructive capabilities are something new, which don't benefit anyone
+ Not BrickerBot's author, and certainly not the device owner, who'll have to reinstall firmware, or even worse, buy a new device
+BrickerBot could also be the work of an Internet vigilante that wants to destroy insecure IoT devices
+BrickerBot is bent on destroying IoT devices
+The same cannot be said for BrickerBot's author, who clearly is intent on wiping as much of unsecured IoT devices as he can
+BrickerBot's approach is definitely illegal and dangerous, as Gevers points out
+So Gevers is making a proposition for the BrickerBot authors
+The Radware security alert containing the technical details of BrickerBot's modus operandi is available here
+The Hajime internet of things worm, which uses techniques similar to the Mirai botnet malware, apparently attempts to improve the security of the devices it infects -- rather than trying to damage or exploit them
+ How effective are vigilante malware efforts such as this? Could the Hajime IoT worm turn out to be malicious or have potential negative side effects?
+That said, the Hajime IoT worm does appear to be capable of securing certain IoT devices
+While the Hajime IoT worm attempts to ensure that only the worm's author can issue commands, by requiring all commands be signed with the author's private key, the remote control functionality could still be abused and used just like the Mirai botnet or worse
+ If the author hadn't included this functionality or had just coded the Hajime IoT worm to notify the vendor or the end user of the insecure device, rather modifying the device without permission, that might make it easier to see the benefit from the worm
+The key difference between the Hajime IoT worm and a legitimate remote administration tool that an enterprise might use is that an enterprise would want to control their own devices rather than the third party
+ Janit0r is reportedly the one behind a particularly gnarly but undeniably fascinating form of malware called BrickerBot
+ BrickerBot, as the name implies, will brick internet of things (IoT) devices that fail a simple security test
+News recently emerged that a third and fourth version of BrickerBot was spotted in the wild
+ In other words, BrickerBot bricks unsecured gadgets like cameras, lightbulbs, TVs, and thousands more
+ BrickerBot
+ BrickerBot
+ A fourth BrickerBot has been detected, too, although it’s unclear how aggressively it’s launching attacks
+ According to the reported creator of the botnets, however, the reason is very clear: BrickerBot is shutting down devices before truly malicious software can take control of them
+ According to the reported creator of BrickerBot, it’s also why a rogue hacker called the Janit0r decided to start destroying everybody’s crappy web-connected cameras, thermostats, light bulbs, and any other category of IoT devices
+ And then last year, a different batch of dubbed Hajime hit the radar
+ Hajime, like Wifatch before it, appeared to block ports that were known to be exploited by evil malware
+BleepingComputer, a delightful website devoted to helping people understand how computers work, was the first to spot and report on BrickerBot back in early April
+ Recently, after some top-notch sleuthing, the site managed to identify the Janit0r as the likely creator of BrickerBot and even managed to get him to explain why he crafted the attacks on unsecured IoT devices
+BrickerBot, the botnet that permanently incapacitates poorly secured Internet of Things devices before they can be conscripted into Internet-crippling denial-of-service armies, is back with a new squadron of foot soldiers armed with a meaner arsenal of weapons
+Pascal Geenens, the researcher who first documented what he calls the permanent denial-of-service botnet, has dubbed the fiercest new instance BrickerBot
+ It appeared out of nowhere on April 20, exactly one month after BrickerBot
+ Not only did BrickerBot
+ BrickerBot
+1, by comparison, fired 1,895 volleys during the four days it was active, and the still-active BrickerBot
+"Just like BrickerBot
+ "Shorter than the four days BrickerBot
+ The attacks from BrickerBot
+3 came in on a different honeypot than the one that recorded BrickerBot
+Shortly after BrickerBot
+3 began attacking, Geenens discovered BrickerBot
+ Like BrickerBot
+Two weeks ago, Radware ran a separate blog post documenting the destructive effects BrickerBot
+On Friday, technology news site Bleeping Computer published a profile of an individual claiming to be the BrickerBot operator
+BrickerBot isn't the only botnet that researchers believe is the work of a vigilante who wants to reduce the number of nuisance IoT devices populating the Internet
+ Last week, a separate research team documented Hajime, a botnet that had infected at least 10,000 Mirai-vulnerable IoT devices 
+ In many respects, Hajime mimics Wifatch, a botnet discovered in 2015
+There are other vigilante botnets competing with it: Hajime has infected at least 10,000 devices, and is a successor, of sorts, to the Wifatch botnet, which shut down vulnerable devices in 2015
+Pascal Geenens, the researcher who first documented what he calls the permanent denial-of-service botnet, has dubbed the fiercest new instance BrickerBot
+ It appeared out of nowhere on April 20, exactly one month after BrickerBot
+ Not only did BrickerBot
+ BrickerBot
+1, by comparison, fired 1,895 volleys during the four days it was active, and the still-active BrickerBot
+"Just like BrickerBot
+ "Shorter than the four days BrickerBot
+ The attacks from BrickerBot
+3 came in on a different honeypot than the one that recorded BrickerBot
+" Commands performed by BrickerBot
+3 are identical to those carried out by BrickerBot
+ Shortly after BrickerBot
+3 began attacking, Geenens discovered BrickerBot
+ Like BrickerBot
+BrickerBot, the permanent denial-of-service botnet, is back with a vengeance
+"In 2018, VPNFilter demonstrated the destructive power of weaponised malware that affects embedded systems and networked devices that have no obvious user interface
+ Elsewhere, Mirai Aidra, Wifatch and Gafgyt delivered a range of automated attacks that hijacked networked devices to use as nodes in botnets to engage in distributed denial-of-service attacks, mine crypto-currency and infiltrate networks," adds Sophos
+BrickerBot was active on Sierra Tel's network
+The incident was brought to Bleeping Computer's attention by Janit0r, a man who claims to have developed BrickerBot, an IoT malware family that bricks unsecured IoT devices
+"BrickerBot was active on the Sierra Tel network at the time their customers reported issues," Janit0r told Bleeping Computer in an email, "but their modems had also just been mass-infected with malware, so it's possible some of the network problems were caused by this concomitant activity
+While it is impossible to say what caused the Sierra Tel modems to go offline, all clues line up with BrickerBot entering "Plan B," the sequence Janit0r says is responsible with bricking devices
+In a previous interview with Bleeping Computer, Janit0r said that BrickerBot is not intentionally configured to destroy devices
+Janit0r also said he developed BrickerBot to go after the same devices targeted by other IoT malware families, which makes pinpointing the source of Sierra Tel's outage even harder
+It's quite possible that Sierra Tel's Zyxel modems went offline as the result of a secret turf war waged among various families of IoT malware, such as Mirai, BrickerBot, Hajime, Wifatch, Gafgyt, Imeij, and others
+BrickerBot author congratulates ISP on its transparency
+Over the weekend, Radware, the cyber-security firm who first spotted BrickerBot issued another report unveiling two newer versions of the BrickerBot malware, with different bricking techniques compared to the first samples they discovered
+ The company also has a series of recommandations for keeping IoT devices safe from BrickerBot and other IoT malware
+ In 2018, VPNFilter demonstrated the destructive power of weaponized malware that affects embedded systems and networked devices that have no obvious user interface
+ Elsewhere, Mirai Aidra, Wifatch, and Gafgyt delivered a range of automated attacks that hijacked networked devices to use as nodes in botnets to engage in distributed denial-of-service attacks, mine cryptocurrency and infiltrate networks
+ The BrickerBot, Wifatch, and Mirai malware are known for such behavior
+In 2018, VPNFilter demonstrated the destructive power of weaponised malware that affects embedded systems and networked devices that have no obvious user interface
+Elsewhere, Mirai Aidra, Wifatch, and Gafgyt delivered a range of automated attacks that hijacked networked devices to use as nodes in botnets to engage in distributed denial-of-service attacks, mine cryptocurrency and infiltrate networks
+ Parmi les ancêtres de Mirai, les chercheurs de Fortinet citent ainsi Hydra, un malware apparu en 2008 et qui visait principalement des équipements réseau (routeurs, switch et autres modems
+) Si Hydra ne vise pas des objets connectés, il profite des mots de passe par défaut souvent laissé en place par les utilisateurs pour infecter les machines et les utiliser afin de mener des attaques DdoS
+On peut ainsi citer Aidra, qui a repris en 2012 la méthode pour s’attaquer cette fois non seulement aux routeurs, mais aussi aux cameras IP, télévisions connectées et autres appareils ARM fonctionnant sous Linux
+ On peut également citer Bashlite apparu en 2014, qui reprend la même méthode, ou encore l’inattendu Wifatch, un malware qui infecte les machines Linux afin de fermer les ports Telnet laissés ouverts par les utilisateurs et éviter de futures infections
+ Sur scène, Rommel Joven de Fortinet cite ainsi l’exemple du malware IoT Reaper, qui réutilise l’essentiel du code source de Mirai
+ On peut ainsi retrouver des parties du code source de Mirai dans les malwares NewAidra (Decouvert en octobre 2016), Persirai (Mai 2017) ou encore au sein de Bashlite, dont les dernières versions ont intégré plusieurs modules et identifiants directement tirés de Mirai
+Mirai se distinguait déjà par le nombre important d’identifiants qu’il utilisait pour infecter des machines (la liste en contenait 77, contre une dizaine pour un de ses prédécesseurs comme Bashlite), mais l’ajout d’exploits vient renforcer le potentiel de ces malwares IoT, qui ciblent généralement des objets connectés dont la sécurité n’est pas forcement prise au sérieux par leurs possesseurs
+On peut ainsi citer OMG, un malware dérivé de Mirai qui vise le même type d’appareils afin de les utiliser comme des proxys, afin de dissimuler l’origine d’une attaque informatique ou de son trafic internet
+ En 2018, VPNFilter demostró el poder destructivo del malware armado que afecta a los sistemas integrados y dispositivos en red que no tienen una interfaz de usuarios obvia
+ En otros lugares, Mirai Aidra, Wifatch y Gafgyt lanzaron una serie de ataques automatizados para usarlos como nodos en redes de bots para participar en ataques distribuidos de denegación de servicios, criptomonedas e infiltrar redes
+ Nel 2018, VPNFilter ha dimostrato il potere distruttivo del malware che colpisce i sistemi embedded e i dispositivi di rete che non hanno una semplice interfaccia utente
+ Mirai Aidra, Wifatch e Gafgyt hanno messo in atto una serie di attacchi automatizzati che hanno usato i dispositivi di rete in botnet per effettuare attacchi di denial-of-service distribuiti, minare cryptomonete e infiltrarsi nella rete

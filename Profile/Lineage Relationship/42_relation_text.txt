@@ -1,0 +1,60 @@
+While for many years the GafGyt malware strain dominated the IoT malware landscape, in 2016, new threats rose to power, such as Mirai, LuaBot, Rex, PNScan, LizardStresser, Hajime, and others
+No similarities with Hajime either
+ Vesselin Bontchev, who says that despite the familiar sounding name, Imeij has nothing in common with Hajime, a malware family spotted for the first time in mid-October last year
+"Hajime is a worm
+"Hajime uses the name '
+ Bontchev has been keeping an eye on Hajime versions, which are now very different from the versions first released in October last year
+ According to Cybereason researchers, recent Hajime versions are modifying local firewall rules to keep other IoT malware out and prolong its stay on the infected device
+Besides Imeij, Mirai, and Hajime, other IoT malware families that target the ARM platform, very popular with IoT makers, are LuaBot and Umbreon
+One of the latest additions to the IoT malware market is a trojan codenamed Linux/NyaDrop, recently reverse engineered by MalwareMustDie, the same researcher who discovered the Mirai malware
+NyaDrop dropped via brute-force attacks on Telnet ports
+Just like most IoT malware nowadays, NyaDrop's author relies on brute-forcing Internet-exposed IoT devices using their default credentials
+NyaDrop is just a dropper for the Nya malware
+If the brute-force attacker manages to authenticate on the device, a script executes a series of automated commands that download and execute the NyaDrop binary
+Successful brute-force attack login which ends with attacker dropping NyaDrop
+The NyaDrop trojan is very small in size
+NyaDrop's purpose is to probe the system and decide if to download the actual malware, which is an ELF (Linux-specific) binary called "nya," hence the malware's name of NyaDrop
+NyaDrop only targets MIPS architectures
+MalwareMustDie says that NyaDrop will open a backdoor on the infected device and download the Nya trojan if the IoT device uses a MIPS 32-bit architecture for its CPU
+The reason for the MIPS check is most likely that the NyaDrop author hasn't created fully functional payloads for other IoT platforms and wants to avoid infecting "useless" platforms, wasting bandwidth, and leaving strange binaries on systems it can't use
+ The NyaDrop author can decide to push new payloads to NyaDrop-infected devices, which can have different capabilities, from the ability to launch DDoS attacks to working as proxies for all sorts of web traffic, masking an attacker's location
+NyaDrop author very careful not to get caught
+"This one [NyaDrop] was also made by [a] Russian actor," MalwareMustDie told Softpedia after analyzing the malware
+ He also says that NyaDrop is capable of detecting honeypot environments, in which case it stops execution
+very lucky to finally know the [NyaDrop] scheme
+Web, and others that we know of malware like Rex, PNScan, Mirai, LuaBot, and Linux
+Darlloz (aka Zollard), Linux
+Aidra (Linux
+Xorddos (aka XOR
+Gafgyt (aka GayFgt, Bashlite), Linux
+Ballpit (aka LizardStresser), Linux
+Moose, Linux
+Dofloo (aka AES
+Kaiten / Linux
+Kaiten
+B (aka Tsunami), Linux
+Routrem (aka Remainten, KTN-Remastered, KTN-RM), Linux
+Wifatch (aka Ifwatch), and Linux
+LuaBot
+11 percent market share, this is our third story on Linux malware in the past 24 hours, after previously reporting on the Mirai DDoS trojan and the Umbreon rootkit
+LuaBot falls into the same category as Mirai because its primary purpose is to compromise Linux systems, IoT devices or web servers, and add them as bots inside a bigger botnet controlled by the attacker
+LuaBot most likely used for DDoS attacks
+At the moment, the LuaBot trojan is packed as an ELF binary that targets ARM platforms, usually found in embedded (IoT) devices
+ One day after publishing his research on LuaBot, MalwareMustDie received an extra sample, a LuaBot module, which when installed, granted LauBot the ability to carry out Layer 7 DDoS attacks
+Unlike Mirai, which is the fruit of a two-year-long coding frenzy, LuaBot is in its early stages of development, with the first detection being reported only a week ago and a zero detection rate on VirusTotal for current samples
+LuaBot author challenges security researchers
+The researcher also found that LuaBot's brazen developer left a message behind for all the infosec professionals trying to deconstruct his code
+UPDATE [September 6, 2016]: Article was updated to include later analysis of the LuaBot DDoS module
+The rootkit's name is Umbreon, taken after the name of a Pokemon creature that hides in the shadows, a fitting name for a rootkit
+Attacker installs Umbreon by hand, on each device
+According to Trend Micro, threat actors have used Umbreon in live attacks, the company receiving samples to analyze from compromised devices
+The good news is that Umbreon's installation is not automated, and attackers need to break into a system first, and then manually install the rootkit on the hacked device
+Umbreon hooks into libc and libpcap
+Detecting Umbreon is not an easy task at all
+ As such, tools coded in these languages won't be able to detect Umbreon, who will be able to identify any search commands for its folder or location, hide itself, and then use libc to tamper with the results
+Umbreon, which is a ring 3 (user level) rootkit, is somewhat easy to remove compared to a ring 0 rootkit, but non-technical administrators may break their OS if they're not careful
+Attackers can use Umbreon to open SSH tunnels to infected hosts
+As for its technical capabilities, Umbreon is a very dangerous tool, with the ability to persist between reboots, intercept all network traffic, intercept and alter terminal commands, and even open a connection to the attacker, allowing him to log on the victim's device
+Just like Umbreon hooks into libc to intercept terminal commands, the rootkit also hooks into libpcap in order to intercept network traffic and hide its C&C communications, and the attacker's SSH sessions
+ Trend Micro says the threat actor has been active since at least 2013, and that he started developing Umbreon in early 2015
+ Softpedia understands that the source code of an older Umbreon version (2

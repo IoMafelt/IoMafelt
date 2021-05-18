@@ -1,0 +1,8 @@
+If you haven't changed the default password on your home router, you may be in for an unwanted visit from Chuck Norris -- the Chuck Norris botnet, that is
+The malware got the Chuck Norris moniker from a programmer's Italian comment in its source code: "in nome di Chuck Norris," which means "in the name of Chuck Norris
+Security experts say that various types of botnets have infected millions of computers worldwide to date, but Chuck Norris is unusual in that it infects DSL modems and routers rather than PCs
+Like an earlier router-infecting botnet called Psyb0t, Chuck Norris can infect an MIPS-based device running the Linux operating system if its administration interface has a weak username and password, he said
+Vykopal doesn't know how big the Chuck Norris botnet is, but says he has evidence that the hacked machines "are spread around the world: from South America through Europe to Asia
+Right now Chuck Norris-infected machines can be used to attack other systems on the Internet, in what are known as distributed denial of service attacks
+Because the Chuck Norris botnet lives in the router's RAM, it can be removed with a restart
+2008: Conficker

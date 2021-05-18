@@ -1,0 +1,12 @@
+Read more: Reaper IoT botnet proves less virulent than expected
+Read more: Persirai leads in botnet battle for connected cameras, researchers find
+Satori IoT botnet gathers momentum
+According to a blog post from IT security company Qihoo Netlab, a new variant of Mirai called Satori has started to propagate
+Read more: Malwar! Hajime IoT botnet fights back against Mirai
+@dogstar7tweets @robertloerzel A lot of folks wanted to ban Spike Lee's "Do The Right Thing" for fear it would cause riots
+"South Side alderman's effort to tweak filmmaker Spike Lee for using 'Chi-raq' as the title for a movie about Chicago violence fell flat Monday with his colleagues," the Tribune reports
+"Satori/Reaper have used exploits, but those are exploits for one level of attack for various devices," Anubhav said
+"The attacks are less in number when compared to Mirai, Satori, Asuna, or Daddyl33t," he said
+The new IoT botnet variants reported by NOKIA in its monitored infrastructures in 2018, possibly malignant for CSP networks, include Mirai-based HideNSeek, DoubleDoor, VPNFilter – allegedly authored by Russian group “Fancy Bear” to destroy Linux/Busybox based routers and industrial control infrastructure, Torii responsible for telnet attacks from Tor exit nodes, Fbot that targets Android-operating IoT devices by scanning for an open port to get shell access over the infrastructure, and GhostDNS, which is used on home routers to steal banking credentials via fake banking servers
+“VPNFilter is an expansive, robust, highly capable, and dangerous threat that targets devices that are challenging to defend
+Pritzker's Billions Jennifer Pritzker -- formerly Col

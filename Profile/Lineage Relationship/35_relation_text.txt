@@ -1,0 +1,122 @@
+ In fall 2017, Check Point researchers said they discovered a new botnet, variously known as “IoTroop” and “Reaper,” that’s compromising IoT devices at an even faster pace than Mirai did
+ Reaper goes beyond that, targeting at least nine different vulnerabilities from nearly a dozen different device makers, including major players like D-Link, Netgear and Linksys
+According to research by Recorded Future, Reaper was used in attacks on European banks this year, including ABN Amro, Rabobank and Ing
+ “Some of the more famous ones are Hajime, Hide N’ Seek and TheMoon
+ The worm has been named TheMoon
+[ Also on InfoWorld: 'TheMoon' worm infects Linksys routers
+The exploit also contains a list of Linksys routers that Rew believes might be vulnerable based on strings extracted from the original TheMoon malware
+The public release of a proof-of-concept exploit exposes the vulnerable routers to potential opportunistic and targeted attacks in addition to TheMoon malware threat
+IoT botnet for rent: TheMoon is being used for YouTube ad fraud TheMoon's DDoS days are long gone
+Researchers made this discovery while investigating an IoT botnet known as TheMoon, which they initially began tracking after observing several CenturyLink devices performing credential brute-force attacks against popular websites
+An investigation into these devices revealed infections with the TheMoon IoT malware, and later also exposed the existence of a never-before-seen module designed to transform infected routers and IoT devices into proxies for bad traffic
+TheMoon botnet isn't new
+ Now, CenturyLink's research team have found a different never-before-seen module that confirms TheMoon's evolution from DDoS threat to a proxy network for other criminal groups
+Based on the current available findings, TheMoon seems to operate as following:
+Botnet operators use exploits to infect routers/IoT devices with the TheMoon malware
+TheMoon malware downloads an additional proxy module
+TheMoon operators rent access to these proxies
+According to CenturyLink, in the past year, TheMoon botnet has been used for brute-force attacks, credential stuffing attacks, for advertising fraud, general traffic obfuscation, and more
+In a report released today, CenturyLink researchers delved deep into one of the advertising frauds they've seen carried out with TheMoon-infected devices
+This was possible after identifying 24 command-and-control servers to which TheMoon bots connected and received instructions
+ Experts said TheMoon operators left an service port exposed online that spewed out log data from these C&C servers, allowing them to spy on their operation
+On a more funny side note, TheMoon is also the botnet that at one point infected home routers by luring regular internet users on adult dating sites
+ Exploit code hidden in these sites would call to local IP addresses, known to be assigned to home routers, and try to infect the routers with TheMoon malware while the user was browsing the site
+ (NYSE: CTL), TheMoon is one of the latest examples of how far these threats have evolved
+ TheMoon is a modular botnet that targets vulnerabilities in routers within broadband networks
+ In recent months, CenturyLink Threat Research Labs discovered an undocumented module of TheMoon designed to allow the botnet to be leveraged as a service by other malicious actors
+Read the CenturyLink Threat Research Labs report on TheMoon: https://www
+"TheMoon is a stark reminder that the threat from IoT botnets continues to evolve," said Mike Benjamin, head of CenturyLink's Threat Research Labs
+ "Not only does TheMoon demonstrate the ability to distribute malicious modules of differing functionality, but it's designed to function like a botnet as a service, enabling other malicious actors to use it for credential brute forcing, video advertisement fraud and general traffic obfuscation, among other uses
+CenturyLink Threat Research Labs identified an undocumented module of TheMoon that is only deployed on MIPS devices, a common microprocessor architecture typically found in residential gateways and modems
+TheMoon's new module turns an infected device into a SOCKS proxy, a service that can be used maliciously to circumnavigate internet filtering or obscure the source of internet traffic, allowing the botnet author to sell its proxy network as a service to others
+CenturyLink Threat Research Labs observed a video ad fraud operator leveraging TheMoon as a proxy service, impacting 19,000 unique URLs on 2,700 unique domains from a single server over a six-hour period
+CenturyLink blocked TheMoon infrastructure on its network to mitigate the risk to customers, in addition to notifying other network owners of potentially infected devices to help protect the internet
+Find out how the Satori botnet is resurfacing with new targets: http://news
+com/2018-10-29-Satori-botnet-resurfaces-with-new-targets
+TheMoon, an IoT botnet targeting home routers and modems, is entering a new phase, as it were: It has added a previously undocumented module that allows it to be sold as-a-service to other malicious actors
+This has already had significant real-world consequences, according to CenturyLink Threat Research Labs, with the detection of a video ad fraud operator using TheMoon on a single server to impact 19,000 unique URLs on 2,700 unique domains over a six-hour period
+TheMoon is a modular botnet active since 2014, which targets vulnerabilities in residential routers within broadband networks
+“TheMoon is a stark reminder that the threat from IoT botnets continues to evolve,” said Mike Benjamin, head of CenturyLink Threat Research Labs
+ “Not only does TheMoon demonstrate the ability to distribute malicious modules of differing functionality, but it’s designed to function like a botnet-as-a-service, enabling other malicious actors to use it for [their own] uses
+Netlab 360 has previously documented various TheMoon modules that can act as traffic proxies at the behest of a command-and-control (C2) server
+“Traffic flowing through the proxy network is roughly divided into plaintext and ciphertext, and the traffic is not high,” Netlab360 analysts said in a recent overview of TheMoon
+“What we saw during this particular six-hour period was one operator leveraging TheMoon to conduct video ad fraud, essentially making it appear that thousands of people were clicking on video ads,” Benjamin told Threatpost
+CenturyLink, as a communications provider, blocked TheMoon infrastructure on its ISP network, in addition to notifying other network owners of potentially infected devices, so the activity of TheMoon dropped off as a result
+CenturyLink threat researchers found a new module of IoT botnet “TheMoon,” which targets vulnerabilities in routers within broadband networks
+CenturyLink Threat Research Labs first came across the modular botnet when its team discovered several IoT devices performing credential brute force attacks on multiple websites, according to a report about TheMoon
+ He doesn’t want to name the victims, but said “account credentials were successfully used through TheMoon’s proxy environment to access multiple consumer brand websites
+TheMoon targets broadband modems or routers developed by companies including Linksys, ASUS, MikroTik, and D-Link, with the most recent exploit in May 2018 targeting GPON routers
+CenturyLink blocked TheMoon infrastructure on its network to mitigate the risk to customers, and it also notified other network owners of potentially infected devices
+Researchers at communications provider CenturyLink said Thursday they spent a year tracking a botnet dubbed TheMoon, which can be repurposed by hackers for a range of malicious services
+CenturyLink’s team found an iteration of TheMoon that uses infected microprocessor-based devices as proxy servers that can be sold to other attackers
+ The ease with which TheMoon enables fraud should have companies on alert
+“TheMoon has the ability to run any additional payload, making it particularly dangerous and allowing the botnet author to evolve its capabilities over time,” the research states
+TheMoon attracted researchers’ attention when devices under its spell carried out brute-force attacks on multiple unnamed websites
+ CenturyLink Threat Research Labs analysts worked backward from there, using the IP addresses of compromised devices to identify other infrastructure used by TheMoon
+ The impact of TheMoon seems to be waning, the researchers said, with a sharp drop in IPs pinging the botnet’s command-and-control communication network in recent months
+“Though it appears the impact of TheMoon botnet is decreasing, the threat of IoT botnets with varying capabilities remains a powerful one,” the researchers wrote
+TheMoon botnet feeds off of such vulnerable IoT gear; its author scans for hosts running insecure devices and then sends a shell script to the target using one of a catalogue of exploits
+ Botnets are particularly challenging because they evolve over time and new forms constantly emerge, one of which is TheMoon
+ Benjamin tells Computer Weekly: “Threat researchers at CenturyLink’s Black Lotus Labs recently discovered a new module of IoT botnet called TheMoon, which targets vulnerabilities in routers within broadband networks
+ Attackers are using botnets such as TheMoon for a range of crimes, including credential brute forcing, video advertisement fraud and general traffic obfuscation
+ “For example, our team observed a video ad fraud operator using TheMoon as a proxy service, impacting 19,000 unique URLs on 2,700 unique domains from a single server over a six-hour period,” says Benjamin
+ “TheMoon is a stark reminder that the threat from IoT botnets continues to evolve
+TheMoon and Linux
+CenturyLink, a third ISP, confirmed to ZDNet in a previous interview in January that TheMoon had been carrying out credential stuffing attacks since the start of 2018
+Move Over, Mirai: Persirai Now the Top IP Camera Botnet
+One such malware family that appears to have achieved more success than rivals is Persirai, a botnet malware targeting Internet Protocol (IP) cameras
+ Researchers from Trend Micro recently discovered Persirai targeting over 1,000 IP camera models based on multiple original equipment (OEM) products
+Like other IoT malware, Persirai takes advantage of open Universal Plug and Play (UPnP) ports on IP cameras to infect them
+One interesting feature of Persirai, according to Trend Micro's research, is its ability to start infecting other IP cameras by exploiting three known vulnerabilities
+A Shodan scan conducted by Trend Micro researchers found more than 120,000 IP cameras vulnerable to Persirai worldwide
+The fourth IoT malware that Trend Micro discovered targeting IP cameras is dubbed TheMoon
+ TheMoon is the oldest malware directed at IoT devices, and has been around since at least 2014
+Of more than 3,650 IP cameras that Trend Micro tracked across the US, Japan, Korea, and Taiwan, it found Persirai on more than 64% of them, making it by far the most prevalent malware on IP cameras
+ In second place was Mirai, which accounted for about 28% of the infected cameras, while DvrHelper and TheMoon were present on roughly 7% and 1% of the devices, respectively
+Dasan's gigabit-capable passive optical network (GPON) home routers are again the target of zero-day exploits using a new botnet called TheMoon, according to researchers at Qihoo 360 Netlab
+While activity of TheMoon botnet emerged in 2014, it's only been seen adding internet of things (IoT) device exploits into its code since 2017, Qihoo 360 Netlab researchers wrote in a 21 May post
+ TheMoon is the latest to "join the party" of botnets attacking GPON home routers
+Earlier this year, Qihoo 360 Netlab researchers analyzed TheMoon, identifying it as a code for a family of malicious code
+ Since April 2017, researchers have been monitoring TheMoon family and its evolution
+In the most recent attacks, the researchers noted that the attacking payload looks different on TheMoon, which is why they have classified it as a zero-day
+ All these make TheMoon totally different," the researchers wrote
+In an effort to prevent future attacks, the researchers chose not to disclose the details of the payload attack; however, they did identify features of this new dark side of TheMoon, which include the scanner IP (177
+TheMoon botnet behind new Dasan GPON zero-day
+The botnet exploiting this new GPON router zero-day is called TheMoon, a very old threat that was first spotted in 2014 infecting Linux servers but has started switching to home routers IoT in recent years
+TheMoon is only the latest botnet to add support for exploiting Dasan GPON routers
+ Five botnets —Hajime, Mettle, Mirai, Muhstik, and Satori— have been exploiting two older exploits for almost a week
+This might change in the upcoming days thanks to the new zero-day deployed by TheMoon botnet, but also because botnet operators have been working on improving their exploit payloads in the past days
+Nonetheless, Netlab says that together with the partners from the security industry they have scored a victory for the good guys, as they have managed to take down the servers of the Muhstik botnet, one of the five botnets that were targeting GPON routers last week
+However, the victory may be short-lived, as Muhstik admins appear to be attempting to install new servers and resume their router hacking activities
+The botnet of home routers created using a worm known as TheMoon is alive and kicking two years after being discovered, even after some router vendors have shipped firmware patches to protect their devices from getting infected
+TheMoon worm made headlines in early 2014 when Johannes B
+TheMoon targeting ASUS routers
+But TheMoon's author didn't stop there, and according to a Fortinet report released today, he improved the worm's targeting by adding support for ASUS routers
+Fortinet researchers say that TheMoon has incorporated the CVE-2014-9583 vulnerability in its source code
+In subsequent exploitation steps, Fortinet says TheMoon will add new firewall rules to ensure the crook can access the device from his desired location and to block other IoT malware from exploiting the same flaw and hijacking the device from his botnet
+TheMoon also targets D-Link routers
+ Taking a closer look at these "extra" firewall rules that TheMoon adds to infected devices, security researchers also discovered a rule that, when analyzed, they realized is meant to protect D-Link routers from an HNAP SOAPAction-Header Command Execution vulnerability
+While Fortinet hasn't seen any D-Link routers infected with TheMoon, the presence of that firewall rule means the malware author is clearly aiming for devices vulnerable to that flaw
+The size of TheMoon botnet is currently unknown, but taking into account the author's expertise and past experience, the botnet is more likely big, rather than small
+ Readers can also take a look at an alternative analysis of TheMoon worm from Russian security firm Dr
+The worm, which has been dubbed TheMoon because it contains the logo of Lunar Industries, a fictitious company from the 2009 movie "The Moon," begins by requesting a /HNAP1/ URL from devices behind the scanned IP addresses
+Wi-Fi me to TheMoon, let me fraudulently view ads on YouTube: A botnet of compromised home broadband routers, dubbed TheMoon, has been caught fetching YouTube video pages seemingly to inflate vid ad impressions, according to US ISP CenturyLink
+Discover how TheMoon has evolved into a proxy as a service: http://news
+com/2019-01-31-TheMoon-Illustrates-Evolving-Threat-of-IoT-Botnets
+Find out how the Satori botnet is resurfacing with new targets: http://news
+com/2018-10-29-Satori-botnet-resurfaces-with-new-targets
+ The flaw involves the HNAP protocol used to administer home routers, which was exploited in 2014 by a botnet called TheMoon
+ “While we track many different malware families, we have recently shared intelligence on how TheMoon botnet evolved into a proxy as a service, how Mylobot acquired a second-stage, information-stealing attack capability and how Satori resurfaced with new infection targets
+ Variants of Mirai code have been spotted in the Satori botnet,” researchers wrote
+Last year, researchers discovered a worm, which they called TheMoon, that infected several Linksys routers
+Note that TheMoon infected only Linksys routers
+The issue involves the HNAP protocol used to manage home routers, which was exploited on a large scale in 2014 by a botnet called TheMoon, Mursch said
+In 2014, a router worm called TheMoon used the HNAP protocol to identify vulnerable Linksys-brand routers to which it could spread itself
+A new worm, or piece of self-replicating malware, nicknamed "TheMoon" has been infecting Linksys E-series routers, and possibly some Linksys Wireless-N-series routers, by exploiting a vulnerability in the way the routers verify administrator access
+If you want to protect against TheMoon, or simply wish to ensure that your Linksys router is as safe as it can be, read on to find out how to upgrade your firmware and adjust your router settings
+Note: Some router models vulnerable to TheMoon are no longer supported by Linksys and haven't been issued any firmware updates
+Some older Linksys E-Series routers and Wireless-N routers and access points are vulnerable to a malware infection—dubbed TheMoon—that leaves a self-replicating worm behind
+The worm is a variant of TheMoon, which was first discovered in February 2014, and works by taking advantage of weaknesses in the HNAP (Home Network Administration Protocol) protocol
+Damballa reports that the new TheMoon worm sample is not currently detected by any antivirus maker
+Robots are everywhere
+Het gaat om een worm genaamd "TheMoon" die begin 2014 voor het eerst werd gesignaleerd

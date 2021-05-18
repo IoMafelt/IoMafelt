@@ -1,0 +1,60 @@
+ Not long after unixfreaxjp’s research, for example, Trend Micro observed that new samples of Bashlite, a malware known for enlisting vulnerable internet of things (IoT) devices into DDoS botnets, had added both cryptomining and backdoor-related capabilities
+Researchers observed a family of bots dubbed Chalubo launching distributed denial-of-service (DDoS) attacks to conduct brute-force entry against Linux-based systems running internet-facing SSH servers
+The Chalubo botnet, which incorporates malware such as Xor
+ Chalubo’s components include a downloader, a Lua command script and the main bot, which was optimized for hardware running Intel x86 processors
+ Over the past few weeks, Chalubo’s creators have also turned to the Elknot dropper to release the full malware family, and the researchers noted that the bots can now run on a variety of other central processing unit (CPU) architectures, which could suggest that the botnet will become more pervasive in the near future
+Chalubo Steals Threat Tactics From Other Malware
+ The researchers noted that certain functions that allow the Xor
+DDoS family to achieve persistence were copied in the Chalubo code, for example
+ Similarly, code from Mirai had been copied to the main Chalubo bot
+Denial-of-service attacks can cripple website performance and bring other areas of enterprise IT to a grinding halt, so if Chalubo was found via a honeypot, its creators are likely aiming for real targets, too
+A new report issued by researchers from a cybersecurity company called SophosLabs claims that a new botnet called Chalubo (ChaCha-Lua-bot) is targeting badly secured SSH servers
+Upon infecting devices, Chalubo downloads malware that uses them for launching DDoS attacks
+ However, apart from using these techniques, Chalubo also borrows code from Xor
+ According to their report, this might indicate that the testing period is over and that Chalubo is ready to be used in large-scale attacks
+Chalubo attacks started in August, but it was only the attack on September 6th that has provided researchers with enough insight into the botnet’s capabilities
+ SophosLabs hat sich das unter dem Namen Chalubo oder auch ChaCha-Lua-bot aktive Schadprogramm näher angeschaut und herausgefunden, dass es die riesige Anzahl globaler Linux-Server angeht, die SSH (Secure Shell) für Remote-Administration nutzen
+ Chalubo scannt dazu im großen Stil IP-Adressen und sucht nach Geräten, die SSH auf Port 22 verwenden
+ Allerdings weisen viele Designelemente der Malware darauf hin, dass vor allem IoT-Geräte im Chalubo-Fokus stehen
+ Wenn allerdings tatsächlich eine größer angelegte Aktion vorbereitet werden sollte, ist es sehr wahrscheinlich, dass Chalubo SSH im Hauptfokus hat, da es häufig als sichere Möglichkeit angesehen wird, nahezu alles zu nutzen, das auf Linux basiert
+Wie kann Linux/Chalubo-A entdeckt werden? Eine Möglichkeit ist es, nach ausgehendem C&C-Traffic auf Port 8852 zu suchen, auch wenn dieser Weg nicht immer genutzt wird
+ Wie bei allen Brute-Force-Attacken kann sich auch Chalubo erst dann so richtig austoben, wenn Standard- oder schwache Passwörter genutzt werden
+ Robot
+Robotic workforce
+ Of course, they should all be disabled to improve system performance, and free utilities like Spybot Anti-Beacon are always useful to combat any telemetry settings that may have been reenabled in the process
+Since early September, SophosLabs has been monitoring an increasingly prolific attack targeting Internet-facing SSH servers on Linux-based systems that has been dropping a newly-discovered family of denial-of-service bots we’re calling Chalubo
+ Like some of its predecessors, Chalubo incorporates code from the Xor
+When Chalubo downloaders started circulating in late August, the attacker issued commands on the victim’s device to retrieve the malware, which was actually comprised of three components: A downloader; the main bot (which ran only on systems with an x86 processor architecture); and the Lua command script
+ As of mid October, the attacker has been issuing commands that retrieve the Elknot dropper (detected as Linux/DDoS-AZ), which in turn delivers the rest of the Chalubo (ChaCha-Lua-bot) package
+SophosLabs first discovered the Chalubo family from an attack on one of our honeypots, which we use to collect data on malicious activity
+The reason the script is interesting is that it references files previously attributed to the Xor
+ The manner in which this script gets dropped exactly matches the behaviour of the Xor
+ In fact, looking closely at the code responsible for all of the persistence portions here, it appears that Chalubo has copied the DelService & AddService functions from the Xor
+ It’s clear that the author of Chalubo had access to the source of the Xor
+Chalubo uses the stream cipher ChaCha, set to 20 rounds
+The ChaCha-IETF implementation within Chalubo treats the 4 byte counter as a separate argument
+Chalubo initial key state expa nd␣3 2-by te␣k Key Key Key Key Key Key Key Key Arg Nonce Nonce Nonce
+The Chalubo implementation initializes the counter to start from one(1) instead of zero
+ Some others, such as the crypto API within the Linux kernel, treat the last 16 bytes of counter and nonce as a single input argument, however the Libsodium library has the ChaCha-IETF implementation with a counter as a separate argument — and even then, the order of the arguments doesn’t quite line up with what we see in Chalubo
+And this is the same function in Chalubo (if we renamed some of the variables to match those in the example above):
+So we can certainly say the Chalubo ChaCha function is a unique implementation whose algorithm matches the peer/IETF recommendations
+It became clear, once we looked at the bot, that Chalubo had copied a few code snippets from Mirai, such as some of the randomizing functions and what appears to be an extended form of the util_local_addr function
+Sophos endpoint and server protection detects this family as Linux/Chalubo-*
+Chalubo is a new botnet which is targeting poorly-secured Internet of Things (IoT) devices and servers for the purpose of distributed denial-of-service (DDoS) attacks
+The main Chalubo bot is not only adopting obfuscation techniques more commonly found in Windows-based malware but is also using code from Xor
+Chalubo contains a downloader, the main bot -- which runs on systems with an x86 processor architecture, and a Lua command script
+Chalubo attempted to brute-force attack and secure the credentials of the honeypot, and while the attackers believed they were able to gain a shell through root admin, the researchers silently recorded how they used commands to 'stop' firewall protections and install malicious components
+A script is then dropped and executed for additional persistence, which Sophos says is close to a carbon copy of how the Xor
+ However, Chalubo is far from the only botnet menace out there
+The new botnet has been dubbed Chalubo by Sophos because it encrypts both the main bot component and its corresponding Lua script using the ChaCha stream cipher
+ Like some of its predecessors, Chalubo incorporates code from the Xor
+When Chalubo downloaders started circulating in late August, the attacker issued commands on the victim’s device to retrieve the malware
+ As of mid October, the attacker had been issuing commands that retrieve the Elknot dropper (detected as Linux/DDoS-AZ), which in turn delivers the rest of the Chalubo package
+There are now a variety of Chalubo versions that run on different processor architectures, including both 32- and 64-bit ARM, x86, x86_64, MIPS, MIPSEL, and PowerPC
+Because Chalubo infects systems by leveraging common username and password combinations against SSH servers, Sophos urges sysadmins of SSH servers (including embedded devices) change any default passwords on those devices, because the brute force attempts to cycle through common, publicly known default passwords
+ The family, dubbed Chalubo, has been used in attacks targeting internet-facing SSH servers on Linux-based systems, according to SophosLabs
+ The anti-analysis techniques are principles more commonly used to thwart detection in Windows malware, though Chalubo does incorporate code from both the Xor DDoS and other Mirai malware families
+The Chalubo family attacked a SophosLabs honeypot on September 6, 2018, at which time researchers noted the bot attempting to brute-force login credentials against an SSH server
+ Since its detection, attackers have added commands that “retrieve the Elknot dropper (detected as Linux/DDoS-AZ), which in turn delivers the rest of the Chalubo (ChaCha-Lua-bot) package,” according to Sophos News
+ “For example, perhaps the attackers in control of Spike felt challenged by Mirai and wanted to be more competitive
+ Security firms and researchers today still see remnants of the epic 2003 SQLSlammer worm attack, and even the mysterious Conficker worm from early 2009

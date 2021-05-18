@@ -1,0 +1,52 @@
+The recent phone hacking scandal involving celebrities such as Jennifer Lawrence and Kate Upton, showed that iCloud storage is an easy target for cyber snoops
+Hajime – the "vigilante" IoT worm that blocks rival botnets – has built up a compromised network of 300,000 malware-compromised devices, according to new figures from Kaspersky Lab
+The steadily spreading Hajime IoT worm fights the Mirai botnet for control of easy-to-hack IoT products
+Hajime, like Mirai before it, takes advantage of factory-set (default) username and password combinations to brute-force its way into unsecured devices with open Telnet ports
+Hajime avoids several networks, including those of General Electric, Hewlett-Packard, the US Postal Service, the United States Department of Defense, and a number of private networks
+The resiliency of Hajime surpasses Mirai, security researchers say
+ Features such as a peer-to-peer rather than centralised control network and hidden processes make it harder to interfere with the operation of Hajime (meaning "beginning" in Japanese) than comparable botnets
+There is no attacking code or capability in Hajime – only a propagation module
+ Despite its (current) benign state Hajime is still a concern, not least because the malware's real purpose remains unknown
+"The most intriguing thing about Hajime is its purpose
+The ever-growing Hajime botnet is starting to worry security researchers as the botnet has reached a massive size, estimated at 300,000 infected devices
+While Hajime was never used to perform any malicious action, such as DDoS attacks, researchers fear a rogue actor may be able to take over the botnet's operations from its original author
+Hajime appeared as a direct competitor for Mirai
+The Hajime botnet was first spotted online last fall by security researches from Rapidity Networks
+ Researchers named this new IoT malware Hajime, the Japanese word for "beginning," because the malware specifically tried to compromise the same devices infected by Mirai, which is the Japanese word for "future
+The connection to Mirai is important, because Hajime appeared right in the middle of several DDoS attacks performed by Mirai, a fellow IoT malware also used to create huge botnets
+Because of Mirai's intense activity at the time, Hajime went unnoticed by most security firms, who were pretty busy following and investigating the Mirai DDoS attacks taking place at the time
+Hajime evolves into highly sophisticated botnet
+It was only after Symantec published a report last week that the infosec community's focus shifted back to Hajime, who in the meantime had grown into the most sophisticated IoT malware on the Internet
+Following Symantec's report, other security firms such as Kaspersky Labs and Radware also published reports on Hajime this week
+ Hajime is incredibly sophisticated, like nothing they've seen before, but its currently harmless
+Here are the basic things you need to know regarding Hajime's current mode of operation:
+⍈ Hajime spreads to devices in three ways: (1) by brute-forcing Telnet accounts with weak credentials; (2) by exploiting a flaw in the TR-064 protocol used by ISPs to remotely manage routers; and (3) by the Arris cable modem
+⍈ Hajime uses the exact same username and password combinations that Mirai is programmed to use, plus two more
+⍈ Hajime has gone through six updates since the start of 2017, meaning its author is still developing it
+⍈ The Hajime operator controls his botnet via the P2P protocol
+⍈ All Hajime bot communications are encrypted
+⍈ The Hajime malware binary has a modular architecture and can download other modules for extra functionality
+⍈ Hajime doesn't feature any persistence code and the malware can be removed by booting the device
+⍈ The first Hajime report from Rapidity Networks identified a bug in the communications protocol, which the author promptly fixed
+⍈ The malware's author did not refer to his malware as Hajime, but started calling it so after the original Rapidity Networks report
+⍈ Every time an infected bot contacts a C&C server for an updated configuration, the malware displays the following message on the device's console ⍈ The malware targets Linux-based devices running on the arm5, arm6, arm7, mipseb and mipsel platforms⍈ Most of the infected devices are DVRs, security cameras, and home routers⍈ Hajime spreads to devices in three ways: (1) by brute-forcing Telnet accounts with weak credentials; (2) by exploiting a flaw in the TR-064 protocol used by ISPs to remotely manage routers; and (3) by the Arris cable modem password of the day attack ⍈ Hajime uses the exact same username and password combinations that Mirai is programmed to use, plus two more⍈ Hajime has gone through six updates since the start of 2017, meaning its author is still developing it⍈ The Hajime operator controls his botnet via the P2P protocol⍈ All Hajime bot communications are encrypted⍈ The Hajime malware binary has a modular architecture and can download other modules for extra functionality⍈ Most of these modules and binaries are stored on other infected bots, and not downloaded from a central server⍈ Security researchers have spotted only self-replication modules, but no modules for DDoS attacks or traffic proxying⍈ Custom modules can be written in any language, as long as they can be compiled to a binary for one of the supported platforms⍈ Hajime doesn't feature any persistence code and the malware can be removed by booting the device⍈ The first Hajime report from Rapidity Networks identified a bug in the communications protocol, which the author promptly fixed⍈ The malware's author did not refer to his malware as Hajime, but started calling it so after the original Rapidity Networks report⍈ Every time an infected bot contacts a C&C server for an updated configuration, the malware displays the following message on the device's console
+Based on these console messages, in its report released last week, Symantec speculated that the author of the Hajime botnet is an Internet vigilante who has no bad intentions
+Is the Hajime author really a vigilante?
+Speaking to Bleeping Computer in an email exchange, Pascal Geenens, Cyber Security Evangelist for Radware and one of the researchers who analyzed Hajime didn't fully agree with Symantec's classification
+"Just a white hat! Hmm… then why does Hajime stay resident and keeps growing its network? Why is the forked process called ‘atk’ for attack and not scan or discover," Geenens asked rethorically
+"For now, however, Hajime is still under control of its original author (or so I hope) and mostly we are considering his intentions to be good," Geenens wrote yesterday in a blog post
+Researchers fear the worst if someone else hijacks Hajime
+Right now, Hajime isn't classified as a threat, but its sheer size of 300,000 bots, according to a Kaspersky estimate, worries researchers, and Geenens in particular
+Geenens argues that if a black hat hacker would find a similar flaw today, he could exploit it to break the encrypted C&C server comms, and hijack the botnet right from under the Hajime author's nose
+Because of Hajime's modular structure, even if there's no malicious modules present, an attacker could easily create and deploy them himself
+ Potential uses for such a botnet range from mundane DDoS attacks to mass surveillance by tapping into the video feeds and Internet traffic flowing through the Hajime infected devices
+For all intent and purposes, right now, you wouldn't be wrong calling Hajime the work of an Internet vigilante, as the botnet has chewed away at many IoT botnets used for malicious purposes, trapping unsecured devices in its network, where they're currently dormant
+ So for the time being, here's a "Thank you Hajime author!" from the rest of us
+The past decade has seen an explosive advancement in the fields of artificial intelligence (AI) and Robotics
+Arush Sogani, Director, Sysnet Global Technologies said that “Robots already have a significant presence in manufacturing automation and it seems to increase further
+Read on for some of the most notorious known hacker groups, from ‘Fancy Bear’ to ‘Reaper’
+The group’s first published leak was in August 2016, a cache of cyber weapons that it attributed to the ‘Equation Group’ – an organisation believed to be based in America, possibly behind the infamous Stuxnet code that wrecked Iran’s nuclear centrifuges, and that has been suggested to also have ties to the NSA
+The group was most famously associated with Stuxnet, a highly sophisticated attack (especially for its time) that successfully wrecked Iran’s nuclear centrifuges, although it’s suspected that the unit informed the attack rather than perpetrated it
+An attack by malware known as VPNFilter is currently targeting home routers and is believed to have infected more than 500,000 devices
+ For example, the infamous Symantec-discovered Stuxnet worm used USB-based malware to manipulate centrifuges in Iranian nuclear plants – ultimately sabotaging a key part of the country’s nuclear program
+But it says unlike previous attacks, which focused on exploiting a single vulnerability, new IoT botnets such as Reaper and Hajime target multiple vulnerabilities simultaneously, which is much harder to combat

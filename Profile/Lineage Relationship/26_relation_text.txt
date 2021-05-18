@@ -1,0 +1,59 @@
+Linux/IRCTelnet, as the underlying malware has been named, borrows code from several existing malicious IoT applications
+Linux/IRCTelnet also borrows telnet-scanning logic from a newer IoT bot known as Bashlight
+The best-of-breed approach "is driving a high infection speed of Linux/IRCTelnet (new Aidra) so it can [infect] almost 3,500 bot clients within only five days from the moment its loader was first detected," a researcher who goes by the handle Unixfreakjp wrote in a blog post reporting on the new malware
+Like most IoT bots, Linux/IRCTelnet doesn't have what malware experts refer to as persistence
+ Linux/IRCTelnet is likely only the beginning of what could be a long line of next-generation malware that steadily improves its capabilities
+The new nasty, Linux/IRCTelnet discovered by security researchers at MalwareMustDie
+Whether Linux/IRCTelnet is effective at spreading much less attacking systems is so far unclear
+The new malware, dubbed Linux/IRCTelnet, was discovered by researchers who posted an analysis of the malicious code on Malware must die
+According to the team, Linux/IRCTelnet is similar to malware strains used to hijack vulnerable Internet of Things (IoT) devices -- such as routers, smart lighting systems, VCRs, and surveillance cameras -- but has been coded partially with the Tsunami/Kaiten protocol and Bashlite
+Linux/IRCTelnet is able to attack through both the IPv4 and IPv6 protocols and is based on the source code of the Aidra botnet
+It's similar to strains recently used to hijack IoT devices - like routers and digital cameras - but this new strain is coded with Tsunami/Kaiten protocol and Bashlite to create DDoS attacks via an IRC botnet, researchers said
+"In 2018, VPNFilter demonstrated the destructive power of weaponised malware that affects embedded systems and networked devices that have no obvious user interface
+ Elsewhere, Mirai Aidra, Wifatch and Gafgyt delivered a range of automated attacks that hijacked networked devices to use as nodes in botnets to engage in distributed denial-of-service attacks, mine crypto-currency and infiltrate networks," adds Sophos
+ In 2018, VPNFilter demonstrated the destructive power of weaponized malware that affects embedded systems and networked devices that have no obvious user interface
+ Elsewhere, Mirai Aidra, Wifatch, and Gafgyt delivered a range of automated attacks that hijacked networked devices to use as nodes in botnets to engage in distributed denial-of-service attacks, mine cryptocurrency and infiltrate networks
+In 2018, VPNFilter demonstrated the destructive power of weaponised malware that affects embedded systems and networked devices that have no obvious user interface
+Elsewhere, Mirai Aidra, Wifatch, and Gafgyt delivered a range of automated attacks that hijacked networked devices to use as nodes in botnets to engage in distributed denial-of-service attacks, mine cryptocurrency and infiltrate networks
+Darlloz, initially appeared to be nothing out of the ordinary
+Darlloz knows that the kinds of devices infected by Linux
+Darlloz attempts usurp, also exemplifies this new generation of threats
+ Like some of the variants of Darlloz discovered by Symantec, Linux
+ Whoever authored Darlloz obviously believed that Aidra infections were so widespread that it posed a potential threat to their own malware
+Darlloz (aka Zollard), Linux
+Xorddos (aka XOR
+Gafgyt (aka GayFgt, Bashlite), Linux
+Ballpit (aka LizardStresser), Linux
+Moose, Linux
+Dofloo (aka AES
+Pinscan / Linux
+Pinscan
+B (aka PNScan), Linux
+Kaiten / Linux
+Kaiten
+B (aka Tsunami), Linux
+Routrem (aka Remainten, KTN-Remastered, KTN-RM), Linux
+Wifatch (aka Ifwatch), and Linux
+LuaBot
+ Parmi les ancêtres de Mirai, les chercheurs de Fortinet citent ainsi Hydra, un malware apparu en 2008 et qui visait principalement des équipements réseau (routeurs, switch et autres modems
+) Si Hydra ne vise pas des objets connectés, il profite des mots de passe par défaut souvent laissé en place par les utilisateurs pour infecter les machines et les utiliser afin de mener des attaques DdoS
+ On peut également citer Bashlite apparu en 2014, qui reprend la même méthode, ou encore l’inattendu Wifatch, un malware qui infecte les machines Linux afin de fermer les ports Telnet laissés ouverts par les utilisateurs et éviter de futures infections
+ Sur scène, Rommel Joven de Fortinet cite ainsi l’exemple du malware IoT Reaper, qui réutilise l’essentiel du code source de Mirai
+ On peut ainsi retrouver des parties du code source de Mirai dans les malwares NewAidra (Decouvert en octobre 2016), Persirai (Mai 2017) ou encore au sein de Bashlite, dont les dernières versions ont intégré plusieurs modules et identifiants directement tirés de Mirai
+Mirai se distinguait déjà par le nombre important d’identifiants qu’il utilisait pour infecter des machines (la liste en contenait 77, contre une dizaine pour un de ses prédécesseurs comme Bashlite), mais l’ajout d’exploits vient renforcer le potentiel de ces malwares IoT, qui ciblent généralement des objets connectés dont la sécurité n’est pas forcement prise au sérieux par leurs possesseurs
+On peut ainsi citer OMG, un malware dérivé de Mirai qui vise le même type d’appareils afin de les utiliser comme des proxys, afin de dissimuler l’origine d’une attaque informatique ou de son trafic internet
+ Le nouveau venu est connu sous le nom de Linux/IRCTelnet et son fonctionnement est détaillé par le blog MalwareMustDie
+ Le nouveau logiciel malveillant identifié par MalwareMustDie emprunte ainsi du code au projet Aidra, mais profite également des listes d’identifiants par défaut utilisés par Mirai ainsi que des outils de c&c via IRC utilisés par le malware Kaiten
+Comme son nom l’indique, Linux/IRCTelnet s’attaque aux objets connectés fonctionnant sous environnement Linux et tente de forcer l’accès aux machines en se connectant via Telnet grâce aux identifiants par défaut enregistrés
+Linux/IRCTelnet est apparemment plus perfectionné que Mirai : selon MalwareMustDie, celui-ci dispose ainsi d’une connectivité ipv6, dont Mirai était dépourvue
+ Comme Mirai, Linux/IRCTelnet fonctionne uniquement dans la mémoire ram de l’appareil et un simple redémarrage suffit à désinfecter l’objet connecté
+ Nun hat Mirai einen Nachfolger, von seinem Entdecker Linux/IRCTelnet getauft
+Linux/IRCTelnet aber hat das Potenzial, noch größere Schäden anzurichten
+Demnach kombiniert Linux/IRCTelnet große Teile des Quellcodes von Aidra, einem der ersten bekannten IoT-Malwarebots, mit den Scanningfähigkeiten von Bashlite und der Liste von Standardzugangsdaten, die Mirai benutzt, um Geräte heimlich zu übernehmen
+Wie Mirai ist auch Linux/IRCTelnet zunächst kein hartnäckiger Schädling
+ Aber solange die Zugangsdaten unverändert bleiben und das Gerät nicht mit einer Firewall geschützt wird, kommt Linux/IRCTelnet einfach wieder
+ Nel 2018, VPNFilter ha dimostrato il potere distruttivo del malware che colpisce i sistemi embedded e i dispositivi di rete che non hanno una semplice interfaccia utente
+ Mirai Aidra, Wifatch e Gafgyt hanno messo in atto una serie di attacchi automatizzati che hanno usato i dispositivi di rete in botnet per effettuare attacchi di denial-of-service distribuiti, minare cryptomonete e infiltrarsi nella rete
+ En 2018, VPNFilter demostró el poder destructivo del malware armado que afecta a los sistemas integrados y dispositivos en red que no tienen una interfaz de usuarios obvia
+ En otros lugares, Mirai Aidra, Wifatch y Gafgyt lanzaron una serie de ataques automatizados para usarlos como nodos en redes de bots para participar en ataques distribuidos de denegación de servicios, criptomonedas e infiltrar redes
+When analyzing one of the hijacked cameras that happened to be located in a store close to the team's office, the researchers found that it was infected with a variant of a known malware program designed for ARM versions of Linux that's known as Bashlite, Lightaidra or GayFgt

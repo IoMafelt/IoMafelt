@@ -1,0 +1,63 @@
+ In 2016, Proofpoint researchers spotted an exploit kit which they named DNSChanger EK that did the same thing -- replacing legitimate ads with malicious ones -- and is most likely the inspiration for what the botnet operators targeting Brazil are doing now
+Wicked6 Cyber Games Finalists Announced (Wicked6 Cyber Games) The Women’s Society of Cyberjutsu announces the finalists in the Wicked6 Cyber Games, a unique cybersecurity exhibition and fundraiser to be held at HyperX Esports Arena Las Vegas at the Luxor Hotel and Casino on August 8, 2019, followed by the 6th Annual Cyberjutsu Awards Reception
+Previously, during September, Unit 42 also spotted a strain of the Mirai botnet switching targets to attack Apache Struts servers with exploits also utilized during last year's Equifax breach, while a new Gafgyt version was seen assailing SonicWall firewalls, as part of a broader move against enterprise devices
+ Just this month, internet security firm Sophos Labs warned about a new "family of denial-of-service bots we're calling Chalubo" targeting IoT devices
+Stuxnet, the virus that brought down Iranian centrifuges in 2010, may be the earliest example
+A new malware strain called BrickerBot is bricking Internet of Things (IoT) devices around the world by corrupting their storage capability and reconfiguring kernel parameters
+Right from the get-go, two different versions of BrickerBot were detected: BrickerBot
+1 and BrickerBot
+BrickerBot spreads to devices with open Telnet ports
+Just like Mirai, Hajime, LuaBot, and other IoT malware, BrickerBot uses a list of known default credentials used for various IoT devices
+If device owners failed to change their default credentials, BrickerBot logs in and performs a series of Linux commands
+BrickerBot bricks your "smart" devices
+Commands executed by BrickerBot
+1 (via Radware) Commands executed by BrickerBot
+The company's experts say the two BrickerBot variants are distributed via two different infrastructures
+ Currently, attacks with BrickerBot
+Attacks from BrickerBot
+2, the more advanced version of the BrickerBot malware family and the one that executes more commands, are hidden behind Tor exit nodes, and are almost impossible to trace back to their origin
+ The good news is that this more advanced version was only responsible for 333 PDoS attacks, far less than the ones with BrickerBot
+BrickerBot the work of a vigilante?
+All in all, BrickerBot isn't like anything we've seen before in the landscape of IoT malware
+BrickerBot's destructive capabilities are something new, which don't benefit anyone
+ Not BrickerBot's author, and certainly not the device owner, who'll have to reinstall firmware, or even worse, buy a new device
+BrickerBot could also be the work of an Internet vigilante that wants to destroy insecure IoT devices
+Wifatch, this IoT malware strain took over insecure routers and then executed commands that improved the device's security
+BrickerBot is bent on destroying IoT devices
+The same cannot be said for BrickerBot's author, who clearly is intent on wiping as much of unsecured IoT devices as he can
+BrickerBot's approach is definitely illegal and dangerous, as Gevers points out
+So Gevers is making a proposition for the BrickerBot authors
+The Radware security alert containing the technical details of BrickerBot's modus operandi is available here
+Last year at ROSCon 2018, Microsoft announced an experimental release for Robot Operating System for Windows 10
+ Earlier today, the Redmond-based tech corporation and Open Robotics officially launched ROS for Windows 10 IoT Enterprise
+Brian Gerkey, CEO of Open Robotics, commented on the release:
+Further information about Robot Operating System on Windows 10 can be found here
+Thanks to the Cyber Threat Alliance, SophosLabs researchers were provided early access to malware samples collected by Cisco TALOS team in their research of the VPNFilter botnet activity
+VPNFilter malware is another clear demonstration of rather philosophical paradigm: the more IoT devices we have helping us out in our daily lives, the more advanced the CPUs become, driving our routers, cars, or refrigerators (you name it), the bigger an attack surface becomes
+VPNFilter also demonstrates how the cybercriminals achieve a high degree of portability by building their code so that it targets different architectures
+VPNFilter isn’t the first zombie malware to target everyday devices on everyone’s network, and it won’t be the last
+For more information read part 2 of our VPNFilter botnet analysis
+The Roomba can clean the home even when the owners are not around – all they’d need to do would be to schedule it to clean via the iRobot Home App
+In DCU Alpha, about 5pc of our companies are now engaged with ESA, including Robotify, Ubotica, Enbio and Taoglas, to name a few
+If you've been following the infosec Twitter community for the last few days, you couldn't ignore the constant talk about the massive scans currently taking place online, carried out by a Hajime IoT botnet looking to mass-infect unpatched MikroTik devices
+The new Hajime variant has been scanning wide range of tcp ports since 2018-03-26
+So the old Hajime botnet is coming back with a new exploit which was published only about 13 days ago ( https://t
+ The first to spot the scans were researchers from Qihoo 360's Netlab team, who said today this Hajime botnet performed over 860,000 scans in the last three days, albeit they couldn't tell how many of these scans were also successful infections
+But this time around, attackers didn't joke around and they installed the Hajime bot, a strain of IoT malware known primarily for building giant botnets, with the last one reaching over 300,000 devices in the spring of 2017
+As for the Hajime bot's infection attempts, this follows a quite simplistic pattern
+ Other Hajime infected bots scan random IP addresses on port 8291
+Once a new device has been infected with a Hajime bot, this new device also starts scanning to infect other MikroTik routers
+It is worth mentioning that in the past, the Hajime IoT botnet was never used for massive DDoS attacks, and its existance was a mystery for many researchers, as the botnet only gathered infected devices but almost never did anything with them (except scan for other vulnerable devices)
+Reboot your router says @FBI to disable #VPNFilter malware
+EMBED >More News Videos Netgear routers are among those targeted by the VPNFilter malware that has infected 500,000 routers worldwide, according to the F
+The vulnerability is serious because the FBI says the malware, called "VPNFilter," can interrupt internet access, steal information from users, and use the device to spread malware
+ The BrickerBot, Wifatch, and Mirai malware are known for such behavior
+ While this sounds hard, as these are highly secure networks, past attacks with malware such as Stuxnet, Gauss, and Flame, show that a mundane infected USB can sometimes do wonders
+As you may remember, it was recently reported that a malware named Persirai had been attacking numerous IP cameras with record-breaking Distributed denial-of-service (DDoS) attacks in 2016
+Persirai
+Let us begin by Persirai, as this was the first in line to have launched a DDoS attack on quite a large scale
+Trend Micro reports that around 64% of IP cameras tracked in the US, Japan, Taiwan and Korea were infected by Persirai putting it ahead of all other malware families
+Mirai is another interesting malware with unique features that already emerged in cyberspace even before Persirai
+“Looking at the data from infected devices from the United States, Japan, Taiwan and Korea, we see that Persirai is the clear frontrunner
+But given that Persirai can easily crack such strong passwords, a more robust precaution is to disable any plug-and-play routers connected to your IP camera
+With the source code out in the open, TreasureHunter is bound to spawn a wave of new PoS malware strains, similarly to how the source code leak of the Zeus (Windows banking trojan) BankBot (Android banking trojan), Alina (PoS malware), Tsunami (Linux/IoT DDoS and botnet malware) and Mirai (Linux/IoT DDoS and botnet malware) spawned tens of copycats in the past years

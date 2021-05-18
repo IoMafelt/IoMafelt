@@ -1,0 +1,25 @@
+The Chalubo botnet, which incorporates malware such as Xor
+ Over the past few weeks, Chalubo¡¯s creators have also turned to the Elknot dropper to release the full malware family, and the researchers noted that the bots can now run on a variety of other central processing unit (CPU) architectures, which could suggest that the botnet will become more pervasive in the near future
+ The researchers noted that certain functions that allow the Xor
+ However, apart from using these techniques, Chalubo also borrows code from Xor
+The botnet is said to contain the main bot, a Lua command script, as well as the Elknot dropper
+The Chalubo botnet, which incorporates malware such as Xor
+ Over the past few weeks, Chalubo¡¯s creators have also turned to the Elknot dropper to release the full malware family, and the researchers noted that the bots can now run on a variety of other central processing unit (CPU) architectures, which could suggest that the botnet will become more pervasive in the near future
+ The researchers noted that certain functions that allow the Xor
+ However, apart from using these techniques, Chalubo also borrows code from Xor
+The botnet is said to contain the main bot, a Lua command script, as well as the Elknot dropper
+The main Chalubo bot is not only adopting obfuscation techniques more commonly found in Windows-based malware but is also using code from Xor
+ The downloader is the Elknot dropper, which has previously been linked to the Elasticsearch botnet
+A script is then dropped and executed for additional persistence, which Sophos says is close to a carbon copy of how the Xor
+ Like some of its predecessors, Chalubo incorporates code from the Xor
+ As of mid October, the attacker had been issuing commands that retrieve the Elknot dropper (detected as Linux/DDoS-AZ), which in turn delivers the rest of the Chalubo package
+"Like some of its predecessors, Chalubo incorporates code from the Xor
+Threat researcher Bart Blaze has described XOR - aka Linux/Xor
+XOR, Xorddos - as being "a Linux Trojan with rootkit capabilities" that is akin to a Windows portable executable file
+"Xor
+ "The name Xor
+ The anti-analysis techniques are principles more commonly used to thwart detection in Windows malware, though Chalubo does incorporate code from both the Xor DDoS and other Mirai malware families
+ Since its detection, attackers have added commands that ¡°retrieve the Elknot dropper (detected as Linux/DDoS-AZ), which in turn delivers the rest of the Chalubo (ChaCha-Lua-bot) package,¡± according to Sophos News
+ New variations of the Mirai and Gafgyt botnets exploit vulnerabilities found in IoT devices, including the security flaw that led to the massive Equifax breach of 2017
+ The agent has been successful in stopping recent malware including DirtyCOW, Mirai, VPNFilter, Torii, and Chalubo
+Researchers find Stuxnet, Mirai, WannaCry lurking in industrial USB drives

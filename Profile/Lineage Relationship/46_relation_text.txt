@@ -1,0 +1,11 @@
+ But it soon found it was getting competition from a malicious botnet dubbed Aidra and the researcher adapted the binary to block this competitor where possible, but estimates it still has around 30,000 endpoints
+ Competing botnet programs such as one known as Aidra infected as many as 30,000 embedded devices including the Linux-powered Dreambox TV receiver and other devices that run on a MIPS hardware
+ The scanning software detected capabilities in Aidra that forced compromised devices to carry out a variety of denial-of-service attacks on targets selected by the malicious botnet operators
+"Apparently its author only built it for a few platforms, so a majority of our target devices could not be infected with Aidra," the researcher reported
+ "Since Aidra was clearly made for malicious actions and we could actually see their Internet scale deployment at that moment, we decided to let our bot stop telnet after deployment and applied the same iptable rules Aidra does, if iptables was available
+ This step was required to block Aidra from exploiting these machines for malicious activity
+The changes didn't survive reboots, however, allowing Aidra to resume control of the embedded devices once they were restarted
+Darlloz worm attacks embedded systems
+Darlloz, attacks out-of-date Linux installations running on Intel hardware (a small minority in the embedded systems world), but it would not be hard to modify it to attack embedded linuces on other chips
+Darlloz show a much more primitive and unambitious attack, but it hints at a pretty frightening future for the compromised Internet-of-Things (I wrote a short story about this, called "The Brave Little Toaster")
+ While not posing much of a real-world threat now, Darlloz demonstrates a major shortcoming with most Internet-of-things devices available today—they typically run Linux or other types of open source code that are woefully out of date

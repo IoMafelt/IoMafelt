@@ -1,0 +1,139 @@
+A new report issued by researchers from a cybersecurity company called SophosLabs claims that a new botnet called Chalubo (ChaCha-Lua-bot) is targeting badly secured SSH servers
+Upon infecting devices, Chalubo downloads malware that uses them for launching DDoS attacks
+ However, apart from using these techniques, Chalubo also borrows code from Xor
+The botnet is said to contain the main bot, a Lua command script, as well as the Elknot dropper
+ According to their report, this might indicate that the testing period is over and that Chalubo is ready to be used in large-scale attacks
+Chalubo attacks started in August, but it was only the attack on September 6th that has provided researchers with enough insight into the botnet’s capabilities
+ SophosLabs hat sich das unter dem Namen Chalubo oder auch ChaCha-Lua-bot aktive Schadprogramm näher angeschaut und herausgefunden, dass es die riesige Anzahl globaler Linux-Server angeht, die SSH (Secure Shell) für Remote-Administration nutzen
+ Chalubo scannt dazu im großen Stil IP-Adressen und sucht nach Geräten, die SSH auf Port 22 verwenden
+ Allerdings weisen viele Designelemente der Malware darauf hin, dass vor allem IoT-Geräte im Chalubo-Fokus stehen
+Bei der Untersuchung des Command and Control Servers des Angreifers stellten die SophosLabs außerdem fest, dass noch eine zweite Malware namens Linux/DDoS-BD (Linux/BillGates) eingesetzt wird, die mit dem chinesischen Elknot-Botnetz aus dem Jahr 2014 in Verbindung gebracht wird
+ Wenn allerdings tatsächlich eine größer angelegte Aktion vorbereitet werden sollte, ist es sehr wahrscheinlich, dass Chalubo SSH im Hauptfokus hat, da es häufig als sichere Möglichkeit angesehen wird, nahezu alles zu nutzen, das auf Linux basiert
+Wie kann Linux/Chalubo-A entdeckt werden? Eine Möglichkeit ist es, nach ausgehendem C&C-Traffic auf Port 8852 zu suchen, auch wenn dieser Weg nicht immer genutzt wird
+ Wie bei allen Brute-Force-Attacken kann sich auch Chalubo erst dann so richtig austoben, wenn Standard- oder schwache Passwörter genutzt werden
+Since early September, SophosLabs has been monitoring an increasingly prolific attack targeting Internet-facing SSH servers on Linux-based systems that has been dropping a newly-discovered family of denial-of-service bots we’re calling Chalubo
+ Like some of its predecessors, Chalubo incorporates code from the Xor
+When Chalubo downloaders started circulating in late August, the attacker issued commands on the victim’s device to retrieve the malware, which was actually comprised of three components: A downloader; the main bot (which ran only on systems with an x86 processor architecture); and the Lua command script
+ As of mid October, the attacker has been issuing commands that retrieve the Elknot dropper (detected as Linux/DDoS-AZ), which in turn delivers the rest of the Chalubo (ChaCha-Lua-bot) package
+SophosLabs first discovered the Chalubo family from an attack on one of our honeypots, which we use to collect data on malicious activity
+As an aside, at the end of September the same attacker’s machine attacked our honeypots again, but attempted to retrieve the BillGates malware family [Linux/DDoS-BD] that some have attributed to the Elknot authors
+The reason the script is interesting is that it references files previously attributed to the Xor
+ The manner in which this script gets dropped exactly matches the behaviour of the Xor
+ In fact, looking closely at the code responsible for all of the persistence portions here, it appears that Chalubo has copied the DelService & AddService functions from the Xor
+ It’s clear that the author of Chalubo had access to the source of the Xor
+Chalubo uses the stream cipher ChaCha, set to 20 rounds
+The ChaCha-IETF implementation within Chalubo treats the 4 byte counter as a separate argument
+Chalubo initial key state expa nd␣3 2-by te␣k Key Key Key Key Key Key Key Key Arg Nonce Nonce Nonce
+The Chalubo implementation initializes the counter to start from one(1) instead of zero
+ Some others, such as the crypto API within the Linux kernel, treat the last 16 bytes of counter and nonce as a single input argument, however the Libsodium library has the ChaCha-IETF implementation with a counter as a separate argument — and even then, the order of the arguments doesn’t quite line up with what we see in Chalubo
+And this is the same function in Chalubo (if we renamed some of the variables to match those in the example above):
+So we can certainly say the Chalubo ChaCha function is a unique implementation whose algorithm matches the peer/IETF recommendations
+It became clear, once we looked at the bot, that Chalubo had copied a few code snippets from Mirai, such as some of the randomizing functions and what appears to be an extended form of the util_local_addr function
+Sophos endpoint and server protection detects this family as Linux/Chalubo-*
+Elknot dropper
+ Previously, Bashlite or Lizkebab malware was also found targeting Linux-based IoT and conducting DDoS attacks on banking and government offices in South America
+Lizard Squad also released a Linux-based DDoS tool LizardStresser which has been used to hack CCTV devices and use them to target high profile targets flooding them with as much as 400Gbps of data
+11 percent market share, this is our third story on Linux malware in the past 24 hours, after previously reporting on the Mirai DDoS trojan and the Umbreon rootkit
+ The security researchers have named this malware as “Linux/Shishiga” which utilizes four different protocols according to Eset research team
+ Michal Malik of Eset writes in his blog post that “Linux/Shishiga (meaning female swamp (or forest) creature in the Russian language) is a binary packed with UPX (ultimate packer for executables) 3
+ It’s safe to say that Linux/Shishiga is a similar version of Linux/Moose
+According to security researchers, Linux/Shishiga is still a work in progress, and we might get to see some evolved forms of it pretty soon
+ DO NOT use default Telnet and SSH credentials, instead use a strong password! SSH stands for Secure Shell, and it’s a secure way to remotely access a site’s server however in Shishiga’s case situation is different
+ The family, dubbed Chalubo, has been used in attacks targeting internet-facing SSH servers on Linux-based systems, according to SophosLabs
+ The anti-analysis techniques are principles more commonly used to thwart detection in Windows malware, though Chalubo does incorporate code from both the Xor DDoS and other Mirai malware families
+The Chalubo family attacked a SophosLabs honeypot on September 6, 2018, at which time researchers noted the bot attempting to brute-force login credentials against an SSH server
+ Since its detection, attackers have added commands that “retrieve the Elknot dropper (detected as Linux/DDoS-AZ), which in turn delivers the rest of the Chalubo (ChaCha-Lua-bot) package,” according to Sophos News
+A new strain of malware targeting Linux systems, dubbed "Linux/Shishiga," could morph into a dangerous security threat
+Linux/Shishiga uses four different protocols -- SSH, Telnet, HTTP and BitTorrent -- and Lua scripts for modularity, wrote Detection Engineer Michal Malik and the Eset research team in an online post
+Linux/Shishiga "uses a series of modules in a scripting language called 'Lua,' which gives it a more flexible design," he told LinuxInsider
+Linux/Shishiga targets GNU/Linux systems using a common infection vector based on brute-forcing weak credentials on a built-in password list
+ This is a similar approach used by Linux/Moose, with the added capability of brute-forcing SSH credentials
+By comparison, Linux/Moose is a malware family that primarily targets Linux-based consumer routers, cable and DSL modems, and other embedded computers
+Eset found several binaries of Linux/Shishiga for various architectures, including MIPS (both big- and little-endian), ARM (armv4l), i686, and PowerPC, which are commonly used in IoT devices, Malik and the Eset research team noted
+Shishiga's Anatomy
+Linux/Shishiga is a binary packed with UPX (ultimate packer for executables) 3
+ The UPX tool potentially has trouble unpacking it because Shishiga adds data at the end of the packed file
+Despite a striking similarity to LuaBot instances that spread through weak Telnet and SSH credentials, Linux/Shishiga is different, according to Malik and the Eset researchers
+Shishiga still might evolve and become more widespread, they said
+Shishiga looks like it is targeted toward data centers or IoT devices, he told LinuxInsider
+ "Also, data centers hold crown jewel targets, and if attackers use Shishiga successfully against a data center, enterprises will have a difficult time finding their traces unless they have some solution that analyzes inside the VM activity, and east-west traffic
+To prevent your devices from being infected by Shishiga and similar worms, you should not use default Telnet and SSH credentials, suggested Malik and the Eset research team
+A new malware strain called BrickerBot is bricking Internet of Things (IoT) devices around the world by corrupting their storage capability and reconfiguring kernel parameters
+Right from the get-go, two different versions of BrickerBot were detected: BrickerBot
+1 and BrickerBot
+BrickerBot spreads to devices with open Telnet ports
+Just like Mirai, Hajime, LuaBot, and other IoT malware, BrickerBot uses a list of known default credentials used for various IoT devices
+If device owners failed to change their default credentials, BrickerBot logs in and performs a series of Linux commands
+BrickerBot bricks your "smart" devices
+Commands executed by BrickerBot
+1 (via Radware) Commands executed by BrickerBot
+The company's experts say the two BrickerBot variants are distributed via two different infrastructures
+ Currently, attacks with BrickerBot
+Attacks from BrickerBot
+2, the more advanced version of the BrickerBot malware family and the one that executes more commands, are hidden behind Tor exit nodes, and are almost impossible to trace back to their origin
+ The good news is that this more advanced version was only responsible for 333 PDoS attacks, far less than the ones with BrickerBot
+BrickerBot the work of a vigilante?
+All in all, BrickerBot isn't like anything we've seen before in the landscape of IoT malware
+BrickerBot's destructive capabilities are something new, which don't benefit anyone
+ Not BrickerBot's author, and certainly not the device owner, who'll have to reinstall firmware, or even worse, buy a new device
+BrickerBot could also be the work of an Internet vigilante that wants to destroy insecure IoT devices
+Wifatch, this IoT malware strain took over insecure routers and then executed commands that improved the device's security
+BrickerBot is bent on destroying IoT devices
+The same cannot be said for BrickerBot's author, who clearly is intent on wiping as much of unsecured IoT devices as he can
+BrickerBot's approach is definitely illegal and dangerous, as Gevers points out
+So Gevers is making a proposition for the BrickerBot authors
+The Radware security alert containing the technical details of BrickerBot's modus operandi is available here
+While for many years the GafGyt malware strain dominated the IoT malware landscape, in 2016, new threats rose to power, such as Mirai, LuaBot, Rex, PNScan, LizardStresser, Hajime, and others
+No similarities with Hajime either
+ Vesselin Bontchev, who says that despite the familiar sounding name, Imeij has nothing in common with Hajime, a malware family spotted for the first time in mid-October last year
+"Hajime is a worm
+"Hajime uses the name '
+ Bontchev has been keeping an eye on Hajime versions, which are now very different from the versions first released in October last year
+ According to Cybereason researchers, recent Hajime versions are modifying local firewall rules to keep other IoT malware out and prolong its stay on the infected device
+Besides Imeij, Mirai, and Hajime, other IoT malware families that target the ARM platform, very popular with IoT makers, are LuaBot and Umbreon
+The company noted that, like the Umbreon rootkit and the LuaBot malware, Imeij targets ARM-based hardware, which is widely used for IoT and mobile devices
+Darlloz (aka Zollard), Linux
+Aidra (Linux
+Xorddos (aka XOR
+Gafgyt (aka GayFgt, Bashlite), Linux
+Ballpit (aka LizardStresser), Linux
+Moose, Linux
+Dofloo (aka AES
+Pinscan / Linux
+Pinscan
+B (aka PNScan), Linux
+Kaiten / Linux
+Kaiten
+B (aka Tsunami), Linux
+Routrem (aka Remainten, KTN-Remastered, KTN-RM), Linux
+Wifatch (aka Ifwatch), and Linux
+In the past, other Linux malware families that were used to transform infected hosts into proxy servers and relay malicious traffic include the likes of Moose, LuaBot and NyaDrop
+This zero-day (which doesn't have a CVE identifier yet) should not be confused with a recent vulnerability discovered by CORE Security researchers (which affects the router's SMB service), and is not the same vulnerability recently exploited by the Hajime botnet
+According to Qihoo 360 Netlab, the malware is related to the IoT Reaper botnet
+One of the latest additions to the IoT malware market is a trojan codenamed Linux/NyaDrop, recently reverse engineered by MalwareMustDie, the same researcher who discovered the Mirai malware
+NyaDrop dropped via brute-force attacks on Telnet ports
+Just like most IoT malware nowadays, NyaDrop's author relies on brute-forcing Internet-exposed IoT devices using their default credentials
+NyaDrop is just a dropper for the Nya malware
+If the brute-force attacker manages to authenticate on the device, a script executes a series of automated commands that download and execute the NyaDrop binary
+Successful brute-force attack login which ends with attacker dropping NyaDrop
+The NyaDrop trojan is very small in size
+NyaDrop's purpose is to probe the system and decide if to download the actual malware, which is an ELF (Linux-specific) binary called "nya," hence the malware's name of NyaDrop
+NyaDrop only targets MIPS architectures
+MalwareMustDie says that NyaDrop will open a backdoor on the infected device and download the Nya trojan if the IoT device uses a MIPS 32-bit architecture for its CPU
+The reason for the MIPS check is most likely that the NyaDrop author hasn't created fully functional payloads for other IoT platforms and wants to avoid infecting "useless" platforms, wasting bandwidth, and leaving strange binaries on systems it can't use
+ The NyaDrop author can decide to push new payloads to NyaDrop-infected devices, which can have different capabilities, from the ability to launch DDoS attacks to working as proxies for all sorts of web traffic, masking an attacker's location
+NyaDrop author very careful not to get caught
+"This one [NyaDrop] was also made by [a] Russian actor," MalwareMustDie told Softpedia after analyzing the malware
+ He also says that NyaDrop is capable of detecting honeypot environments, in which case it stops execution
+very lucky to finally know the [NyaDrop] scheme
+Web, and others that we know of malware like Rex, PNScan, Mirai, LuaBot, and Linux
+ Malware such as Mirai, GafGyt, LuaBot, Kaiten, BillGates, Rex, and the more recent IRCTelnet, bounce around the Internet and infect devices, adding them to botnets, sometimes going over the 100,000 figure
+ Recently, Bashlite or Lizkebab and LuaBot malware were also found targeting Linux devices
+The trojan appeared at the start of September 2016, and according to a security researcher named MalwareMustDie!, Mirai is an improved version of another DDoS trojan known under different names such as Bashlite, GayFgt, LizKebab, Torlus, Bash0day, and Bashdoor
+Mirai and Bashlite botnets used for the Krebs DDoS attacks
+According to Krebs and people knowledgeable of the attacks, the massive DDoS came from IoT devices infected mostly with the Mirai DDoS trojan, but also with the older Bashlite malware
+ For example, the recently discovered Mirai DDoS trojan, a variation of Gafgyt, uses Telnet brute-force attacks to compromise other devices and expand its size
+Similarly, the PhotoMiner crypto-currency mining worm also employs Telnet attacks, as well as all the variations of the LizardStresser DDoS tool released by the infamous Lizard Squad hacking crew
+[irp posts=”52929″ name=”New Linux SSH Brute-force LUA Bot Shishiga Detected in the Wild”]
+ Recently, Luabot and Bashlite aka Lizkebab malware were found taking over Linux-based CCTV cameras and attacking banking and small business worldwide
+Lostutter is the alleged member of KnightSec, an infamous hacking group, and has already taken an active part in the hacking of Hunter Moore, the revenge-porn tycoon, and the Westboro Baptist Church hate group

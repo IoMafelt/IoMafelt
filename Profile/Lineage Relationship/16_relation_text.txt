@@ -1,0 +1,57 @@
+ Unlike earlier botnets, which would patiently sit and wait for a command, cognitively enhanced botnets like Hide and Seek are decentralized and can make decisions on their own
+ Referred to as the VPNFilter Trojan, it disables IoT devices and makes them virtually self-destruct
+ VPNFilter overwrites critical parts of the device¡¯s firmware with useless data and then reboots the machine
+The ¡°Satori botnet¡± is another recent high-profile DDoS-style botnet attack against IoT networks
+According to a blog post by Fortinet¡¯s FortiGuard Labs research team, researchers dubbed the variant OMG
+As a result of the availability and vulnerability of IoT devices and new advances in malware, it¡¯s now relatively easy for botnet owners who know what they¡¯re doing to build botnets that consist of hundreds of thousands of devices, such as the infamous Mirai botnet that weighed in at 600,000 at its peak, and even millions of devices as in the case of the Reaper botnet
+While the bruising attacks unleashed by IoT botnets are obviously awful, what may be even worse is waiting to see what Reaper-sized botnets have in store for the internet
+A new strain of malware is wiping the firmware of IoT devices in attacks reminiscent of the old BrickerBot malware that destroyed millions of devices back in 2017
+"It will be reworked to have the original BrickerBot functionality," Light told Anubhav and ZDNet
+ "It is going to target every single publicly known exploit that Mirai or Qbot load
+BrickerBot's legacy
+The Silex malware is obviously inspired by the old BrickerBot strain, which was active between April and December 2017
+The BrickerBot author, known under the pseudonym of the Janit0r, claimed he permanently or temporarily destroyed over ten million IoT devices
+The BrickerBot author argued that it would be better if the devices were destroyed, rather than sit around as cannon fodder for DDoS botnets, and haunting the internet for years
+The Janit0r's year-long bricking got some internet service providers to secure their networks against some attack vectors, albeit BrickerBot's impact could never be fully quantified
+ He didn't put out a manifesto like the Janit0r did after BrickerBot attacks began, to justify any of his actions
+The bad news for Light is that unlike the BrickerBot author, who left a minimal trail of footprints that authorities could follow, Light might have made several OpSec mistakes along the way that may end up costing him in the long run
+A version of the Bashlite IoT malware has received an update over the past few weeks that allows it to target Belkin WeMo home automation switches
+"While we have not seen significant detections for these versions of Bashlite, it's worth noting that it's already in the wild," cyber-security firm Trend Micro said in a report today
+The company's experts believe the person who modified recent versions of the Bashlite malware to improve it with new functionality is using a module for the Metasploit penetration testing framework to infect smart devices via the Belkin WeMo UPnP SDK
+Belkin patched the security flaw exploited by this Bashlite botnet back in 2015, meaning only device owners who failed to apply years-old firmware patches are currently at risk
+In addition, in line with previous iterations of the Bashlite IoT malware (also known under names such as Gafgyt, Lizkebab, Qbot, Torlus, and LizardStresser), the malware uses additional exploits and a Telnet scanner to brute-force its way into other devices still running factory default credentials
+The news about this new Bashlite variant targeting home automation devices comes after last fall, Palo Alto Networks found another Bashlite variation targeting enterprise servers, such as Apache Struts, SonicWall, and others
+Bashlite's ecosystem of lame botnets
+ Most Bashlite-based botnets are like giant puzzles
+ They're all based on the original Bashlite malware that was released online by the Lizard Squad DDoSing crew a few years back
+All Bashlite variations are the original Bashlite code, together with exploits that the botnet owner usually gets from public exploit repositories like ExploitDB
+IoT botnet for rent: TheMoon is being used for YouTube ad fraud TheMoon's DDoS days are long gone
+Researchers made this discovery while investigating an IoT botnet known as TheMoon, which they initially began tracking after observing several CenturyLink devices performing credential brute-force attacks against popular websites
+An investigation into these devices revealed infections with the TheMoon IoT malware, and later also exposed the existence of a never-before-seen module designed to transform infected routers and IoT devices into proxies for bad traffic
+TheMoon botnet isn't new
+ Now, CenturyLink's research team have found a different never-before-seen module that confirms TheMoon's evolution from DDoS threat to a proxy network for other criminal groups
+Based on the current available findings, TheMoon seems to operate as following:
+Botnet operators use exploits to infect routers/IoT devices with the TheMoon malware
+TheMoon malware downloads an additional proxy module
+TheMoon operators rent access to these proxies
+According to CenturyLink, in the past year, TheMoon botnet has been used for brute-force attacks, credential stuffing attacks, for advertising fraud, general traffic obfuscation, and more
+In a report released today, CenturyLink researchers delved deep into one of the advertising frauds they've seen carried out with TheMoon-infected devices
+This was possible after identifying 24 command-and-control servers to which TheMoon bots connected and received instructions
+ Experts said TheMoon operators left an service port exposed online that spewed out log data from these C&C servers, allowing them to spy on their operation
+On a more funny side note, TheMoon is also the botnet that at one point infected home routers by luring regular internet users on adult dating sites
+ Exploit code hidden in these sites would call to local IP addresses, known to be assigned to home routers, and try to infect the routers with TheMoon malware while the user was browsing the site
+Hron compares the potential level of threat that Torii poses to the VPNFilter botnet, which the FBI warned consumers about in June
+ But unlike VPNFilter, which can be wiped by rebooting an infected router, Torii has seven methods of persistence that operate simultaneously, so that turning an infected device off and on doesn¡¯t remove the malware
+Chalubo is a new botnet which is targeting poorly-secured Internet of Things (IoT) devices and servers for the purpose of distributed denial-of-service (DDoS) attacks
+The main Chalubo bot is not only adopting obfuscation techniques more commonly found in Windows-based malware but is also using code from Xor
+Chalubo contains a downloader, the main bot -- which runs on systems with an x86 processor architecture, and a Lua command script
+ The downloader is the Elknot dropper, which has previously been linked to the Elasticsearch botnet
+Chalubo attempted to brute-force attack and secure the credentials of the honeypot, and while the attackers believed they were able to gain a shell through root admin, the researchers silently recorded how they used commands to 'stop' firewall protections and install malicious components
+A script is then dropped and executed for additional persistence, which Sophos says is close to a carbon copy of how the Xor
+ However, Chalubo is far from the only botnet menace out there
+VPNFilter, described by researchers at Cisco Talos as "[possessing] capabilities that we have come to expect in a workhorse intelligence-collection platform, such as file collection, command execution, data exfiltration, and device management," was found in routers manufactured by ASUS, D-Link, Huawei, Linksys, MikroTik, Netgear, TP-Link, Ubiquiti, UPVEL, and ZTE, as well as NAS devices by QNAP
+Similarly, the Slingshot malware was discovered to be dormant in routers for six years and is capable of information gathering, persistence, and data exfiltration
+ Seculist researchers pointed out the similarities between Slingshot and the "Chimay Red" exploit published by WikiLeaks as part of the "Vault 7" releases of vulnerabilities, which WikiLeaks claims originated from the CIA
+It's a Mirai/Gafgyt party
+This botnet, which has no particular name, runs on a variant of the Bashlite (Gafgyt) IoT malware, which is used as a skeleton and customized with several ExploitDB exploits on top --which in this case targeted Belkin WeMo devices
+In most cases, these botnets are built on the Bashlite (Gafgyt) or Mirai IoT malware strains, and only very rarely does a true malware coder come around to innovate and create new malware strains --such as hackers like Wicked or the Janit0r (the BrickerBot author)

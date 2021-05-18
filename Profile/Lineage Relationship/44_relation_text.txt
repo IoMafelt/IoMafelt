@@ -1,0 +1,54 @@
+Web, and others that we know of malware like Rex, PNScan, Mirai, LuaBot, and Linux
+ Level 3 says that, previously, an IP associated with this domain was used to control a DDoS botnet created with the Gafgyt malware as recently as August 2016, showing that a skilled and experienced malware author is behind the botnet, a worrisome observation for the rest of us
+Researchers say this variant had a "slightly different network behavior when compared to the original Mirai variant," and mixed some code from the Gafgyt IoT malware
+ The Gafgyt malware, which leaked some years ago, also has hundreds of different versions created by different threat groups
+ Mirai is on schedule to feature just as many variants as Gafgyt, if not more, with crooks opting to build new malware on top of it due to its proven success
+The botnet of home routers created using a worm known as TheMoon is alive and kicking two years after being discovered, even after some router vendors have shipped firmware patches to protect their devices from getting infected
+TheMoon worm made headlines in early 2014 when Johannes B
+TheMoon targeting ASUS routers
+But TheMoon's author didn't stop there, and according to a Fortinet report released today, he improved the worm's targeting by adding support for ASUS routers
+Fortinet researchers say that TheMoon has incorporated the CVE-2014-9583 vulnerability in its source code
+In subsequent exploitation steps, Fortinet says TheMoon will add new firewall rules to ensure the crook can access the device from his desired location and to block other IoT malware from exploiting the same flaw and hijacking the device from his botnet
+TheMoon also targets D-Link routers
+ Taking a closer look at these "extra" firewall rules that TheMoon adds to infected devices, security researchers also discovered a rule that, when analyzed, they realized is meant to protect D-Link routers from an HNAP SOAPAction-Header Command Execution vulnerability
+While Fortinet hasn't seen any D-Link routers infected with TheMoon, the presence of that firewall rule means the malware author is clearly aiming for devices vulnerable to that flaw
+The size of TheMoon botnet is currently unknown, but taking into account the author's expertise and past experience, the botnet is more likely big, rather than small
+ Readers can also take a look at an alternative analysis of TheMoon worm from Russian security firm Dr
+Because Mirai is the Japanese word for "future," they named this new variation Hajime, the Japanese word for "beginning
+Responsible for Hajime's discovery are Sam Edwards and Ioannis Profetis, security researchers for Rapidity Networks
+Researchers discovered Hajime while searching for Mirai
+In a technical report on Hajime's activity released over the weekend, the two explain that they were drawn to investigate Mirai after they read that its author had released its source code online, for free
+This is how the two discovered Hajime, an IoT worm that spreads the same way as Mirai, but appears to be something new entirely, despite some shared behavior
+Hajime spreads on its own via brute-force attacks
+Researchers say that Hajime uses a three-stage infection mechanism, and self-propagates
+ Stage 0 occurs on an already infected system, from where Hajime starts to scan random IPv4 addresses
+ If the IP doesn't have port 23 open, or the brute-force attack fails, Hajime moves on to a new IP
+In the case of a successful connection, Hajime will execute the following four commands:
+ According to Rapidity researchers, Hajime can target the following platforms: ARMv5, ARMv7, Intel x86-64, MIPS, and little-endian
+Hajime uses a three-stage infection system
+The Hajime worm launches this binary, which has only one purpose, to open a connection to the attacker's server and write the bytes it receives to a new binary, launching it into execution when the data transfer finishes
+Hajime is similar to many IoT malware families, but different
+Hajime's mode of operation outdoes Mirai's and seems to have borrowed many tricks from other IoT malware as well
+Hajime uses DHT to connect to a P2P botnet, just like Rex; uses a list of built-in username & password combinations to brute-force random IPs and spread on its own, just like Mirai; and uses a multi-stage infection mechanism, just like NyaDrop
+The difference is that Hajime is written in C, not Go (Rex), uses a P2P network, not a direct C&C server connection (Mirai), and works with a larger number of platforms, not just MIPS (NyaDrop)
+ So at this stage, Hajime seems to have included the best parts of other IoT malware, and it is far more sophisticated than anything else seen targeting IoT devices today
+Hajime targets IP cameras, DVRs and CCTV systems
+Based on the hardcoded credentials included in the worm's source code, Hajime targets routers, DVRs, and CCTV systems, just like Mirai and NyaDrop
+More specifically, Hajime targets equipment manufactured by Dahua Technologies (a known offender), the ZTE Corporation, and various other companies to which XiongMai Technologies had sold white-label DVR systems
+To avoid having equipment taken over by the Hajime worm, Rapidy Networks suggests three techniques to detect and mitigate infections: (1) block any UDP packet containing Hajime's key exchange message, (2) block TCP port 4636 used in Stage 1, and (3) block any traffic from Telnet sessions that execute the "/bin/busybox ECCHI" shell command
+As for who's behind Hajime, the Rapidity researchers have a theory: "Analysis of the file timestamps shows that the author is most active between the hours of 15:00-23:00 UTC, with no activity from 00:00-05:00 UTC
+Furthermore, the team found evidence that work on Hajime started back in 2013, but that the worm was released in the wild only this past September
+"While both Hajime and Mirai use an extremely similar attack pattern when spreading to new hosts, the actual scanning and propagation logic appears to have been taken from qBot," Edwards and Profetis added
+ "If the above launch date estimate is correct [Mon, 26 Sep 2016 08:41:54 GMT], ​Hajime began operation a few days before the release of Mirai's source code, and is unlikely to contain any actual Mirai code
+ Yet that seems to be the case for Linux/Moose, a malware program that recruits IoT devices to engage in social media fraud, according to a pair of reports from ESET and GoSecure
+Discovered in 2014 and still kicking, Linux/Moose commands IoT bots under its control to create fake social accounts that fraudulently like and follow individuals or businesses on apps like Facebook and Instagram
+ After studying and decrypting Linux/Moose botnet’s proxy traffic over six months, GoSecure determined that the vast majority of the traffic – 86 percent – was directed at Instagram, while another eight percent targeted Twitter
+However, the success was often short-lived: Of the 1,732 fake Instagram accounts that GoSecure observed Linux/Moose generate during its study, 72 percent were eventually suspended by the social media network
+ “Customers of the Linux/Moose botnet should therefore not expect to keep their followers and likes for long,” reads the GoSecure white-paper report
+According to GoSecure, Linux/Moose botnet customers are typically small businesses and aspiring celebrity-types looking to boost their credibility by appearing popular on social media platforms (a customer base the company referred to as the “Ego Market”)
+After determining that a single bot averages 1,186 Instagram new follows per month, GoSecure looked at the prices charged by various social media fraud services and determined that just one Linux/Moose bot generates service providers $13
+ Extrapolating this data further, the company determined that a Linux-Moose botnet composed of 50,000 bots can produce revenues in the range of $700,000 per month
+But in the wake of the Mirai attack that disrupted major websites across the Internet, might we see a concerted effort to crack down on IoT botnets, in any form? According to GoSecure cybersecurity research leader Olivier Bilodeau, any such movement to thwart Linux/Moose should start with the IoT manufacturers themselves
+Meanwhile, ESET performed a technical analysis on Linux/Moose based on a variant it caught in September 2015, and detected several new updates since the IT security company released a white paper on the malware in May 2015
+In the past, other Linux malware families that were used to transform infected hosts into proxy servers and relay malicious traffic include the likes of Moose, LuaBot and NyaDrop
+ Dans son IoT Threat Report de Septembre 2018, Kaspersky Lab relevait que Mirai était à lui seul responsable de 21% des infections IoT détectées par l’éditeur de sécurité, loin devant Hajime (6%) et NyaDrop (3,4%)

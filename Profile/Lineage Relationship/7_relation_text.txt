@@ -1,0 +1,156 @@
+New Mirai malware called OMG can turn any IoT device into the proxy server
+The new version of Mirai malware[1] has a short and vivid name – OMG
+It seems that the main purpose of the OMG malware is to sell access to hacked IoT devices to cyber criminals
+Mirai OMG malware is not the first modification of the virus
+In 2017, researchers reported about Satori[4] – version of Mirai botnet that exploited a zero-day vulnerability in Huawei routers
+ The Masuta (or PureMasuta) version of Mira was exploiting D-Link router’s vulnerabilities
+ The recent discovery of OMG Mirai botnet allows assuming that similar attacks will continue in the future
+It’s true that Mirai, and variants such as Okiru and Satori, pose a major risk to manufacturing, where the reduction of a connected device’s processing power can seriously impact safety or disrupt processes
+The prospect of motivated attackers leveraging destructive malware such as BrickerBot to wipe devices is highly concerning, but such ‘attacks’ need not even be targeted to cause damage
+Mirai Vs OMG
+OMG usando 3Proxy
+Empezaremos hablando de la tabla de configuración de OMG
+ Lo que se identificó primero, fue la cadena /bin/busybox OOMGA and OOMGA: applet not found
+ Estos string son similares con otras variantes como Satori/Okiru, Masuta
+Por esa razón Fortiguard, decidió llamar a esa variante OMG
+Se puede observar como OMG guarda los módulos originales, incluyendo modulo de ataque, eliminación y SCAN
+Después de iniciar el modulo, OMG procede a conectarse a un C&C (Comando y control) server
+Cuando Conecta, OMG envía un mensaje definido (0X00000000) al C&C para identificarse como nuevo Bot ( una especie de registro)Basado en el código recibe un string de 5 byte de largo, con el primer usado para determinar como va a ser usado el BOT
+以前，雷锋网宅客频道（微信ID：letshome）给大家科普过，自从美国东部大断网后，规模更大的僵尸网络层出不穷。其中，规模大到吓人的一个是 Mirai 僵尸网络的一个变种，叫做 Satori，还有人又把这个 Satori 叫做 Okiru。
+八卦一下，Satori 是日本禅宗用语，Okiru 也是一个日语发音，安全研究员们因此有个小小的猜想，这个僵尸网络的作者可能是个日本文化的痴迷者。
+言归正传，本来安全研究员正在监测 Satori 的进展，因为 Satori 规模实在很大，大家对它的一举一动很关心，生怕沉寂的僵尸网络一下变得活跃，那么下一场大断网就不知道发生在哪里了。
+大家很担心，于是各方联合绞杀，封堵 Satori 利用的网络端口。眼看着，Satori 感染的路由器速度降了下来，各方倍感欣慰。
+不料，李丰沛等人最近突然发现：咦，Satori 这货最近要搞事啊！原来，他们监测到了一个 Satori 的变种：Satori
+当然，你要说了，你凭什么说这个变种就是 Satori 的变种？
+“一般这个证据就已经很强了，再加上其他的辅助的证据，我们认为，这次的 Satori
+Robber 和我们上次报告的 Satori 应该是同一个人或者同一伙人做的。”李对雷锋网说。
+李丰沛等人发表了该变种的报告后，在推特上转发了这次报告的内容。不料，这个报告里有一个邮件地址，这个邮件地址被 Satori
+Satori dev here, dont be alarmed about this bot it does not currently have any malicious packeting purposes move along
+Okiru malware is different from Mirai and from Mirai variant Satori because it uses its own unique configurations and botnet command-and-control servers, and it uses different exploits to gain control of victim systems
+You may remember hearing about the Mirai malware variant Satori (pdf) back in December; it was sometimes also called Okiru
+ Satori was used to attack “hundreds of thousands” of Huawei routers
+Despite the similarities of the two type of Linux IoT DDoS malware, Mirai Okiru is “very different” from the Mirai Satori variant
+The MMD researchers who have already proceeded to release the Yara rules to identify this new variant of Mirai, have compared Okiru with the previous Mirai botnet called Satori
+Very important to understand how #Mirai #Satori variant is DIFFERENT from #Okiru: quick notes with screenshots by @malwaremustdie
+A variant of the Satori botnet, a successor of the IoT device hijacking Mirai botnet, is designed to hijack cryptocurrency mining operations, syphoning off newly created digital coins Read Now
+'s Unit 42 found new variants of the Gafgyt and Mirai botnets targeting unpatched enterprise devices with an assortment of vulnerabilities, including the Apache Struts bug that was exploited in the Equifax breach
+The Gafgyt and Mirai botnets received updates enabling them to exploit vulnerabilities in Apache Struts and in SonicWall's Global Management System
+ Palo Alto Networks' Unit 42 found new variants of the Gafgyt and Mirai botnets that are able to scan for vulnerable systems
+Today, IoT botnet families, including Mirai, Okiru, the Satori, the Masuta, the PureMasuta and Reaper, continue mutating
+A 20-year-old from Vancouver, Washington was indicted last week on federal hacking charges and for allegedly operating the “Satori” botnet, a malware strain unleashed last year that infected hundreds of thousands of wireless routers and other “Internet of Things” (IoT) devices
+ But according to Poulsen, the charges are related to Schuchman’s alleged authorship and use of the Satori botnet
+ Satori, also known as “Masuta,” is a variant of the Mirai botnet, a powerful IoT malware strain that first came online in July 2016
+Schuchman reportedly went by the handle “Nexus Zeta,” the nickname used by a fairly inexperienced and clumsy ne’er-do-well who has tried on multiple occasions to get KrebsOnSecurity to write about the Satori botnet
+In each case, this person wanted to talk about a new IoT botnet that he was “researching” and that he thought deserved special attention for its size and potential disruptive impact should it be used in a massive Distributed Denial-of-Service (DDoS) attack aimed at knocking a Web site offline — something for which Satori would soon become known
+For weeks after that tweet, Nexus Zeta exchanged private twitter messages with Mursch and his team of botnet hunters at Bad Packets LLC in a bid to get them to Tweet or write about Satori/Masuta
+The following screenshots from their private Twitter discussions, republished with Mursch’s permission, showed that Nexus Zeta kept up the fiction about his merely “researching” the activities of Satori
+ Mursch played along, and asked gently probing questions about the size, makeup and activities of a rapidly growing Satori botnet
+Early in their conversations, Nexus Zeta says he is merely following the visible daily Internet scanning that Satori generated in a constant search for newly infectable IoT devices
+ But as their conversations continue over several weeks, Nexus Zeta intimates that he has much deeper access to Satori
+ 5, Chinese cybersecurity firm Netlab360 released a report on Satori noting that the IoT malware was spreading rapidly to Chinese-made Huawei routers with the help of two security vulnerabilities, including one “zero day” flaw that was unknown to researchers at the time
+ 29, 2017 titled “Good Zero Day Kiddie,” researchers at Israeli security firm CheckPoint pointed out that the domain name used as a control server to synchronize the activities of the Satori botnet — nexusiotsolutions-dot-net — was registered in 2016 to the email address nexuszeta1337@gmail
+ru, Paras Jha, ProxyPipe, Robert Coelho, Satori botnet author, stresser, Troy Mursch, zetastress
+Last month hackers released the code for a separate Mirai variant known as Satori, which was used to exploit a zero-day vulnerability in a Huawei router model, infecting more than 280,000 devices in 12 hours
+Researchers have discovered new variants for the infamous Mirai and Gafgyt IoT botnets – now targeting well-known vulnerabilities in Apache Struts and SonicWall
+The new Mirai strain targets the Apache Struts flaw associated with the 2017 Equifax breach, while the Gafgyt variant uses a newly-disclosed glitch impacting older, unsupported versions of SonicWall’s Global Management System, according to researchers with Palo Alto Networks in a Sunday post
+“Here we’re seeing Mirai and Gafgyt variants targeting systems mostly seen in enterprises,” Ruchna Nigam, researcher with Palo Alto Networks, told Threatpost
+Unit 42 also found that the domain currently hosting these Mirai samples previously resolved to a different IP address during the month of August — an IP address hosting a new version of Gafgyt as well
+Gafgyt Adds to Bag of Tricks
+In August, the observed IP was “intermittently hosting samples of Gafgyt that incorporated an exploit against CVE-2018-9866, a SonicWall vulnerability affecting older versions of SonicWall Global Management System (GMS),” according to Nigam
+SonicWall has been notified of this latest development with Gafgyt, researchers said
+The Gafgyt botnet exploits a range of IoT flaws, including other issues in Huawei, GPON and D-Link devices
+“One thing that stood out was the Gafgyt variant having support for the BlackNurse DDoS attack method,” Ruchna told us
+The discovery of new targeted vuln comes after it was revealed in July that Mirai and Gafgyt were actively launching two IoT/Linux botnet campaigns, exploiting the CVE-2018-10562 and CVE-2018-10561 bugs in Dasan routers
+Most recently, in April, a variant of the Mirai botnet was used to launch a series of DDoS campaigns against financial sector businesses, while in January, researchers identified a variant called Satori (Mirai Okiru)
+Researchers have identified a vulnerability in a Huawei home router model that is being exploited by an adversary to spread a variant of the Mirai malware called Mirai Okiru, also known as Satori
+Researchers have identified a vulnerability in a Huawei home router model that is being exploited by an adversary to spread a variant of the Mirai malware called Mirai Okiru, also known as Satori
+Okiku/Satori was first identified by Check Point researchers on November 23
+In the case of Mirai Okiru/Satori, Check Point researchers suspected an inexperienced hacker that goes by “Nexus Zeta” is behind the attacks
+The Mirai Okiru/Satori attacks differs from previous Mirai variants in that they don’t rely on brute-force telnet-based attacks
+The router malware started spreading in November and has been dubbed Satori or Okiru by security companies
+ However, Satori also incorporated exploits into its scans, particularly for a known remote command execution vulnerability in the Miniigd UPnP SOAP service running on some devices on port 52869 and a previously unknown vulnerability for a service running on port 37215
+ However, researchers from Check Point believe Satori’s creator is an amateur hacker using the online alias Nexus Zeta
+Exploit code used in the Mirai malware variant called Satori, which was used to attack hundreds of thousands of Huawei routers over the past several weeks, is now public
+ Researchers warn the code will quickly become a commodity and be leveraged in DDoS attacks via botnets such as Reaper or IOTrooper
+ The code is the zero-day vulnerability CVE- 2017-17215 used by a hacker identified as “Nexus Zeta” to spread a variant of the Mirai malware called Satori, also known as Mirai Okiru
+Last week, Check Point identified the vulnerability (CVE-2017-17215) in a Huawei home router model HG532 that was being exploited by Nexus Zeta to spread the Mirai variant Mirai Okiru/Satori
+“The exploit code was already used by two major IoT botnets, Brickerbot and Satori, and now that the code is public it will be incorporated into different botnet strains,” Anubhav said
+Researchers said a Mirai botnet variant, possibly linked to the IoTroop or Reaper botnet, was leveraged in attacks against the financial sector
+ They said the Mirai botnet and malware variant also exhibited characteristics that may link it to IoTroop botnet (or Reaper), first identified October 2017
+“If these attacks were conducted by IoTroop, then our observations indicate the botnet has evolved since October 2017 to exploit vulnerabilities in additional IoT devices and is likely to continue to do so to propagate the botnet and facilitate larger DDoS attacks,” wrote Priscilla Moriuchi and Sanil Chohan, who co-authored the report
+IoTroop shares some of Mirai’s code, according to a previous analysis of the malware
+Recorded Future noted this latest variant of Mirai differs from the original Mirai and IoTroop malware
+ Mirai and IoTroop are names for both the botnet and the malware used to infect the IoT devices
+“While many of the IoT vendors and devices appeared in the (IoTroop) research published in October 2017, many of the devices such as Dahua CCTV DVRs, Samsung UE55D7000 TVs and Contiki-based devices were previously unknown to be vulnerable to Reaper/IoTroop malware,” researchers said
+Making this latest unnamed Mirai variant even more potent is the use of IoTroop code that allows the malware to be updated on the fly
+ “[IoTroop] was built using a flexible Lua engine and scripts, which means that instead of being limited to the static, pre-programmed attacks of previous exploits, its code can be easily updated on the fly, allowing massive in-place botnets to run new and more malicious attacks as soon as they become available,” researchers said
+“As more data comes to light on the continued targeting of financial institutions from IoTroop, it will become increasingly important to monitor the potential controllers and identify new IoT devices being added to the botnet in preparation for further attacks,” researchers said
+ In January, researchers identified a variant called Satori (Mirai Okiru) The available Mirai source code has also given new life to the DDoS as a service industry, since the Mirai code isn’t easily converted into a profit-making machine without some previous expertise
+New Mirai variant named Mirai OMG
+Fortinet has named this variant Mirai OMG —based on the OOMGA string found in some parts of the malware's source code where the term "Mirai" used to be— and this variant now joins a growing Mirai family that also includes variants such as Satori (Okiru), Masuta, and Akuma
+But while Fortinet has not analyzed the traffic flowing through the Mirai OMG network, in theory, it should not be any different from the regular type of traffic that malicious proxy networks have been relaying for years
+Since Mirai OMG still relies on the classic Mirai spreading technique of brute-forcing devices using weak passwords, changing any IoT equipment's default password should safeguard most users from having their device taken over for a crime spree
+Satori Botnet's Alleged Developer Rearrested
+The alleged author of a supercharged variant of Mirai malware called Satori has been rearrested for violating his bail conditions
+ 30 that authorities accused Schuchman of being "Nexus Zeta," the hacker handle of the individual who claims to have built the virulent Mirai-derived Satori botnet
+The Rise of Satori
+In November 2017, researchers at the security firm Check Point Software Technologies identified a new botnet, based on Mirai, known both as Satori and Okiru
+ Check Point tied Satori to infections of at least 260,000 internet-connected devices in just its first 12 hours of life
+ It said the vulnerability had been exploited by Satori as well as earlier that month by another strain of malware called Brickerbot - built by someone using the handle "Janitor" - which was designed to target internet of things devices
+Satori Modified to Target Cryptocurrency
+While Satori initially continued Mirai's focus on using infected endpoints to launch massive distributed denial-of-service attacks, by January, new versions included the ability to target Claymore cryptocurrency mining software, giving the attacker the ability to make infected systems mine for Ethereum cryptocurrency, according to researchers at China-based Netlab 360
+"Once a Claymore mining machine was found, it hijacked the miner's wallet address to point to the Satori operator's wallet by modifying the miner configuration file, thus stealing the mined currency that the rig produces," say researchers at the Threat Research Labs at U
+Satori Reawakened in September
+In what may be a coincidence, CenturyLink Threat Research Labs has been tracking a pool of devices infected with Satori, and it says the botnet went dormant following Schuchman's arrest, only to be reawakened later
+To be clear: It's not clear who operates the Satori botnet
+ But CenturyLink notes that some Satori bots scan for TCP port 5555 in an attempt to infect Android devices that have Android Debug Bridge enabled via that port
+In late August, CenturyLink says it was monitoring a Satori command-and-control - aka C2 - server that was scanning for ADB on port 5555, and it found that connections from bots to the C2 server suddenly declined
+ "This was just days after the news broke that the actor rumored to be responsible for the Satori botnet was indicted
+Today Mirai variants continue to expand into new turf, including Mirari Okiru, which targets ARC processors (the chips embedded in cars, mobile devices, smart TVs, surveillance cameras and many more connected products) and Mirai Satori, which hijacks crypto currency mining operations,
+A so-called "script kiddie" is behind the recently discovered Satori botnet that has scared security researchers because of its rapid rise to a size of hundreds of thousands of compromised devices
+Researchers say that a hacker named Nexus Zeta created Satori, which is a variant of the Mirai IoT malware that was released online in October 2016
+Satori botnet used Huawei zero-day
+Satori, which is also tracked under the name of Mirai Okiru, came to life around November 23, when the malware started spreading on the Internet
+Satori was extremely virulent, infecting many devices from the get-go
+Bleeping Computer reported about Satori on December 5, when the botnet started popping up on the honeypots of various security researchers and cyber-security firms
+Satori botnet C&C servers taken down
+Over the past weekend, representatives from numerous ISPs and cyber-security firms intervened and took down the main Satori botnet C&C servers, according to industry insiders who spoke with Bleeping Computer
+ The most likely scenario is that Nexus Zeta is looking to scan and find bots for another Satori instance
+Script kiddie behind Satori
+In a report published yesterday, Check Point researchers revealed the identity of the Satori botnet author —the aforementioned Nexus Zeta
+Researchers say they've tracked him down because he registered domains used in the Satori infrastructure with an email address that was also used for a HackForums account —infamous meeting place for wannabe hackers
+A forum post made on November 22, a day before Satori activity started to be detected, show Nexus Zeta asking for help in setting up a Mirai botnet (Satori is a Mirai variant)
+ The first is "Will Satori make a comeback?" and the second is "Did Nexus Beta discover the complex Huawei zero-day on his own, or did he buy it from somewhere else?
+Based on information Bleeping Computer obtained, Satori was not identified as the source of any major DDoS attack in the past few weeks
+The Satori (Mirai Okiru) botnet should not be confused with another Mirai botnet that came to life last month, which is based on the Mirai Akuma variant
+ If you're looking for IOCs and an analysis of the Satori malware's inner-workings, we recommend reading the reports
+Meanwhile, the Mirai source code has been adapted to create new strains of malware, including Satori/Okiru, designed to infect many more types of internet-connected devices and use them as launch pads for DDoS and other types of cybercrime attacks (see: Botnets Keep Brute-Forcing Internet of Things Devices)
+ According to FortiGuard Labs researchers, the botnet dubbed "OMG" is based on the OOMGA string found in some parts of the malware's source code where the name "Mirai" used to appear
+The latest OMG joins the growing Mirai family filled with variants such as Satori, Okiru, Masuta and more
+Mirai OMG adds and removes some configurations that were found in the original Mirai code, but still includes the original modules including the attack, killer and scanner modules
+Therefore, OMG can perform several functions that the original Mirai could such as killing processes, brute-forcing devices with weak passwords to spread and carrying out DoS attacks
+The rise of the Satori botnet and the fall of the Andromeda (Gamarue) botnet are the main two factors that have led to a 50% growth of the Spamhaus Exploits Block List (XBL) during the past month
+Satori and IoT botnets
+Of these, the botnet identified as Satori (also known as the Mirai Okiru variant) contributed by far the most to the XBL
+While ProxyM and some other Mirai IoT botnets have also been quite active in recent months, they pale in comparison to the size of Satori, which just yesterday began another massive scan campaign to look for new victims, according to experts from LloydsLabs and Qihoo 360 Netlab who spoke with your reporter
+Overall, while Satori appears to be the main threat at the time of writing, Spamhaus highlights the danger of IoT botnets in a tell-tale statistic from the past year
+Embora os criadores originais da rede de bots Mirai já tenham sido presos, variantes do infame malware IoT, incluindo Satori e Okiru , continuam surgindo devido à disponibilidade de seu código-fonte na Internet desde 2016
+The hacker behind the Satori botnet, also known as Mirai Okiru, is involved in the creation of a new Mirai variant called Masuta, which means "master" in Japanese
+ The creator of Satori, who goes by the name Nexus Zeta, has also developed a variant of the Masuta botnet called PureMasuta
+Researchers at NewSky Security were able to get their hands on Masuta's source code in an invite-only dark web forum, which led them to uncover the link between Satori and Masuta
+ In December, Nexus Zeta was found exploiting a zero-day flaw in Huawei routers to escalate Satori attacks
+ Earlier this month, the malware code for the Satori botnet was also released on Pastebin for free
+According to NewSky Security researchers, since September 2017, Masuta attacks have soared twelve-fold
+ The researchers found that both Masuta and PureMasuta share the same server, hinting that PureMasuta may be a more recent and evolved version of Masuta
+They also believe that the proof of concept of the weaponised exploit used by PureMasuta could be leveraged in attacks by other hackers as it is publicly available
+According to the researchers, although Nexus Zeta was previously not considered as a very advanced hacker, his/her involvement in the creation of the Masuta botnet variants suggests that he/she may be more skilled than previously thought
+"Nexus Zeta is not a one-hit wonder creator of Satori, but also has been involved in the creation of the Masuta botnet," NewSky Security researcher Ankit Anubhav said in a report
+ Early reports of a new botnet variant, named 'Masuta', show how the initial Mirai simple password brute-force methods, which are still employed, are now being supplemented with more sophisticated vulnerability exploits," Sean Newman, Director of Product Management at Corero Network Security, told IBTimes UK
+ Over the years, various individuals have been alleged to have utilized the LizardStresser DDoS service offered by Lizard Squad, and have ended up getting arrested
+Satori, Memes and Masuta, two of the many variants of Mirai malware, were also linked to this group and the Satori campaign that was originally titled Okiru was hosted from numerous domains one of which happened to be network[
+]ru during the November 2017 Satori campaign to launch Monero Stratum miner also showed evidence of a link between Lizard Squad and Mirai
+ "The bot can perform web exploitation against a series of devices via the same exploit as Reaper (CVE-2016-10401 and other vulnerabilities against networking equipment)
+"It is the second known IoT botnet to date, after the notorious Hajime botnet, that has a decentralized, peer-to-peer architecture," Bitdefender wrote
+ "However, if in the case of Hajime, the p2p functionality was based on the BitTorrent protocol, here we have a custom-built p2p communication mechanism
+"While IoT botnets have been around for years, mainly used for DDoS attacks, the discoveries made during the investigation of the Hide and Seek bot reveal greater levels of complexity and novel capabilities such as information theft – potentially suitable for espionage or extortion," they wrote
+ Di solito, i recenti malware mirano a trasformare i computer in minatori di criptomonete per conto terzi, ma la variante del virus “Satori”, scovata dai cinesi di “Netlab 360”, è differente e, dopo aver compromesso il software per la generazione di Ethereum (1400 dollari ad unità, al cambio) “Claymore Mining”, attraverso la porta 3333 (lasciata scoperta nelle impostazioni di default), indirizza le monete virtuali generate verso il portafoglio (wallet) dei criminali

@@ -1,0 +1,74 @@
+It's a Mirai/Gafgyt party
+This botnet, which has no particular name, runs on a variant of the Bashlite (Gafgyt) IoT malware, which is used as a skeleton and customized with several ExploitDB exploits on top --which in this case targeted Belkin WeMo devices
+In most cases, these botnets are built on the Bashlite (Gafgyt) or Mirai IoT malware strains, and only very rarely does a true malware coder come around to innovate and create new malware strains --such as hackers like Wicked or the Janit0r (the BrickerBot author)
+ The payload seems to include something from the Sora, Owari, and Omni Mirai variant families ¡ª the specific download appears to have shifted between the three during the time that the researchers have been monitoring the server
+"SORA is an abandoned project for now and I will continue to work on OWARI," Wicked, the Sora malware author, said in an interview with NewSky Security
+It appears that other malware authors took it upon themselves to improve SORA's code
+Spikes of #botnet activity started in June
+Specifically, port 8080 brings an exploit for a flaw in Netgear DGN1000 and DGN2200 v1 routers (also used by the Reaper botnet); a connection to port 81 makes use of a CCTV-DVR remote code execution flaw; port 8443 connections use a command injection exploit for the Netgear R7000 and R6400 routers (CVE-2016-6277); and port 80 corresponds with an invoker shell in compromised web servers
+On top of that, the payload that it delivers is not Owari at all, but rather the Omni bot, which based on its code can be used for DDoS attack similar to Mirai
+Thus, it would seem that Omni, Owari and Sora are all connected to the Wicked bot
+¡°Fuzzing the website¡¯s /bins directory, we found other Omni samples in the directory, which were reported to be delivered using the GPON vulnerability (CVE-2018-10561),¡± the researchers said
+¡°Apparently, as seen in the /bins repository, Sora and Owari botnet samples have now both been abandoned and replaced with Omni,¡± Fortinet¡¯s Joven and Yang said
+Following a successful compromise, Wicked downloads an additional payload in the form of Owari, another Mirai variant -- although researchers found that the Owari bot samples could no longer be found in the website directory and Wicked was now downloading the Omni bot
+ Researchers have come to the conclusion that four IoT botnets -- Wicked, Sora, Owari and Omni -- are all by the same author
+Our suspicions that 400kQbot and Scarface were the same person was confirmed when in mid-September, he identified himself in a tweet from the 400kQBot handle
+In 2017, researchers identified a new IoT botnet, named IoT Reaper or IoTroop, that built on portions of Mirai's code
+ Specifically, researchers have identified the following four Mirai variants: Satori Botnet, Masuta Botnet, Wicked Mirai, and JenX botnet, each of which is described in further detail below
+Satori Botnet
+The Satori Botnet is a variant of Mirai that targets software associated with ARC processors, which are used in a variety of IoT devices
+ Once it finds a vulnerable IoT device, Satori performs a check to determine whether the device's default settings have been changed, and, if not, uses these default credentials to gain control of the device
+Most recently, researchers have identified that Satori-controlled devices were mass-scanning the Internet for cryptocurrency-mining devices that were exposed to the internet
+Masuta
+Masuta comes in two variants, Masuta Botnet, which uses the same techniques as Mirai by attempting to overcome the security of the target IoT devices using a built-in list of common passwords and default credentials, and PureMasuta, which has been described as "an enhanced version" with a built-in exploit against certain vulnerable routers
+ Masuta is believed to be the work of the same group responsible for developing the Satori Botnet, however unlike Satori, Masuta attacks allow the actors to take direct control of compromised devices, making other malicious actions possible, including:
+Once on a system, Wicked Mirai contacts a command and control server from which it downloads a payload (in some cases payloads from other Mirai variants like Sora, Owari, and Omni) that can vary based on the attackers' objective and the nature of the affected device
+JenX Botnet
+The JenX variant is a unique variant that leverages the Grand Theft Auto videogame community to infect IoT devices
+ Unlike the Satori and Masuta variants, JenX has a centralized infrastructure and uses a central server to perform the scanning of new hosts
+ The centralized structure of JenX provides the attackers with greater flexibility to add and improve the functionality of the malware over time
+The targeted devices include flawed Netgear routers -- some of which were also used by the Reaper botnet -- and closed-circuit video cameras that have a remote code execution flaw
+Joven and Yang also noted that the Wicked botnet is connected to previous variants of Mirai, including Owari, Sora and Omni
+ In another turn of events, it turns out that they have been replaced by the samples shown below, which were later found to be the Omni bot
+The Wicked botnet's connection to Owari, Sora and Omni is how the FortiGuard team connected the dots to find the author of the botnets
+ In 2017, NewSky Security published an interview with the author of the Sora, Owari and Omni bots, who goes by the pseudonym Wicked, which led FortiGuard to make the connection to the new botnet
+"Based on the author's statements in the above-mentioned interview as to the different botnets being hosted in the same host, we can essentially confirm that the author of the botnets Wicked, Sora, Owari and Omni are one and the same," Joven and Yang said
+The LizardStresser botnet, a distributed denial-of-service (DDoS)-for-hire system, for example, was able to launch 400Gbps attacks thanks to our vulnerable IoT devices
+After the source code was released to the public in 2015, LizardStresser botnet variants were discovered which targeted IoT products use telnet brute-force logins to random IP addresses with a hard-coded list of user credentials
+ The code was used in the Satori and Brickerbot botnets, as well as a string of variants which were based on the infamous Mirai botnet, which is still going strong
+While the motives have not been made clear, the hacker told Anubhav that they wanted to make "the biggest, baddest botnet in town," which may suggest we could have another LizardStresser scenario on our hands in the future, in which another botnet will be used in targeted attacks -- or even be made available for hire
+ The work looks at four Mirai variants ¨C Satori, JenX, OMG and Wicked ¨C to illustrate how their authors have built upon Mirai and added their own flair:
+Satori leveraged remote code injection exploits to enhance the Mirai code
+JenX removed several features from the core code and instead relies on external tools for scanning and exploitation
+OMG adds a novel feature in the form of an HTTP and SOCKS proxy
+ These variations and their respective botnets were known as Wicked, Omni, and Owari (Sora), and had been previously used for DDoS attacks
+CVE-2017-17215 is a well-known exploit that has been abused by at least two versions of the Satori botnet [1, 2], and many of the smaller Mirai-based offshoots
+ And VPNFilter, the advanced nation-state-sponsored attack, is also able to target SCADA/ICS environments
+ VPNFilter represents a significant new threat because it not only performs data exfiltration but can also render devices, including industrial control systems, completely inoperable
+VPNFilter was first documented and shared with the Cyber Treat Alliance (CTA) this past May, an organization co-founded by Fortinet and made up of leading security research teams, and is part of another line of IoT-targeted threats that we have been tracking over the past few years
+Like Hide ¡®N Seek, VPNFilter can also perform a wide variety of compromises, including data exfiltration, command execution, file collection, and device management, and as mentioned previously, it can also render infected devices inoperable, enabling it to take a network or network segment offline with a single command
+VPNFilter, a nation-state-sponsored attack that targets industrial control systems, emerged as a significant threat in the quarter
+ VPNFilter is particularly devastating because it steals data and disables devices, either individually or simultaneously as a group
+The Roaming Mantis mobile banking trojan is roaming further afield than it ever has before
+Roaming Mantis is a mostly-mobile malware which this year has been spreading via DNS hijacking
+¡°Roaming Mantis has evolved quickly,¡± said Kaspersky Lab researcher Suguru Ishimaru, in an analysis posted on Friday
+On the multilingual front, Roaming Mantis (a
+In addition to broadening its target range, an analysis of the Roaming Mantis code reveals the criminals behind the malware have added a phishing option that targets iOS device users and a cryptomining option targeting PCs
+¡°The evasion techniques used by Roaming Mantis have also become more sophisticated
+Meanwhile, older Roaming Mantis samples connected to the C2 by accessing a ¡°legitimate website, extracting a Chinese string from a specific part of the HTML code, and decoding it,¡± said the researcher
+ In the most recent sample, instead of using HTML protocol, Roaming Mantis uses email protocol to retrieve the C2
+In August 2017, McAfee first identified and reported the existence of Roaming Mantis
+ The same code was used in the Satori and Brickerbot botnets, and also within other botnets based on Mirai botnets (Mirai botnets were used in 2016 to disrupt Internet services across the US on a huge scale)
+It doesn't look like the most comfortable thing you could fly, but given the entire 20 minutes largely would be taken up with you saying to yourself "don't crash, don't crash, don't crash, OMG I'm almost out of gas," I don't think that will be a huge problem
+ But it was the first real worm, and a program with an even scarier name, the Reaper, was created to kill it
+ Nuclear Terrorism, For Good? Stuxnet probably didn¡¯t affect anyone reading this article
+ Stuxnet probably affected 20 computers at most in the entire world
+Personal Robotics
+I'm still looking for a personal robot like my namesake, Robby the Robot, and this year we'll take the next major step to getting there
+Satori , che scaturisce dalle capacit¨¤ di iniezione di codice da remoto sfruttando la scansione di Mirai
+ Il bot JenX , che ¨¨ l¡¯evoluzione di Mirai che si avvale di una codifica simile, ma senza le capacit¨¤ di scansione e di exploit
+ Il bot OMG , che ¨¨ una new entry sulla scena dei malware dell¡¯IoT, e che fa leva sul codice sorgente di Mirai per ampliarlo, conseguendo cos¨¬ capacit¨¤ proxy HTTP e SOCKS
+ Inoltre VPNFilter, un attacco avanzato che si rivolge agli ambienti SCADA/ICS monitorando i protocolli SCADA MODBUS, ¨¨ emerso come minaccia significativa, perch¨¦ pu¨° anche rendere i dispositivi completamente inutilizzabili, individualmente o come gruppo
+ Mais ceux-ci sont ¨¦galement responsables de la cr¨¦ation de multiples autres botnets, tels qu¡¯Owari, Wicked, Omni, Anarchy, et autres, tous utilis¨¦s pour des attaques DDoS
+We chose the Reaper version of the project file and used the included ReaXcomp compressor plugin in its 64-bit form
+Given how similarly DAWBench scales compared to the Y-Cruncher results on our opening pages, it¡¯s probably safe to say that Reaper and our plugin of choice both lean hard on AVX instructions (and AVX2, where available) to do their thing

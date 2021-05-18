@@ -1,0 +1,218 @@
+ Referred to as the VPNFilter Trojan, it disables IoT devices and makes them virtually self-destruct
+ VPNFilter overwrites critical parts of the device＊s firmware with useless data and then reboots the machine
+Read more: Reaper IoT botnet proves less virulent than expected
+Read more: Persirai leads in botnet battle for connected cameras, researchers find
+Read more: Malwar! Hajime IoT botnet fights back against Mirai
+ Among the others are those which target unsecured IoT devices, subverting them into what is called a botnet 每 the likes of Mirai, Satori, VPNFilter, and Slingshot
+ The latter two have been linked to APT or nation state actors, Mirai and VPNFilter have been associated with distributed denial of service attacks, while Slingshot was reportedly used to pivot into internal networks
+New Mirai malware called OMG can turn any IoT device into the proxy server
+The new version of Mirai malware[1] has a short and vivid name 每 OMG
+It seems that the main purpose of the OMG malware is to sell access to hacked IoT devices to cyber criminals
+Mirai OMG malware is not the first modification of the virus
+ At the beginning of this year, Okiru malware was aiming at ARC processors
+ The Masuta (or PureMasuta) version of Mira was exploiting D-Link router＊s vulnerabilities
+ The recent discovery of OMG Mirai botnet allows assuming that similar attacks will continue in the future
+ For example, Internet of Things (IoT) botnets IoTroop and Satori took code from Mirai
+It＊s true that Mirai, and variants such as Okiru and Satori, pose a major risk to manufacturing, where the reduction of a connected device＊s processing power can seriously impact safety or disrupt processes
+The prospect of motivated attackers leveraging destructive malware such as BrickerBot to wipe devices is highly concerning, but such ＆attacks＊ need not even be targeted to cause damage
+Mirai Vs OMG
+OMG usando 3Proxy
+Empezaremos hablando de la tabla de configuraci車n de OMG
+ Lo que se identific車 primero, fue la cadena /bin/busybox OOMGA and OOMGA: applet not found
+ Estos string son similares con otras variantes como Satori/Okiru, Masuta
+Por esa raz車n Fortiguard, decidi車 llamar a esa variante OMG
+Se puede observar como OMG guarda los m車dulos originales, incluyendo modulo de ataque, eliminaci車n y SCAN
+Despu谷s de iniciar el modulo, OMG procede a conectarse a un C&C (Comando y control) server
+Cuando Conecta, OMG env赤a un mensaje definido (0X00000000) al C&C para identificarse como nuevo Bot ( una especie de registro)Basado en el c車digo recibe un string de 5 byte de largo, con el primer usado para determinar como va a ser usado el BOT
+ The coordinating producer is Jennifer Eiben
+ Satori, also known as ※Masuta,§ is a variant of the Mirai botnet, a powerful IoT malware strain that first came online in July 2016
+For weeks after that tweet, Nexus Zeta exchanged private twitter messages with Mursch and his team of botnet hunters at Bad Packets LLC in a bid to get them to Tweet or write about Satori/Masuta
+"Prior to the Huawei bug, NewSky Security already observed the leakage of NetGear router exploit (aka NbotLoader), which lead to that code being integrated in well-known botnet Qbot
+JenX
+Hajime Expands to MikroTik RouterOS
+ This exploit vector was publicly disclosed in April 2015, tracing back to several high profile IoT botnets like Satori and JenX, both of which can be traced back to an old ＆friend＊ 每 Mirai 每 proving that the shelf life for an IoT-based exploit can last for years
+That initial version of Hakai was based on Qbot (also known as Gafgyt, Bashlite, Lizkebab, Torlus or LizardStresser), an IoT malware strain that leaked online several years back
+In November 2017, researchers at the security firm Check Point Software Technologies identified a new botnet, based on Mirai, known both as Satori and Okiru
+News roundup: Okiru, a new Mirai variant, could put over 1
+ Dubbed VPNFilter, the malware isn＊t believed to have any connection to Satori
+ Neither the D-Link DSL-2750B nor the XiongMai device is included on the list of routers known to be targeted by VPNFilter
+In 2017, researchers identified a new IoT botnet, named IoT Reaper or IoTroop, that built on portions of Mirai's code
+ Specifically, researchers have identified the following four Mirai variants: Satori Botnet, Masuta Botnet, Wicked Mirai, and JenX botnet, each of which is described in further detail below
+Masuta
+Masuta comes in two variants, Masuta Botnet, which uses the same techniques as Mirai by attempting to overcome the security of the target IoT devices using a built-in list of common passwords and default credentials, and PureMasuta, which has been described as "an enhanced version" with a built-in exploit against certain vulnerable routers
+ Masuta is believed to be the work of the same group responsible for developing the Satori Botnet, however unlike Satori, Masuta attacks allow the actors to take direct control of compromised devices, making other malicious actions possible, including:
+Wicked Mirai
+The Wicked iteration of Mirai contains a package that includes at least three exploits
+ Unlike Mirai, however, which used brute force to gain access to vulnerable IoT devices, the Wicked version relies on a variety of port-related vulnerability exploits, some new and some very old, to gain access to a device
+Once on a system, Wicked Mirai contacts a command and control server from which it downloads a payload (in some cases payloads from other Mirai variants like Sora, Owari, and Omni) that can vary based on the attackers' objective and the nature of the affected device
+ Wicked looks for specific vulnerabilities on a platform that the botnet can exploit
+ In addition, the Wicked variant is also able to maintain a presence on IoT devices it infects beyond the occasional reboots, increasing its power and persistence to launch substantial DDoS attacks
+JenX Botnet
+The JenX variant is a unique variant that leverages the Grand Theft Auto videogame community to infect IoT devices
+ Unlike the Satori and Masuta variants, JenX has a centralized infrastructure and uses a central server to perform the scanning of new hosts
+ The centralized structure of JenX provides the attackers with greater flexibility to add and improve the functionality of the malware over time
+Meet Mirai Okiru, the Mirai variant targeting ARC processors, which are embedded processors used in IoT, auto, mobile, TVs, cameras and a nearly endless list of products 每 CPUs reportedly shipped in over a billion products per year
+Odisseus noted that @unixfreaxjp, from the Malware Must Die team, first spotted the Okiru sample
+Pls be noted of this fact, & be ready for the bigger impact on infection Mirai (specially #Okiru) to devices hasn't been infected yet
+The detection rate for the Okiru downloader was only 1 of 59; it is a mere 4 of 59 at the time of writing
+The news was picked up by Pierluigi Paganini on Security Affairs; Italy＊s CERT (Computer Emergency Response Team) noted that 20 minutes after Security Affairs published a piece about Mirai Okiru, the ※domain was subject to a massive DDoS attack that inhibited access for about an hour
+You may remember hearing about the Mirai malware variant Satori (pdf) back in December; it was sometimes also called Okiru
+Despite the similarities of the two type of Linux IoT DDoS malware, Mirai Okiru is ※very different§ from the Mirai Satori variant
+The MMD researchers who have already proceeded to release the Yara rules to identify this new variant of Mirai, have compared Okiru with the previous Mirai botnet called Satori
+ According to the observations of the researchers, the Okiru configuration is encrypted in two parts and the attack via Telnet is much more incisive as it uses a list of over 100 credentials (114 are the credentials counted by MMD)
+Very important to understand how #Mirai #Satori variant is DIFFERENT from #Okiru: quick notes with screenshots by @malwaremustdie
+If you think back on the havoc wreaked by 100,000 devices taken over by the Mirai botnet in 2016, what hell can be unleashed in 2018 if attackers gain control of millions of ARC-based IoT devices for the Mirai Okiru DDoS botnet?
+Today, IoT botnet families, including Mirai, Okiru, the Satori, the Masuta, the PureMasuta and Reaper, continue mutating
+There was also the Satori IoT malware in 2017 that gave an attacker control over a botnet of 100,000 routers, and, according to Cybereason, the LizardStresser botnet＊s creator took over 1,300 internet-enabled cameras to add to an existing botnet of infected machines
+ (NYSE: CTL), TheMoon is one of the latest examples of how far these threats have evolved
+ TheMoon is a modular botnet that targets vulnerabilities in routers within broadband networks
+ In recent months, CenturyLink Threat Research Labs discovered an undocumented module of TheMoon designed to allow the botnet to be leveraged as a service by other malicious actors
+Read the CenturyLink Threat Research Labs report on TheMoon: https://www
+"TheMoon is a stark reminder that the threat from IoT botnets continues to evolve," said Mike Benjamin, head of CenturyLink's Threat Research Labs
+ "Not only does TheMoon demonstrate the ability to distribute malicious modules of differing functionality, but it's designed to function like a botnet as a service, enabling other malicious actors to use it for credential brute forcing, video advertisement fraud and general traffic obfuscation, among other uses
+CenturyLink Threat Research Labs identified an undocumented module of TheMoon that is only deployed on MIPS devices, a common microprocessor architecture typically found in residential gateways and modems
+TheMoon's new module turns an infected device into a SOCKS proxy, a service that can be used maliciously to circumnavigate internet filtering or obscure the source of internet traffic, allowing the botnet author to sell its proxy network as a service to others
+CenturyLink Threat Research Labs observed a video ad fraud operator leveraging TheMoon as a proxy service, impacting 19,000 unique URLs on 2,700 unique domains from a single server over a six-hour period
+CenturyLink blocked TheMoon infrastructure on its network to mitigate the risk to customers, in addition to notifying other network owners of potentially infected devices to help protect the internet
+A Mirai variant known as Okiru was recently discovered and is believed to have the capability to put over 1
+ How does the Okiru malware work and what types of devices are at risk?
+A new Mirai variant named Okiru was detected by malware security group MalwareMustDie, and it targets IoT devices with Argonaut RISC Core (ARC) processors
+ The Okiru malware has similar functionality and high-level architecture to Mirai in the sense that it scans for systems with Telnet configured with default passwords
+Okiru malware is different from Mirai and from Mirai variant Satori because it uses its own unique configurations and botnet command-and-control servers, and it uses different exploits to gain control of victim systems
+MalwareMustDie reported that the Okiru malware is the first malicious code to specifically target ARC processors
+Satori, which is also tracked under the name of Mirai Okiru, came to life around November 23, when the malware started spreading on the Internet
+The Satori (Mirai Okiru) botnet should not be confused with another Mirai botnet that came to life last month, which is based on the Mirai Akuma variant
+ The first version of this new IoT botnet was based on the IoT malware strain Qbot that leaked online several years ago
+The latest threat for sysadmins to worry about is Hakai, carrying on a naming convention that Mirai, Hajime, and Satori seem to have cemented
+ The first sighting was something based on Qbot, an IoT-centric malware that has been in the wild for some years now
+ It uses the same exploit as the Reaper botnet to infect devices, although there's currently no indication that the two armies of hijacked machines are related
+While Hide 'N Seek isn't the first botnet to have a peer-to-peer element -- the Hajime botnet used P2P architecture -- but rather than being constructed around a existing BitTorrent protocol, HNS uses a custom-built P2P system
+ "The bot can perform web exploitation against a series of devices via the same exploit as Reaper (CVE-2016-10401 and other vulnerabilities against networking equipment)
+"It is the second known IoT botnet to date, after the notorious Hajime botnet, that has a decentralized, peer-to-peer architecture," Bitdefender wrote
+ "However, if in the case of Hajime, the p2p functionality was based on the BitTorrent protocol, here we have a custom-built p2p communication mechanism
+"While IoT botnets have been around for years, mainly used for DDoS attacks, the discoveries made during the investigation of the Hide and Seek bot reveal greater levels of complexity and novel capabilities such as information theft 每 potentially suitable for espionage or extortion," they wrote
+ The work looks at four Mirai variants 每 Satori, JenX, OMG and Wicked 每 to illustrate how their authors have built upon Mirai and added their own flair:
+JenX removed several features from the core code and instead relies on external tools for scanning and exploitation
+OMG adds a novel feature in the form of an HTTP and SOCKS proxy
+Wicked can target Netgear routers and CCTV-DVR devices that happen to be vulnerable to remote code execution flaws
+ Within the exploit, Wicked includes instructions to download and execute a copy of the Owari bot
+But Anubhav believes Anarchy may actually be a hacker who previously identified as Wicked, which Anubhav interviewed on NewSky's blog and Fortinet featured in a report here
+Wicked/Anarchy is a well-known malware author who, in the past, has created variations of the Mirai IoT malware
+ These variations and their respective botnets were known as Wicked, Omni, and Owari (Sora), and had been previously used for DDoS attacks
+ Researchers warn the code will quickly become a commodity and be leveraged in DDoS attacks via botnets such as Reaper or IOTrooper
+ The code is the zero-day vulnerability CVE- 2017-17215 used by a hacker identified as ※Nexus Zeta§ to spread a variant of the Mirai malware called Satori, also known as Mirai Okiru
+Last week, Check Point identified the vulnerability (CVE-2017-17215) in a Huawei home router model HG532 that was being exploited by Nexus Zeta to spread the Mirai variant Mirai Okiru/Satori
+Of these, the botnet identified as Satori (also known as the Mirai Okiru variant) contributed by far the most to the XBL
+Researchers said a Mirai botnet variant, possibly linked to the IoTroop or Reaper botnet, was leveraged in attacks against the financial sector
+ They said the Mirai botnet and malware variant also exhibited characteristics that may link it to IoTroop botnet (or Reaper), first identified October 2017
+※If these attacks were conducted by IoTroop, then our observations indicate the botnet has evolved since October 2017 to exploit vulnerabilities in additional IoT devices and is likely to continue to do so to propagate the botnet and facilitate larger DDoS attacks,§ wrote Priscilla Moriuchi and Sanil Chohan, who co-authored the report
+IoTroop shares some of Mirai＊s code, according to a previous analysis of the malware
+Recorded Future noted this latest variant of Mirai differs from the original Mirai and IoTroop malware
+ Mirai and IoTroop are names for both the botnet and the malware used to infect the IoT devices
+※While many of the IoT vendors and devices appeared in the (IoTroop) research published in October 2017, many of the devices such as Dahua CCTV DVRs, Samsung UE55D7000 TVs and Contiki-based devices were previously unknown to be vulnerable to Reaper/IoTroop malware,§ researchers said
+Making this latest unnamed Mirai variant even more potent is the use of IoTroop code that allows the malware to be updated on the fly
+ ※[IoTroop] was built using a flexible Lua engine and scripts, which means that instead of being limited to the static, pre-programmed attacks of previous exploits, its code can be easily updated on the fly, allowing massive in-place botnets to run new and more malicious attacks as soon as they become available,§ researchers said
+※As more data comes to light on the continued targeting of financial institutions from IoTroop, it will become increasingly important to monitor the potential controllers and identify new IoT devices being added to the botnet in preparation for further attacks,§ researchers said
+ In January, researchers identified a variant called Satori (Mirai Okiru) The available Mirai source code has also given new life to the DDoS as a service industry, since the Mirai code isn＊t easily converted into a profit-making machine without some previous expertise
+The router malware started spreading in November and has been dubbed Satori or Okiru by security companies
+Researchers have identified a vulnerability in a Huawei home router model that is being exploited by an adversary to spread a variant of the Mirai malware called Mirai Okiru, also known as Satori
+Researchers have identified a vulnerability in a Huawei home router model that is being exploited by an adversary to spread a variant of the Mirai malware called Mirai Okiru, also known as Satori
+In the case of Mirai Okiru/Satori, Check Point researchers suspected an inexperienced hacker that goes by ※Nexus Zeta§ is behind the attacks
+The Mirai Okiru/Satori attacks differs from previous Mirai variants in that they don＊t rely on brute-force telnet-based attacks
+See also: Mirai, Gafgyt IoT botnets stab systems with Apache Struts, SonicWall exploits
+New Mirai variant named Mirai OMG
+Fortinet has named this variant Mirai OMG 〞based on the OOMGA string found in some parts of the malware's source code where the term "Mirai" used to be〞 and this variant now joins a growing Mirai family that also includes variants such as Satori (Okiru), Masuta, and Akuma
+But while Fortinet has not analyzed the traffic flowing through the Mirai OMG network, in theory, it should not be any different from the regular type of traffic that malicious proxy networks have been relaying for years
+Since Mirai OMG still relies on the classic Mirai spreading technique of brute-forcing devices using weak passwords, changing any IoT equipment's default password should safeguard most users from having their device taken over for a crime spree
+Meanwhile, the Mirai source code has been adapted to create new strains of malware, including Satori/Okiru, designed to infect many more types of internet-connected devices and use them as launch pads for DDoS and other types of cybercrime attacks (see: Botnets Keep Brute-Forcing Internet of Things Devices)
+, Satori, JenX, etc
+Researchers have discovered new variants for the infamous Mirai and Gafgyt IoT botnets 每 now targeting well-known vulnerabilities in Apache Struts and SonicWall
+The new Mirai strain targets the Apache Struts flaw associated with the 2017 Equifax breach, while the Gafgyt variant uses a newly-disclosed glitch impacting older, unsupported versions of SonicWall＊s Global Management System, according to researchers with Palo Alto Networks in a Sunday post
+※Here we＊re seeing Mirai and Gafgyt variants targeting systems mostly seen in enterprises,§ Ruchna Nigam, researcher with Palo Alto Networks, told Threatpost
+Unit 42 also found that the domain currently hosting these Mirai samples previously resolved to a different IP address during the month of August 〞 an IP address hosting a new version of Gafgyt as well
+Gafgyt Adds to Bag of Tricks
+In August, the observed IP was ※intermittently hosting samples of Gafgyt that incorporated an exploit against CVE-2018-9866, a SonicWall vulnerability affecting older versions of SonicWall Global Management System (GMS),§ according to Nigam
+SonicWall has been notified of this latest development with Gafgyt, researchers said
+The Gafgyt botnet exploits a range of IoT flaws, including other issues in Huawei, GPON and D-Link devices
+※One thing that stood out was the Gafgyt variant having support for the BlackNurse DDoS attack method,§ Ruchna told us
+The discovery of new targeted vuln comes after it was revealed in July that Mirai and Gafgyt were actively launching two IoT/Linux botnet campaigns, exploiting the CVE-2018-10562 and CVE-2018-10561 bugs in Dasan routers
+Most recently, in April, a variant of the Mirai botnet was used to launch a series of DDoS campaigns against financial sector businesses, while in January, researchers identified a variant called Satori (Mirai Okiru)
+Today, researchers at Palo Alto＊s Unit 42 also revealed separate Mirai and Gafgyt IoT/Linux botnet campaigns that occurred that month, exploiting both the CVE-2018-10562 and CVE-2018-10561 bugs
+※The end of May 2018 has marked the emergence of three malware campaigns built on publicly available source code for the Mirai and Gafgyt malware families that incorporate multiple known exploits affecting Internet of Things (IoT) devices,§ wrote Ruchna Nigam, senior threat researcher with Unit 42
+The five botnets are known under codenames such as Hajime, Mettle, Mirai, Muhstik, and Satori
+ According to Netlab, the exploits of four botnets (Hajime, Mirai, Muhstik, and Satori) contain errors and are broken, preventing the botnets from bringing the routers under their control
+"We are taking joint actions with the security community to shut down parts of [Muhstik's] servers," a Netlab spokesperson told Bleeping Computer in a private conversation earlier today
+According to the findings of security researchers at Fortinet＊s FortiGuard Labs, a new version of Mirai malware dubbed as OMG is currently spreading, which can convert IoT devices into proxy servers apart from showcasing all the DDoS capabilities of the original version
+To turn IoT devices into proxy servers, OMG uses an open source tool called 3proxy and includes two strings that comprise of a command for adding and another for removing specific firewalls rules so that traffic is redirected on two random ports
+Fortinet further noted that OMG is a unique Mirai version because of its two-dimensional attack options
+While derived from established code, the San Calvicie-hosted botnet, which Geenens has dubbed ※JenX§, is deployed in a different manner than its predecessors
+ ※Nearly all botnets, including Mirai, Hajime, Persirai, Reaper, Satori and Masuta perform distributed scanning and exploiting
+The centralized approach employed by JenX trades slower growth for lower detection, he added
+The danger from JenX should be mostly confined to GTA San Andreas users, Gessens said, but with a stern caveat
+Radware filed abuse notifications related to JenX, resulting in a partial takedown of the botnet＊s server footprint, but it remains active
+ JenX＊s implementation makes taking it down a tricky task
+The LizardStresser botnet, a distributed denial-of-service (DDoS)-for-hire system, for example, was able to launch 400Gbps attacks thanks to our vulnerable IoT devices
+After the source code was released to the public in 2015, LizardStresser botnet variants were discovered which targeted IoT products use telnet brute-force logins to random IP addresses with a hard-coded list of user credentials
+While the motives have not been made clear, the hacker told Anubhav that they wanted to make "the biggest, baddest botnet in town," which may suggest we could have another LizardStresser scenario on our hands in the future, in which another botnet will be used in targeted attacks -- or even be made available for hire
+Anubhav suspects that Anarchy may be the same hacker known as Wicked, who has been linked with the creation of the Owari/Sora botnets
+ Anarchy/Wicked told the researcher that they also intend to start a scan for Realtek router vulnerability CVE-2014-8361, in order to enslave more devices
+Unlike most of the IoT botnets seen so far, the one tracked by Geenens, which he's calling JenX, uses a handful on non-IoT servers to scan the Internet for vulnerable devices and, once found, to exploit them
+ That makes it much harder to estimate the number of infected devices that make up JenX, because the simulated vulnerable routers Geenens uses in his laboratory to track the botnet see the same limited number of attack servers
+By contrast, Mirai, Satori, Reaper, and other IoT botnets rely on infected devices to locate and infect vulnerable devices
+ JenX gets its name from "Jennifer," the name the malware developers gave to the binary that infects vulnerable devices
+ That's the same domain hosting the JenX command-and-control server
+ It advertises itself as being resistant to the types of attacks Mirai and JenX use to bring down rival game hosts
+ Ironically, over the past few days, the Jennifer binary delivered to exploited routers was hosted on an IP address belonging to OVH, Geenens said
+JenX is an example of the second generation of IoT botnets
+JenX, Satori, Reaper, and other second-generation IoT botnets have gotten around this limitation by exploiting firmware vulnerabilities in Internet-connected devices
+JenX is different from most IoT botnets, because, as mentioned earlier, it relies on centralized servers to seek out and exploit vulnerable devices
+ so exponential growth rate for the Mirai, Satori and Reaper botnets
+ The JenX botnet uses servers for the scanning and exploiting devices, so growth will be less than linear
+ By adding more servers they can make it grow faster, but never will be as efficient and aggressive as Mirai, Satori and Reaper
+At the time this post was going live, Geenens told Ars that abuse teams at Leaseweb Netherlands and Leaseweb Germany took down some of the JenX exploit servers that had been hosted in their datacenters
+"This is only sending them the message that they need to get better at hiding from us," the researcher wrote in an email, referring to the JenX operators
+Today Mirai variants continue to expand into new turf, including Mirari Okiru, which targets ARC processors (the chips embedded in cars, mobile devices, smart TVs, surveillance cameras and many more connected products) and Mirai Satori, which hijacks crypto currency mining operations,
+The prime and pretty obvious clue that ties this new IoT botnet 〞 named JenX〞 with the gaming server rental service is the IoT's command-and-control server, located at skids
+Researchers from cyber-security firm Radware, who discovered this new botnet, say JenX is likely the botnet that powers a DDoS function included in one of San Calvicie's rental offers 〞named "Corriente Divina
+JenX assembled from the source code of other botnets
+According to an analysis by Radware's Cyber Security Evangelist Pascal Geenens, JenX 〞the botnet believed to be behind San Calvicie's DDoS-for-hire service〞 has been built by scrapping together different parts of several IoT botnets, whose source code leaked online in the past year
+For example, JenX uses two exploits previously used by the Satori botnet to break into devices and ensnare them into its grasp
+In addition, JenX also borrowed some techniques from the PureMasuta botnet source code, recently posted online and detailed in this NewSky Security report
+JenX is also different in its own right
+Both Satori and PureMasuta are variants of the Mirai IoT malware leaked online in late 2016, but despite this, JenX has its unique parts as well
+ While other botnets usually rely on infected hosts to perform the scanning of new hosts, JenX uses a central server
+Like the infamous Mirai botnet before it, the malware, which Greenes calls JenX, originates from the online gaming community〞in this case Grand Theft Auto: San Andreas servers
+Motherboard could not confirm whether JenX had been successfully used to attack business other than San Andreas servers
+The JenX botnet owes its growth to the author of the ※Bricker Bot§ botnet
+ Two of these vulnerabilities〞CVE-2014-8361 and CVE-2017-17215〞make up the foundation of JenX, according to the Radware report
+But where the BrickerBot author crafted his botnet to seek out and permanently disable vulnerable devices in order to protect the internet from would be wrongdoers, JenX appears to be designed solely for profit
+While JenX has grown, it is unlikely that it can reach the same massive scale that its Mirari and Satori predecessors achieved
+ JenX on the other hand, scans for vulnerable devices through a single command and control server
+ This severely limits JenX＊s ability to achieve exponential growth but it also grants it an element of stealth
+Correction: This article originally stated that the command and control center for the JenX botnet was hosted by the cloud computing company OVH
+ OVH was made aware that the IP from which the JenX malware could be downloaded was being hosted through an OVH reseller, and has since taken down the IP in response to reports of abuse and in compliance with local laws, but the command and control server associated with this botnet were not hosted on OVH＊s servers
+TheMoon botnet behind new Dasan GPON zero-day
+The botnet exploiting this new GPON router zero-day is called TheMoon, a very old threat that was first spotted in 2014 infecting Linux servers but has started switching to home routers IoT in recent years
+TheMoon is only the latest botnet to add support for exploiting Dasan GPON routers
+ Five botnets 〞Hajime, Mettle, Mirai, Muhstik, and Satori〞 have been exploiting two older exploits for almost a week
+This might change in the upcoming days thanks to the new zero-day deployed by TheMoon botnet, but also because botnet operators have been working on improving their exploit payloads in the past days
+Nonetheless, Netlab says that together with the partners from the security industry they have scored a victory for the good guys, as they have managed to take down the servers of the Muhstik botnet, one of the five botnets that were targeting GPON routers last week
+However, the victory may be short-lived, as Muhstik admins appear to be attempting to install new servers and resume their router hacking activities
+In December, when BrickerBot's source code was published, the identical vulnerability got used just as the identical attack medium too which suggests that both BrickerBot as well as Satori obtained the working code via making a copy of it from a common place
+The discovery of BrickerBot took place during April 2017 when it was executing distributed denial-of-service (DDoS) and virtually damaging IoT appliances worldwide
+Evidently, before the Huawei security flaw, NewSky Security had by then noticed the exploit of NetGear router being released that resulted in the code's incorporation into the widely known Qbot botnet
+CVE-2014-8361, for example, was first publicly disclosed in April 2015 and has been used in a number of IoT botnets including the high profile Satori and JenX
+ Whereas the vDOS botnet they＊d been chasing was a variant of an older IoT zombie army〞a 2014 botnet known as Qbot〞this new botnet appeared to have been written from the ground up
+Discover how TheMoon has evolved into a proxy as a service: http://news
+com/2019-01-31-TheMoon-Illustrates-Evolving-Threat-of-IoT-Botnets
+While Mirai kicked off the era of the IoT botnet on 2016, two of the latest events on the bot scene include the rise of the Satori botnet, which infected more than 100,000 internet-connected D-Link routers in just 12 hours, and the VPNFilter IoT botnet, which infected almost a million consumer-grade internet routers (i
+ VPNFilter is particularly nasty, capable of DDoS as well as delivering malware and stealing data
+ The botnet was named DoubleDoor, as it leverages two distinct backdoors to get to the target: ZyXEL PK5001Z modems
+The DoubleDoor attacks
+ DoubleDoor uses netscreen for the username: The vulnerability was discovered by Juniper in December 2015 and was suspected to be the work of state-sponsored intruder
+ DoubleDoor uses netscreen for the username: CVE-2016每10401, a backdoor for ZyXEL PK5001Z devices
+Another interesting thing about DoubleDoor is that it uses randomized strings for invoking the shell to check whether the target IoT device has been successfully taken over
+DoubleDoor eschews that approach, and uses a randomized, 8-character string in every attack so that this reconnaissance activity is not easily classified
+The DoubleDoor botnet attacks seem to be in its nascent phase, as we observed the attacks only for a period from 18th January 2018 until 27th January 2018
+ Despite the code being interesting, the count of devices in this specific DoubleDoor attack is expected to be low as the hack will succeed only if the victim has a specific unpatched version of Juniper ScreenOS firewall which protects unpatched Zyxel modems
+ In October, researchers documented a new IoT botnet dubbed Reaper

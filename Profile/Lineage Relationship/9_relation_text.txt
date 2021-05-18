@@ -1,0 +1,30 @@
+In 2017, researchers reported about Satori[4] ¨C version of Mirai botnet that exploited a zero-day vulnerability in Huawei routers
+ At the beginning of this year, Okiru malware was aiming at ARC processors
+ The Masuta (or PureMasuta) version of Mira was exploiting D-Link router¡¯s vulnerabilities
+ Robot,¡± however, is how it freakishly mirrors real life while also providing the escapist elements that make for good television
+ Robot looming, fans are waiting to see if the second season can possibly match the intricacy and engagement of the first
+ Robot¡± taking place after the infamous Evil Corp hack, I¡¯m curious how prominent IoT may be in the story
+ Estos string son similares con otras variantes como Satori/Okiru, Masuta
+ The work looks at four Mirai variants ¨C Satori, JenX, OMG and Wicked ¨C to illustrate how their authors have built upon Mirai and added their own flair:
+Satori leveraged remote code injection exploits to enhance the Mirai code
+JenX removed several features from the core code and instead relies on external tools for scanning and exploitation
+Wicked can target Netgear routers and CCTV-DVR devices that happen to be vulnerable to remote code execution flaws
+ Within the exploit, Wicked includes instructions to download and execute a copy of the Owari bot
+Fortinet has named this variant Mirai OMG ¡ªbased on the OOMGA string found in some parts of the malware's source code where the term "Mirai" used to be¡ª and this variant now joins a growing Mirai family that also includes variants such as Satori (Okiru), Masuta, and Akuma
+ The capability of turning IoT devices into proxy servers offers the attackers a new way of making money from the malware just like Satori IoT bot malware, which was discovered in December 2017, is capable of mining cryptocurrency instead of launching DDoS attacks
+The latest OMG joins the growing Mirai family filled with variants such as Satori, Okiru, Masuta and more
+Qbot Malware Dropped via Context-Aware Phishing Campaign (BleepingComputer) A phishing campaign dropping the Qbot banking Trojan with the help of delivery emails camouflaging as parts of previous conversations was spotted during late March 2019 by the JASK Special Operations team
+ Parmi les anc¨ºtres de Mirai, les chercheurs de Fortinet citent ainsi Hydra, un malware apparu en 2008 et qui visait principalement des ¨¦quipements r¨¦seau (routeurs, switch et autres modems
+) Si Hydra ne vise pas des objets connect¨¦s, il profite des mots de passe par d¨¦faut souvent laiss¨¦ en place par les utilisateurs pour infecter les machines et les utiliser afin de mener des attaques DdoS
+On peut ainsi citer Aidra, qui a repris en 2012 la m¨¦thode pour s¡¯attaquer cette fois non seulement aux routeurs, mais aussi aux cameras IP, t¨¦l¨¦visions connect¨¦es et autres appareils ARM fonctionnant sous Linux
+ On peut ¨¦galement citer Bashlite apparu en 2014, qui reprend la m¨ºme m¨¦thode, ou encore l¡¯inattendu Wifatch, un malware qui infecte les machines Linux afin de fermer les ports Telnet laiss¨¦s ouverts par les utilisateurs et ¨¦viter de futures infections
+ Sur sc¨¨ne, Rommel Joven de Fortinet cite ainsi l¡¯exemple du malware IoT Reaper, qui r¨¦utilise l¡¯essentiel du code source de Mirai
+ On peut ainsi retrouver des parties du code source de Mirai dans les malwares NewAidra (Decouvert en octobre 2016), Persirai (Mai 2017) ou encore au sein de Bashlite, dont les derni¨¨res versions ont int¨¦gr¨¦ plusieurs modules et identifiants directement tir¨¦s de Mirai
+Mirai se distinguait d¨¦j¨¤ par le nombre important d¡¯identifiants qu¡¯il utilisait pour infecter des machines (la liste en contenait 77, contre une dizaine pour un de ses pr¨¦d¨¦cesseurs comme Bashlite), mais l¡¯ajout d¡¯exploits vient renforcer le potentiel de ces malwares IoT, qui ciblent g¨¦n¨¦ralement des objets connect¨¦s dont la s¨¦curit¨¦ n¡¯est pas forcement prise au s¨¦rieux par leurs possesseurs
+EcoRobotix
+Swiss start-up EcoRobotix is a prime example of tech for good, utilising IoT technologies not only to combat environmental concerns, but to save money for those working in agriculture
+Founded by Steve Tanner and Aur¨¦lien G Demaurex in 2011, EcoRobotix aims to cut down on the expense ¨C and the potential for chemical pollution ¨C associated with weeding crop fields
+EcoRobotix¡¯s solar-powered machine autonomously navigates fields, detects weeds and destroys them without compromising nearby crops or the wider ecosystem
+HydraSure
+Congratulations to all the teams @UStartDCU today and @HydrasureEquine & Hitch for winning pic
+Winner of Dublin City University¡¯s 2016 UStart Company of the Year Award, HydraSure¡¯s automated drinking system ¨C the Equameter ¨C does more than simply deliver water to horses (and, no, it can¡¯t make them drink)

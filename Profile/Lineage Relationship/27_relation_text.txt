@@ -1,0 +1,18 @@
+Linux/IRCTelnet, as the underlying malware has been named, borrows code from several existing malicious IoT applications
+ Most notably, it lifts entire sections of source code from Aidra, one of the earliest known IoT bot packages
+ Aidra was discovered infecting more than 30,000 embedded Linux devices in an audacious and ethically questionable research project that infected more than 420,000 Internet-connected devices in an attempt to measure the security of the global network
+ As reported by the anonymous researcher, Aidra forced infected devices to carry out a variety of distributed denial-of-service attacks but worked on a limited number of devices
+Linux/IRCTelnet also borrows telnet-scanning logic from a newer IoT bot known as Bashlight
+The best-of-breed approach "is driving a high infection speed of Linux/IRCTelnet (new Aidra) so it can [infect] almost 3,500 bot clients within only five days from the moment its loader was first detected," a researcher who goes by the handle Unixfreakjp wrote in a blog post reporting on the new malware
+Like most IoT bots, Linux/IRCTelnet doesn't have what malware experts refer to as persistence
+ Linux/IRCTelnet is likely only the beginning of what could be a long line of next-generation malware that steadily improves its capabilities
+ Linux/IRC Telnet or the 'new Aidra' was discovered by researchers who posted an analysis on an anti-malware site
+It's similar to strains recently used to hijack IoT devices - like routers and digital cameras - but this new strain is coded with Tsunami/Kaiten protocol and Bashlite to create DDoS attacks via an IRC botnet, researchers said
+ Parmi les ancêtres de Mirai, les chercheurs de Fortinet citent ainsi Hydra, un malware apparu en 2008 et qui visait principalement des équipements réseau (routeurs, switch et autres modems
+) Si Hydra ne vise pas des objets connectés, il profite des mots de passe par défaut souvent laissé en place par les utilisateurs pour infecter les machines et les utiliser afin de mener des attaques DdoS
+On peut ainsi citer Aidra, qui a repris en 2012 la méthode pour s’attaquer cette fois non seulement aux routeurs, mais aussi aux cameras IP, télévisions connectées et autres appareils ARM fonctionnant sous Linux
+ On peut également citer Bashlite apparu en 2014, qui reprend la même méthode, ou encore l’inattendu Wifatch, un malware qui infecte les machines Linux afin de fermer les ports Telnet laissés ouverts par les utilisateurs et éviter de futures infections
+ Sur scène, Rommel Joven de Fortinet cite ainsi l’exemple du malware IoT Reaper, qui réutilise l’essentiel du code source de Mirai
+ On peut ainsi retrouver des parties du code source de Mirai dans les malwares NewAidra (Decouvert en octobre 2016), Persirai (Mai 2017) ou encore au sein de Bashlite, dont les dernières versions ont intégré plusieurs modules et identifiants directement tirés de Mirai
+Mirai se distinguait déjà par le nombre important d’identifiants qu’il utilisait pour infecter des machines (la liste en contenait 77, contre une dizaine pour un de ses prédécesseurs comme Bashlite), mais l’ajout d’exploits vient renforcer le potentiel de ces malwares IoT, qui ciblent généralement des objets connectés dont la sécurité n’est pas forcement prise au sérieux par leurs possesseurs
+On peut ainsi citer OMG, un malware dérivé de Mirai qui vise le même type d’appareils afin de les utiliser comme des proxys, afin de dissimuler l’origine d’une attaque informatique ou de son trafic internet
